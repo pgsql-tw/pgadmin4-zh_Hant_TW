@@ -1145,7 +1145,7 @@ msgstr "當"
 #: pgadmin/browser/server_groups/servers/roles/static/js/role.js:513
 #: pgadmin/browser/server_groups/servers/tablespaces/static/js/tablespace.js:369
 msgid "Security Labels"
-msgstr "安全標簽"
+msgstr "安全標籤"
 
 #: pgadmin/browser/server_groups/servers/databases/event_triggers/static/js/event_trigger.js:124
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/foreign_servers/static/js/foreign_server.js:157
@@ -2458,7 +2458,7 @@ msgstr "代碼"
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/function.js:239
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/trigger_function.js:177
 msgid "Object file"
-msgstr "物件文件"
+msgstr "物件檔案"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/function.js:246
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/trigger_function.js:184
@@ -2545,7 +2545,7 @@ msgstr "語言不能為空"
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/function.js:372
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/trigger_function.js:293
 msgid "Object File cannot be empty."
-msgstr "物件文件不能為空"
+msgstr "物件檔案不能為空"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/function.js:377
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/trigger_function.js:298
@@ -2867,7 +2867,7 @@ msgstr "整理表"
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/schema.js:240
 #: pgadmin/browser/server_groups/servers/databases/schemas/types/static/js/type.js:238
 msgid "Label"
-msgstr "標簽"
+msgstr "標籤"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/schema.js:186
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/schema.js:253
@@ -3938,7 +3938,7 @@ msgstr "參數"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.js:1123
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/view.js:160
 msgid "Security labels"
-msgstr "安全標簽"
+msgstr "安全標籤"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/partitions/static/js/partition.js:1012
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.js:1128
@@ -4811,7 +4811,7 @@ msgstr "成員"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/types/static/js/type.js:733
 msgid "Labels"
-msgstr "標簽"
+msgstr "標籤"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/types/static/js/type.js:742
 msgid "System type?"
@@ -6179,7 +6179,7 @@ msgid ""
 "        ...\n"
 "        ]\n"
 msgstr ""
-"安全標簽需要以JSON物件以如下的格式傳遞:\n"
+"安全標籤需要以JSON物件以如下的格式傳遞:\n"
 "format:\n"
 "seclabels:{\n"
 "    'added': [{\n"
@@ -6377,7 +6377,7 @@ msgstr "提供者"
 #: pgadmin/browser/server_groups/servers/roles/static/js/role.js:32
 #: pgadmin/browser/server_groups/servers/static/js/server.js:25
 msgid "Security Label"
-msgstr "安全標簽"
+msgstr "安全標籤"
 
 #: pgadmin/browser/server_groups/servers/roles/static/js/role.js:43
 #: pgadmin/browser/server_groups/servers/roles/static/js/role.js:54
@@ -6480,7 +6480,7 @@ msgstr "應選定至少一個權限"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.js:37
 msgid "Label must be specified."
-msgstr "標簽必須被指定"
+msgstr "標籤必須被指定"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.js:68
 #: pgadmin/browser/server_groups/servers/static/js/server.js:73
@@ -7213,7 +7213,7 @@ msgstr "切換導航"
 
 #: pgadmin/browser/templates/browser/index.html:140
 msgid "File"
-msgstr "文件"
+msgstr "檔案"
 
 #: pgadmin/browser/templates/browser/index.html:150
 msgid "Object"
@@ -7230,17 +7230,17 @@ msgstr "工具"
 #: pgadmin/browser/templates/browser/index.html:165 pgadmin/help/__init__.py:76
 #: pgadmin/help/__init__.py:85
 msgid "Help"
-msgstr "幫助"
+msgstr "說明"
 
 #: pgadmin/browser/templates/browser/index.html:186
 msgid "Logout"
-msgstr "注銷"
+msgstr "登出"
 
 #: pgadmin/browser/templates/browser/upgrade.html:1
 msgid ""
 "You are currently running version {0} of {1}, however the current version"
 " is {2}."
-msgstr "你當前運行的版本為{1}.{0}，但當前版本為{2}。"
+msgstr "你目前執行的版本為{1}.{0}，但目前版本為{2}。"
 
 #: pgadmin/browser/templates/browser/upgrade.html:3
 msgid ""
@@ -7461,7 +7461,7 @@ msgstr "任務類"
 #: pgadmin/dashboard/static/js/dashboard.js:1104
 #, fuzzy
 msgid "Object ID"
-msgstr "物件文件"
+msgstr "物件檔案"
 
 #: pgadmin/dashboard/static/js/dashboard.js:768
 #: pgadmin/dashboard/static/js/dashboard.js:1109
@@ -7872,7 +7872,7 @@ msgstr ""
 
 #: pgadmin/misc/file_manager/__init__.py:171
 msgid "Maximum file upload size (MB)"
-msgstr "最大上傳文件限制為 (MB)"
+msgstr "最大上傳檔案限制為 (MB)"
 
 #: pgadmin/misc/file_manager/__init__.py:176
 msgid "Last directory visited"
@@ -7898,7 +7898,7 @@ msgstr ""
 #: pgadmin/misc/file_manager/__init__.py:793
 #, fuzzy
 msgid "'{0}' file does not exist."
-msgstr "文件不存在。"
+msgstr "檔案不存在。"
 
 #: pgadmin/misc/file_manager/__init__.py:667
 msgid "Permission denied"
@@ -7931,7 +7931,7 @@ msgstr "已成功重命名"
 
 #: pgadmin/misc/file_manager/__init__.py:880
 msgid "There was an error renaming the file:"
-msgstr "重命名文件時出錯:"
+msgstr "重命名檔案時出錯:"
 
 #: pgadmin/misc/file_manager/static/js/file_manager.js:135
 #: pgadmin/misc/file_manager/static/js/file_manager.js:149
@@ -7961,7 +7961,7 @@ msgstr ""
 #: pgadmin/misc/file_manager/static/js/utility.js:1178
 #: pgadmin/misc/file_manager/static/js/utility.js:1185
 msgid "All Files"
-msgstr "所有文件"
+msgstr "所有檔案"
 
 #: pgadmin/misc/file_manager/static/js/utility.js:1187
 #: pgadmin/tools/backup/static/js/backup.js:117
@@ -8018,13 +8018,13 @@ msgstr "沒有可用於所選物件的統計數字可用於所選物件"
 #: pgadmin/preferences/static/js/preferences.js:374
 #: pgadmin/preferences/static/js/preferences.js:388
 msgid "Preferences"
-msgstr "首選項"
+msgstr "偏好設定"
 
 #: pgadmin/preferences/__init__.py:107 pgadmin/preferences/__init__.py:113
 #: pgadmin/preferences/__init__.py:122 pgadmin/preferences/__init__.py:128
 #, fuzzy
 msgid "label"
-msgstr "標簽"
+msgstr "標籤"
 
 #: pgadmin/preferences/__init__.py:124
 msgid "help_str"
@@ -8044,7 +8044,7 @@ msgstr ""
 
 #: pgadmin/settings/__init__.py:43
 msgid "Reset Layout"
-msgstr "重置布局"
+msgstr "重新整理介面"
 
 #: pgadmin/settings/__init__.py:80 pgadmin/tools/backup/__init__.py:200
 #: pgadmin/tools/debugger/__init__.py:97
@@ -8233,7 +8233,7 @@ msgstr "請先連接到伺服器"
 #: pgadmin/tools/import_export/static/js/import_export.js:52
 #: pgadmin/tools/restore/static/js/restore.js:89
 msgid "Filename"
-msgstr "文件名"
+msgstr "檔案名稱"
 
 #: pgadmin/tools/backup/static/js/backup.js:64
 #: pgadmin/tools/backup/static/js/backup.js:142
@@ -8473,7 +8473,7 @@ msgstr "未能加載的到偏好%s 模塊 %s"
 
 #: pgadmin/tools/backup/static/js/backup.js:528
 msgid "Please provide a filename"
-msgstr "請輸入文件名"
+msgstr "請輸入檔案名"
 
 #: pgadmin/tools/backup/static/js/backup.js:564
 #: pgadmin/tools/backup/static/js/backup.js:804
@@ -8494,12 +8494,12 @@ msgstr "請在樹中選擇伺服器或子節點"
 
 #: pgadmin/tools/backup/static/js/backup.js:618
 msgid "Please set binary path for PostgreSQL Server from preferences."
-msgstr "請在首選項設置PostgreSQL伺服器二進制文件路徑"
+msgstr "請在首選項設置PostgreSQL伺服器二進制檔案路徑"
 
 #: pgadmin/tools/backup/static/js/backup.js:623
 #, fuzzy
 msgid "Please set binary path for EDB Postgres Advanced Server from preferences."
-msgstr "請在首選項配置EDB Advanced Server 二進制文件路徑"
+msgstr "請在首選項配置EDB Advanced Server 二進制檔案路徑"
 
 #: pgadmin/tools/backup/static/js/backup.js:641
 #, python-format
@@ -8510,7 +8510,7 @@ msgstr ""
 #: pgadmin/tools/import_export/static/js/import_export.js:517
 #: pgadmin/tools/restore/static/js/restore.js:464
 msgid "Please provide filename"
-msgstr "請輸入文件名"
+msgstr "請輸入檔案名"
 
 #: pgadmin/tools/datagrid/__init__.py:289
 #, fuzzy
@@ -8573,7 +8573,7 @@ msgstr "查詢工具初始化錯誤"
 
 #: pgadmin/tools/datagrid/templates/datagrid/index.html:27
 msgid "Open File"
-msgstr "打開文件"
+msgstr "打開檔案"
 
 #: pgadmin/tools/datagrid/templates/datagrid/index.html:45
 msgid "Save As"
@@ -8823,7 +8823,7 @@ msgstr ""
 #: pgadmin/tools/debugger/__init__.py:246
 #, fuzzy
 msgid "Failed to find the pldbgapi extension in this database."
-msgstr "在資料庫中，找不到包"
+msgstr "在資料庫中，找不到 pldbgapi 延伸套件"
 
 #: pgadmin/tools/debugger/__init__.py:250
 msgid ""
@@ -8833,7 +8833,7 @@ msgstr "調試器插件未啟用。 請在此資料庫中創建pldbgapi擴展。
 
 #: pgadmin/tools/debugger/__init__.py:254
 msgid "The function/procedure cannot be debugged"
-msgstr "函數/存儲過程不能調試"
+msgstr "函數/存儲過程無法除錯"
 
 #: pgadmin/tools/debugger/__init__.py:413
 msgid ""
@@ -8843,7 +8843,7 @@ msgstr ""
 
 #: pgadmin/tools/debugger/__init__.py:422
 msgid "Could not fetch debugger plugin information."
-msgstr "無法獲取調試器插件信息"
+msgstr "無法取得除錯外掛的資訊"
 
 #: pgadmin/tools/debugger/__init__.py:428
 msgid ""
@@ -9238,7 +9238,7 @@ msgstr "請先連接到伺服器..."
 #: pgadmin/tools/import_export/__init__.py:253
 #, fuzzy
 msgid "Please specify a valid file"
-msgstr "請指定標簽的值"
+msgstr "請指定標籤的值"
 
 #: pgadmin/tools/import_export/static/js/import_export.js:40
 msgid "Import"
@@ -9254,7 +9254,7 @@ msgstr "導出"
 #: pgadmin/tools/import_export/static/js/import_export.js:58
 #: pgadmin/tools/import_export/static/js/import_export.js:66
 msgid "File Info"
-msgstr "文件信息"
+msgstr "檔案信息"
 
 #: pgadmin/tools/import_export/static/js/import_export.js:69
 msgid "Columns to import"
@@ -9323,7 +9323,7 @@ msgid ""
 "the file. The default is a tab character in text format, a comma in CSV "
 "format. This must be a single one-byte character. This option is not "
 "allowed when using binary format."
-msgstr "指定用於分隔文件每行（行）中的列的字符。默認值為文本格式的制表符，CSV格式的逗號。它必須是一個單字節字符。使用二進制格式時，不允許使用此選項。"
+msgstr "指定用於分隔檔案每行（行）中的列的字符。默認值為文本格式的制表符，CSV格式的逗號。它必須是一個單字節字符。使用二進制格式時，不允許使用此選項。"
 
 #: pgadmin/tools/import_export/static/js/import_export.js:208
 msgid "Quote"
@@ -9730,7 +9730,7 @@ msgstr "該物件沒有找到主鍵，所以無法保存記錄"
 
 #: pgadmin/tools/sqleditor/__init__.py:1658
 msgid "File type not supported"
-msgstr "不支持的文件類型"
+msgstr "不支持的檔案類型"
 
 #: pgadmin/tools/sqleditor/__init__.py:1810
 msgid "Transaction status check failed."
@@ -9864,15 +9864,15 @@ msgstr "%s."
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:2628
 msgid "Loading the file..."
-msgstr "加載文件..."
+msgstr "加載檔案..."
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:2674
 msgid "Saving the queries in the file..."
-msgstr "將查詢保存在文件..."
+msgstr "將查詢保存在檔案..."
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:2685
 msgid "File saved successfully."
-msgstr "文件保存成功。"
+msgstr "檔案保存成功。"
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:2780
 msgid "Loading the existing filter options..."
@@ -10511,7 +10511,7 @@ msgstr "找不到指定的資料庫"
 #~ msgstr "伺服器組已存在"
 
 #~ msgid "{0} Binary Path"
-#~ msgstr "{0} 二進制文件路徑"
+#~ msgstr "{0} 二進制檔案路徑"
 
 #~ msgid "Could not generate reversed engineered query for FTS Dictionary node."
 #~ msgstr "無法生成反向工程的查詢 FTS 字典節點"
@@ -10550,7 +10550,7 @@ msgstr "找不到指定的資料庫"
 #~ msgstr "在表中找不到類型"
 
 #~ msgid "Enumeration types require at least one label."
-#~ msgstr "枚舉類型要求至少一個標簽。"
+#~ msgstr "枚舉類型要求至少一個標籤。"
 
 #~ msgid "Length/precision should not be less than "
 #~ msgstr "長度/精度不應低於"
@@ -10565,7 +10565,7 @@ msgstr "找不到指定的資料庫"
 #~ msgstr "規模應該不為大於"
 
 #~ msgid "Please specify the value for label."
-#~ msgstr "請指定標簽的值"
+#~ msgstr "請指定標籤的值"
 
 #~ msgid "\" + error_msg + \""
 #~ msgstr "\"+ err.errormsg + \""
@@ -10688,7 +10688,7 @@ msgstr "找不到指定的資料庫"
 #~ msgstr "包已經被刪除"
 
 #~ msgid "Securitiy Labels"
-#~ msgstr "安全標簽"
+#~ msgstr "安全標籤"
 
 #~ msgid "Check Constraint dropped."
 #~ msgstr "Check 約束被刪除"

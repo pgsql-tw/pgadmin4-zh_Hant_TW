@@ -16,4 +16,5 @@ pgAdmin 4 (2.1)的台灣中文介面
 ## 更新
 - 下載 [messages.mo](web/pgadmin/translations/zh_Hant_TW/LC_MESSAGES/messages.mo) 去覆蓋原檔即可。
 
+---
 [![](https://img.shields.io/badge/台灣使用者社群-PostgreSQL-blue.svg)](https://postgresql.tw)

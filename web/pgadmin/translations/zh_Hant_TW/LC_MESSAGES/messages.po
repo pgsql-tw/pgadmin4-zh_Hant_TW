@@ -2685,7 +2685,7 @@ msgstr "可見性"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/column/static/js/column.js:553
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/column/static/js/column.js:554
 msgid "Variables"
-msgstr "變量"
+msgstr "變數"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/packages/edbvars/__init__.py:295
 #: pgadmin/browser/server_groups/servers/databases/schemas/packages/edbvars/__init__.py:327
@@ -3125,7 +3125,7 @@ msgstr ""
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/column/static/js/column.js:43
 msgid "Please provide input for variable."
-msgstr "請提供輸入變量"
+msgstr "請提供輸入變數"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/column/static/js/column.js:133
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/column/static/js/column.js:139
@@ -3319,7 +3319,7 @@ msgstr "排除約束..."
 #: pgadmin/tools/backup/static/js/backup.js:205
 #: pgadmin/tools/restore/static/js/restore.js:166
 msgid "Tablespace"
-msgstr "表空間"
+msgstr "資料表空間"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/exclusion_constraint/static/js/exclusion_constraint.js:686
 msgid "Access method"
@@ -3621,7 +3621,7 @@ msgstr "並發產生?"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/indexes/static/js/index.js:414
 #, fuzzy
 msgid "Tablespace cannot be empty."
-msgstr "表空間不能為空"
+msgstr "資料表空間不能為空"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/indexes/static/js/index.js:420
 #, fuzzy
@@ -4749,7 +4749,7 @@ msgstr "內部長度"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/types/static/js/type.js:623
 msgid "Variable?"
-msgstr "變量?"
+msgstr "變數?"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/types/static/js/type.js:628
 msgid "Default?"
@@ -5022,12 +5022,11 @@ msgstr "字符類型"
 #: pgadmin/browser/server_groups/servers/databases/static/js/database.js:380
 #: pgadmin/browser/server_groups/servers/roles/static/js/role.js:429
 msgid "Connection limit"
-msgstr "Connection limit"
+msgstr "連線數限制"
 
 #: pgadmin/browser/server_groups/servers/databases/static/js/database.js:383
-#, fuzzy
 msgid "Template?"
-msgstr "模板"
+msgstr "樣版"
 
 #: pgadmin/browser/server_groups/servers/databases/static/js/database.js:392
 msgid "Allow connections?"
@@ -6050,7 +6049,7 @@ msgstr "髒占比限制不能為空"
 
 #: pgadmin/browser/server_groups/servers/roles/__init__.py:29
 msgid "Login/Group Roles"
-msgstr "登錄/組角色"
+msgstr "角色與群組"
 
 #: pgadmin/browser/server_groups/servers/roles/__init__.py:158
 msgid "Date format is invalid."
@@ -6143,7 +6142,7 @@ msgid ""
 "    ...\n"
 "]"
 msgstr ""
-"組態參數/變量必須作為JSON物件數組以JSON物件格式傳遞：\n"
+"組態參數/變數必須作為JSON物件數組以JSON物件格式傳遞：\n"
 "格式:\n"
 "seclabels:[{\n"
 "    provider: <provider>,\n"
@@ -6216,7 +6215,7 @@ msgid ""
 "    ...\n"
 "]"
 msgstr ""
-"組態參數/變量必須作為JSON物件數組格式(建立模式)傳遞：\n"
+"組態參數/變數必須作為JSON物件數組格式(建立模式)傳遞：\n"
 "variables:[{\n"
 "    database: <database> or null,\n"
 "    name: <configuration>,\n"
@@ -6255,7 +6254,7 @@ msgid ""
 "        ...\n"
 "        ]\n"
 msgstr ""
-"組態參數/變量必須作為JSON物件數組以下列格式（更新模式）傳遞：\n"
+"組態參數/變數必須作為JSON物件數組以下列格式（更新模式）傳遞：\n"
 "rolmembership:{\n"
 "    'added': [{\n"
 "        database: <database> or null,\n"
@@ -6361,13 +6360,13 @@ msgstr "無法檢索角色訊息。{0}"
 msgid ""
 "Error retrieving variable information for the role.\n"
 "{0}"
-msgstr "檢索角色的變量訊息時出錯。{0}"
+msgstr "檢索角色的變數訊息時出錯。{0}"
 
 #: pgadmin/browser/server_groups/servers/roles/__init__.py:1039
 msgid ""
 "Error retrieving the variable options for the role.\n"
 "{0}"
-msgstr "檢索角色的變量選項時出錯。{0}"
+msgstr "檢索角色的變數選項時出錯。{0}"
 
 #: pgadmin/browser/server_groups/servers/roles/static/js/role.js:28
 #: pgadmin/browser/server_groups/servers/static/js/server.js:21
@@ -6387,25 +6386,25 @@ msgstr "請指定值為所有的安全提供程序"
 #: pgadmin/browser/server_groups/servers/roles/static/js/role.js:253
 #, fuzzy
 msgid "Select members"
-msgstr "十二月"
+msgstr "選擇成員"
 
 #: pgadmin/browser/server_groups/servers/roles/static/js/role.js:314
 msgid "Login/Group Role"
-msgstr "登錄/組角色"
+msgstr "角色與群組"
 
 #: pgadmin/browser/server_groups/servers/roles/static/js/role.js:347
 msgid "Login Role"
-msgstr "登錄角色"
+msgstr "可登入的角色"
 
 #: pgadmin/browser/server_groups/servers/roles/static/js/role.js:349
 msgid "Group Role"
-msgstr "組角色"
+msgstr "群組角色"
 
 #: pgadmin/browser/server_groups/servers/roles/static/js/role.js:361
 #: pgadmin/browser/server_groups/servers/roles/static/js/role.js:367
 #: pgadmin/browser/server_groups/servers/roles/static/js/role.js:373
 msgid "Login/Group Role..."
-msgstr "登錄/組角色"
+msgstr "角色與群組"
 
 #: pgadmin/browser/server_groups/servers/roles/static/js/role.js:410
 #: pgadmin/browser/server_groups/servers/static/js/server.js:718
@@ -6418,7 +6417,7 @@ msgstr "帳戶過期"
 
 #: pgadmin/browser/server_groups/servers/roles/static/js/role.js:432
 msgid "Can login?"
-msgstr "可以登錄麼？"
+msgstr "可以登入？"
 
 #: pgadmin/browser/server_groups/servers/roles/static/js/role.js:436
 msgid "Superuser"
@@ -6434,15 +6433,15 @@ msgstr "建立資料庫"
 
 #: pgadmin/browser/server_groups/servers/roles/static/js/role.js:463
 msgid "Update catalog?"
-msgstr "更新目錄嗎？"
+msgstr "可更新 catalog 嗎？"
 
 #: pgadmin/browser/server_groups/servers/roles/static/js/role.js:471
 msgid "Inherit rights from the parent roles?"
-msgstr "從父角色繼承權利?"
+msgstr "從父角色繼承權力?"
 
 #: pgadmin/browser/server_groups/servers/roles/static/js/role.js:476
 msgid "Can initiate streaming replication and backups?"
-msgstr "可以啟動流複制和備份嗎?"
+msgstr "可以啟動 streaming replication 和資料庫備份嗎?"
 
 #: pgadmin/browser/server_groups/servers/roles/static/js/role.js:480
 msgid "Roles"
@@ -6781,23 +6780,23 @@ msgstr "連接到伺服器"
 #: pgadmin/browser/server_groups/servers/tablespaces/__init__.py:33
 #: pgadmin/browser/server_groups/servers/tablespaces/static/js/tablespace.js:12
 msgid "Tablespaces"
-msgstr "表空間"
+msgstr "資料表空間"
 
 #: pgadmin/browser/server_groups/servers/tablespaces/__init__.py:169
 msgid "Could not find the tablespace."
-msgstr "找不到表空間"
+msgstr "找不到資料表空間"
 
 #: pgadmin/browser/server_groups/servers/tablespaces/__init__.py:268
 msgid "Could not find the tablespace information."
-msgstr "找不到表空間訊息"
+msgstr "找不到資料表空間訊息"
 
 #: pgadmin/browser/server_groups/servers/tablespaces/__init__.py:408
 msgid "The specified tablespace could not be found.\n"
-msgstr "找不到指定的表空間\n"
+msgstr "找不到指定的資料表空間\n"
 
 #: pgadmin/browser/server_groups/servers/tablespaces/__init__.py:425
 msgid "Tablespace dropped"
-msgstr "表空間已刪除"
+msgstr "資料表空間已刪除"
 
 #: pgadmin/browser/server_groups/servers/tablespaces/__init__.py:482
 #: pgadmin/browser/server_groups/servers/tablespaces/__init__.py:541
@@ -6808,7 +6807,7 @@ msgstr ""
 #: pgadmin/browser/server_groups/servers/tablespaces/static/js/tablespace.js:49
 #: pgadmin/browser/server_groups/servers/tablespaces/static/js/tablespace.js:55
 msgid "Tablespace..."
-msgstr "表空間..."
+msgstr "資料表空間..."
 
 #: pgadmin/browser/server_groups/servers/tablespaces/static/js/tablespace.js:62
 msgid "Move objects to..."
@@ -6816,7 +6815,7 @@ msgstr "移動物件到..."
 
 #: pgadmin/browser/server_groups/servers/tablespaces/static/js/tablespace.js:106
 msgid "New tablespace"
-msgstr "新建表空間"
+msgstr "新建資料表空間"
 
 #: pgadmin/browser/server_groups/servers/tablespaces/static/js/tablespace.js:113
 msgid "Object type"
@@ -6847,7 +6846,7 @@ msgstr "使用者"
 
 #: pgadmin/browser/server_groups/servers/tablespaces/static/js/tablespace.js:251
 msgid "Please select tablespace"
-msgstr "選擇表空間"
+msgstr "選擇資料表空間"
 
 #: pgadmin/browser/server_groups/servers/tablespaces/static/js/tablespace.js:269
 msgid "Move objects..."
@@ -9111,7 +9110,7 @@ msgstr ""
 
 #: pgadmin/tools/debugger/static/js/direct.js:1564
 msgid "Local variables"
-msgstr "本地變量"
+msgstr "本地變數"
 
 #: pgadmin/tools/debugger/static/js/direct.js:1575
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:210
@@ -10577,7 +10576,7 @@ msgstr "找不到指定的資料庫"
 #~ msgstr "\"+ err.errormsg + \""
 
 #~ msgid "Move objects to another tablespace"
-#~ msgstr "移動物件到另一個表空間"
+#~ msgstr "移動物件到另一個資料表空間"
 
 #~ msgid "Are you sure you wish to move objects "
 #~ msgstr "確定要移動物件"

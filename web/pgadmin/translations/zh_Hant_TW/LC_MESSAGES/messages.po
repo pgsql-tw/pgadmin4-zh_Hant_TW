@@ -7634,11 +7634,12 @@ msgid ""
 msgstr ""
 "pgAdmin 是開源的 PostgreSQL 管理工具。"
 "它以圖型化介面提供 SQL 查詢器、Stored procedure 除錯工具、及其他更多功能。"
-"這些工具是為開發者、資料庫管理者、以及系統管理者所設計而成的。"
+"這些工具是為開發者、資料庫管理者、以及系統管理者所設計的。<br/>"
+"台灣中文介面由<a href='https://postgresql.tw'>台灣 PostgreSQL 使用者社群</a>編譯而成。"
 
 #: pgadmin/dashboard/templates/dashboard/welcome_dashboard.html:20
 msgid "Quick Links"
-msgstr "快速鏈接"
+msgstr "快速連結"
 
 #: pgadmin/dashboard/templates/dashboard/welcome_dashboard.html:27
 msgid "Add New Server"
@@ -7650,7 +7651,7 @@ msgstr "設定 pgAdmin"
 
 #: pgadmin/dashboard/templates/dashboard/welcome_dashboard.html:45
 msgid "Getting Started"
-msgstr "開始"
+msgstr "開始瞭解 PostgreSQL"
 
 #: pgadmin/dashboard/templates/dashboard/welcome_dashboard.html:52
 msgid "PostgreSQL Documentation"
@@ -7737,7 +7738,7 @@ msgstr ""
 
 #: pgadmin/help/__init__.py:28 pgadmin/help/__init__.py:54
 msgid "Online Help"
-msgstr "在線幫助"
+msgstr "線上支援"
 
 #: pgadmin/help/__init__.py:42
 msgid "PostgreSQL Website"
@@ -7745,27 +7746,27 @@ msgstr "PostgreSQL 網站"
 
 #: pgadmin/help/__init__.py:62
 msgid "SQL Help"
-msgstr "SQL 幫助"
+msgstr "SQL 支援"
 
 #: pgadmin/help/__init__.py:74
 msgid "PostgreSQL Help Path"
-msgstr "PostgreSQL 幫助路徑"
+msgstr "PostgreSQL 說明文件路徑"
 
 #: pgadmin/help/__init__.py:77
 msgid ""
 "Path to the PostgreSQL documentation. $VERSION$ will be replaced with the"
 " major.minor version number."
-msgstr "PostgreSQL文件的路徑。$VERSION$將替換為major.minor版本號。"
+msgstr "PostgreSQL 說明文件的路徑。$VERSION$ 將替換為 major.minor 版本號。"
 
 #: pgadmin/help/__init__.py:83
 msgid "EDB Advanced Server Help Path"
-msgstr "EDB Advanced Server 幫助路徑"
+msgstr "EDB Advanced Server 說明文件路徑"
 
 #: pgadmin/help/__init__.py:86
 msgid ""
 "Path to the EDB Advanced Server documentation. $VERSION$ will be replaced"
 " with the major.minor version number."
-msgstr "EDB Advanced Server文件的路徑。 $VERSION$將替換為major.minor版本號。"
+msgstr "EDB Advanced Server 說明文件的路徑。$VERSION$將替換為 major.minor 版本號。"
 
 #: pgadmin/misc/__init__.py:49 pgadmin/tools/backup/static/js/backup.js:68
 #: pgadmin/tools/backup/static/js/backup.js:72
@@ -7782,17 +7783,17 @@ msgstr "EDB Advanced Server文件的路徑。 $VERSION$將替換為major.minor�
 #: pgadmin/tools/import_export/static/js/import_export.js:209
 #: pgadmin/tools/import_export/static/js/import_export.js:224
 msgid "Miscellaneous"
-msgstr "雜項"
+msgstr "其他設定"
 
 #: pgadmin/misc/__init__.py:59 pgadmin/misc/__init__.py:60
 #, fuzzy
 msgid "User language"
-msgstr "語言"
+msgstr "介面語言"
 
 #: pgadmin/misc/bgprocess/processes.py:76
 #: pgadmin/misc/bgprocess/processes.py:557
 msgid "Could not find a process with the specified ID."
-msgstr "找不到具有指定 ID 的進程"
+msgstr "找不到具有指定 ID 的 Process"
 
 #: pgadmin/misc/bgprocess/processes.py:212
 msgid "The process has already been started."

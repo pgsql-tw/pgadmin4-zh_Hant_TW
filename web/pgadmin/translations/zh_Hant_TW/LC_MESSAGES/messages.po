@@ -7635,7 +7635,7 @@ msgstr ""
 "pgAdmin 是開源的 PostgreSQL 管理工具。"
 "它以圖型化介面提供 SQL 查詢器、Stored procedure 除錯工具、及其他更多功能。"
 "這些工具是為開發者、資料庫管理者、以及系統管理者所設計的。<br/>"
-"台灣中文介面由<a href='https://postgresql.tw'>台灣 PostgreSQL 使用者社群</a>編譯而成。"
+"台灣中文介面由<a href='https://postgresql.tw' target='_blank'>台灣 PostgreSQL 使用者社群</a>編譯而成。"
 
 #: pgadmin/dashboard/templates/dashboard/welcome_dashboard.html:20
 msgid "Quick Links"
@@ -7783,7 +7783,7 @@ msgstr "EDB Advanced Server 說明文件的路徑。$VERSION$將替換為 major.
 #: pgadmin/tools/import_export/static/js/import_export.js:209
 #: pgadmin/tools/import_export/static/js/import_export.js:224
 msgid "Miscellaneous"
-msgstr "其他設定"
+msgstr "雜項"
 
 #: pgadmin/misc/__init__.py:59 pgadmin/misc/__init__.py:60
 #, fuzzy
@@ -7793,16 +7793,16 @@ msgstr "介面語言"
 #: pgadmin/misc/bgprocess/processes.py:76
 #: pgadmin/misc/bgprocess/processes.py:557
 msgid "Could not find a process with the specified ID."
-msgstr "找不到具有指定 ID 的 Process"
+msgstr "找不到具有指定 ID 的程序"
 
 #: pgadmin/misc/bgprocess/processes.py:212
 msgid "The process has already been started."
-msgstr "進程已被啟動。"
+msgstr "程序已被啟動。"
 
 #: pgadmin/misc/bgprocess/processes.py:214
 #, fuzzy
 msgid "The process has already finished and cannot be restarted."
-msgstr "該進程過程已經結束，不能重新啟動。"
+msgstr "該程序已經結束，不能重新啟動。"
 
 #: pgadmin/misc/bgprocess/processes.py:478
 msgid "Status for the background process '{0}' could not be loaded."
@@ -7823,7 +7823,7 @@ msgstr "失敗(退出代碼: %s)."
 
 #: pgadmin/misc/bgprocess/static/js/bgprocess.js:256
 msgid "Click here for details."
-msgstr "點擊這裏查看詳情。"
+msgstr "點這裏查看詳情。"
 
 #: pgadmin/misc/bgprocess/static/js/bgprocess.js:306
 #: pgadmin/misc/bgprocess/static/js/bgprocess.js:373
@@ -7837,14 +7837,14 @@ msgstr "執行時間"
 #: pgadmin/misc/depends/static/js/depends.js:235
 #: pgadmin/misc/depends/static/js/depends.js:236
 msgid "Restriction"
-msgstr ""
+msgstr "限制"
 
 #: pgadmin/misc/depends/static/js/depends.js:277
 #: pgadmin/misc/sql/static/js/sql.js:124
 #: pgadmin/misc/statistics/static/js/statistics.js:271
 #, python-format
 msgid "Error retrieving the information - %s"
-msgstr "檢索訊息-%s時，出錯"
+msgstr "檢索訊息 - %s 時，產生錯誤"
 
 #: pgadmin/misc/depends/static/js/depends.js:285
 #: pgadmin/misc/statistics/static/js/statistics.js:280
@@ -7856,11 +7856,11 @@ msgstr "從伺服器中檢索數據失敗"
 #: pgadmin/tools/datagrid/static/js/datagrid.js:177
 #: pgadmin/tools/datagrid/static/js/datagrid.js:442
 msgid "No object selected."
-msgstr ""
+msgstr "沒有任何物件被選擇"
 
 #: pgadmin/misc/depends/static/js/depends.js:313
 msgid "No dependent information is available for the current object."
-msgstr ""
+msgstr "目前物件上沒有相依關係"
 
 #: pgadmin/misc/depends/static/js/depends.js:314
 msgid "Fetching dependent information from the server..."

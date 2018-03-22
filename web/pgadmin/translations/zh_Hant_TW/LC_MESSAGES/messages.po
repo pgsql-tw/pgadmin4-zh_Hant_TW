@@ -193,7 +193,7 @@ msgstr "沒有指定伺服器群組名稱"
 
 #: pgadmin/browser/server_groups/__init__.py:312
 msgid "Could not find the server group."
-msgstr ""
+msgstr "無法找到伺服器群組"
 
 #: pgadmin/browser/server_groups/servers/__init__.py:92
 msgid "Servers"
@@ -201,7 +201,7 @@ msgstr "伺服器"
 
 #: pgadmin/browser/server_groups/servers/__init__.py:352
 msgid "The specified server group with id# {0} could not be found."
-msgstr "找不到標識為 #{0} 的伺服器組。"
+msgstr "找不到 id#{0} 的伺服器組。"
 
 #: pgadmin/browser/server_groups/servers/__init__.py:370
 msgid "Could not find the server with id# {0}."
@@ -433,7 +433,7 @@ msgstr "包含 Greenplum 資料庫工具程式的目錄路徑（如：pg_dump、
 
 #: pgadmin/browser/server_groups/servers/gpdb.py:31
 msgid "Greenplum Database"
-msgstr ""
+msgstr "Greenplum 資料庫"
 
 #: pgadmin/browser/server_groups/servers/ppas.py:15
 msgid "EDB Advanced Server Binary Path"
@@ -493,15 +493,15 @@ msgstr "在伺服器上找不到該資料庫"
 
 #: pgadmin/browser/server_groups/servers/databases/__init__.py:388
 msgid "Database connected."
-msgstr "資料庫已經連接"
+msgstr "資料庫已經連接。"
 
 #: pgadmin/browser/server_groups/servers/databases/__init__.py:405
 msgid "Database could not be disconnected."
-msgstr "資料庫不能被中斷連線"
+msgstr "資料庫不能被中斷連線。"
 
 #: pgadmin/browser/server_groups/servers/databases/__init__.py:409
 msgid "Database disconnected."
-msgstr "資料庫已經中斷連線"
+msgstr "資料庫已經中斷連線。"
 
 #: pgadmin/browser/server_groups/servers/databases/__init__.py:671
 #: pgadmin/browser/server_groups/servers/databases/casts/__init__.py:458
@@ -537,7 +537,7 @@ msgstr "資料庫已經中斷連線"
 #: pgadmin/browser/server_groups/servers/resource_groups/__init__.py:487
 #: pgadmin/browser/server_groups/servers/tablespaces/__init__.py:405
 msgid "Error: Object not found."
-msgstr "錯誤︰找不到物件."
+msgstr "錯誤︰找不到物件。"
 
 #: pgadmin/browser/server_groups/servers/databases/__init__.py:674
 msgid "The specified database could not be found.\n"
@@ -563,11 +563,11 @@ msgstr "找不到指定的轉換物件。 \n"
 
 #: pgadmin/browser/server_groups/servers/databases/casts/__init__.py:479
 msgid "Cast dropped"
-msgstr "轉換掉"
+msgstr "移除型別轉換"
 
 #: pgadmin/browser/server_groups/servers/databases/casts/__init__.py:541
 msgid "Could not find the specified cast on the server."
-msgstr ""
+msgstr "無法在伺服器上找到指定的型別轉換"
 
 #: pgadmin/browser/server_groups/servers/databases/casts/__init__.py:641
 msgid ""
@@ -575,27 +575,27 @@ msgid ""
 "\n"
 "{0}"
 msgstr ""
-"無法為轉換產生反向工程化SQL。\n"
+"無法為該型別轉換逆向工程產生 SQL。\n"
 "\n"
 " {0}"
 
 #: pgadmin/browser/server_groups/servers/databases/casts/__init__.py:648
 msgid "Could not generate reversed engineered SQL for the cast node.\n"
-msgstr "無法產生cast節點,反向工程SQL"
+msgstr "無法為該型別轉換節點逆向工程產生 SQL"
 
 #: pgadmin/browser/server_groups/servers/databases/casts/static/js/cast.js:10
 msgid "Casts"
-msgstr "強制轉換"
+msgstr "型別轉換"
 
 #: pgadmin/browser/server_groups/servers/databases/casts/static/js/cast.js:26
 msgid "Cast"
-msgstr "轉換"
+msgstr "型別轉換"
 
 #: pgadmin/browser/server_groups/servers/databases/casts/static/js/cast.js:41
 #: pgadmin/browser/server_groups/servers/databases/casts/static/js/cast.js:47
 #: pgadmin/browser/server_groups/servers/databases/casts/static/js/cast.js:52
 msgid "Cast..."
-msgstr "轉換中..."
+msgstr "型別轉換中..."
 
 #: pgadmin/browser/server_groups/servers/databases/casts/static/js/cast.js:73
 #: pgadmin/browser/server_groups/servers/databases/event_triggers/static/js/event_trigger.js:87
@@ -717,7 +717,7 @@ msgstr "OID"
 #: pgadmin/browser/server_groups/servers/databases/casts/static/js/cast.js:79
 #: pgadmin/browser/server_groups/servers/databases/casts/static/js/cast.js:123
 msgid "Source type"
-msgstr "源類型"
+msgstr "來源型別"
 
 #: pgadmin/browser/server_groups/servers/databases/casts/static/js/cast.js:80
 #: pgadmin/browser/server_groups/servers/databases/casts/static/js/cast.js:124
@@ -904,7 +904,7 @@ msgstr "定義"
 #: pgadmin/browser/server_groups/servers/databases/casts/static/js/cast.js:168
 #: pgadmin/browser/server_groups/servers/databases/schemas/synonyms/static/js/synonym.js:96
 msgid "Target type"
-msgstr "目標類型"
+msgstr "目標型別"
 
 #: pgadmin/browser/server_groups/servers/databases/casts/static/js/cast.js:178
 #: pgadmin/browser/server_groups/servers/databases/casts/static/js/cast.js:229
@@ -922,7 +922,7 @@ msgstr "上下文"
 
 #: pgadmin/browser/server_groups/servers/databases/casts/static/js/cast.js:257
 msgid "System cast?"
-msgstr "系統轉化?"
+msgstr "系統轉換?"
 
 #: pgadmin/browser/server_groups/servers/databases/casts/static/js/cast.js:260
 #: pgadmin/browser/server_groups/servers/databases/extensions/static/js/extension.js:197
@@ -1020,11 +1020,11 @@ msgstr "註解"
 
 #: pgadmin/browser/server_groups/servers/databases/casts/static/js/cast.js:282
 msgid "Source type must be selected."
-msgstr "源類型必須選中"
+msgstr "必須選擇來源型別"
 
 #: pgadmin/browser/server_groups/servers/databases/casts/static/js/cast.js:293
 msgid "Target type must be selected."
-msgstr "目標類型必須選擇"
+msgstr "必須選擇目標型別"
 
 #: pgadmin/browser/server_groups/servers/databases/event_triggers/__init__.py:50
 msgid "Event Triggers"
@@ -1101,7 +1101,7 @@ msgstr "事件觸發器..."
 #: pgadmin/tools/backup/static/js/backup.js:199
 #: pgadmin/tools/restore/static/js/restore.js:160
 msgid "Owner"
-msgstr "所有者"
+msgstr "擁有者"
 
 #: pgadmin/browser/server_groups/servers/databases/event_triggers/static/js/event_trigger.js:99
 msgid "Enabled status"
@@ -1209,25 +1209,25 @@ msgstr "事件觸發器事件不能為空"
 
 #: pgadmin/browser/server_groups/servers/databases/extensions/__init__.py:56
 msgid "Extensions"
-msgstr "擴展"
+msgstr "延伸套件"
 
 #: pgadmin/browser/server_groups/servers/databases/extensions/__init__.py:223
 msgid "Could not find the specified extension."
-msgstr ""
+msgstr "無法找到指定的延伸套件"
 
 #: pgadmin/browser/server_groups/servers/databases/extensions/__init__.py:238
 #: pgadmin/browser/server_groups/servers/databases/extensions/__init__.py:416
 #, fuzzy
 msgid "Could not find the extension information."
-msgstr "無法查找擴展訊息。"
+msgstr "無法查找延伸套件訊息。"
 
 #: pgadmin/browser/server_groups/servers/databases/extensions/__init__.py:350
 msgid "The specified extension could not be found.\n"
-msgstr "找不到指定的擴展。"
+msgstr "找不到指定的延伸套件。"
 
 #: pgadmin/browser/server_groups/servers/databases/extensions/__init__.py:365
 msgid "Extension dropped"
-msgstr "拓展已被刪除"
+msgstr "延伸套件已被刪除"
 
 #: pgadmin/browser/server_groups/servers/databases/extensions/__init__.py:474
 msgid "Could not find the extension on the server."
@@ -1236,13 +1236,13 @@ msgstr ""
 #: pgadmin/browser/server_groups/servers/databases/extensions/static/js/extension.js:18
 #: pgadmin/browser/server_groups/servers/databases/extensions/static/js/extension.js:49
 msgid "Extension"
-msgstr "拓展"
+msgstr "延伸套件"
 
 #: pgadmin/browser/server_groups/servers/databases/extensions/static/js/extension.js:65
 #: pgadmin/browser/server_groups/servers/databases/extensions/static/js/extension.js:70
 #: pgadmin/browser/server_groups/servers/databases/extensions/static/js/extension.js:75
 msgid "Extension..."
-msgstr "拓展..."
+msgstr "延伸套件..."
 
 #: pgadmin/browser/server_groups/servers/databases/extensions/static/js/extension.js:181
 #: pgadmin/browser/server_groups/servers/databases/schemas/collations/static/js/collation.js:96
@@ -1265,11 +1265,11 @@ msgstr "拓展..."
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/view.js:113
 #: pgadmin/tools/grant_wizard/static/js/grant_wizard.js:120
 msgid "Schema"
-msgstr "模式"
+msgstr ""
 
 #: pgadmin/browser/server_groups/servers/databases/extensions/static/js/extension.js:194
 msgid "Relocatable?"
-msgstr "可重定位?"
+msgstr "可重新定位?"
 
 #: pgadmin/browser/server_groups/servers/databases/extensions/static/js/extension.js:241
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/foreign_servers/static/js/foreign_server.js:170
@@ -1304,24 +1304,24 @@ msgstr "名稱不能為空"
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/__init__.py:52
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/static/js/foreign_data_wrapper.js:46
 msgid "Foreign Data Wrappers"
-msgstr "外部數據包裝"
+msgstr "外部資料封裝(FDW)"
 
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/__init__.py:305
 msgid "Could not find the specified foreign data wrapper."
-msgstr "找不到指定的外部數據包裝"
+msgstr "找不到指定的外部資料封裝(FDW)物件"
 
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/__init__.py:328
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/__init__.py:571
 msgid "Could not find the foreign data wrapper information."
-msgstr ""
+msgstr "找不到該外部資料封裝(FDW)的資訊"
 
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/__init__.py:488
 msgid "The specified foreign data wrapper could not be found.\n"
-msgstr "找不到指定的外部數據包裝.\n"
+msgstr "找不到指定的外部資料封裝(FDW)。\n"
 
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/__init__.py:502
 msgid "Foreign Data Wrapper dropped"
-msgstr "外部數據包裝已被刪除"
+msgstr "外部資料封裝(FDW)已被刪除"
 
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/__init__.py:651
 msgid "Could not find the foreign data wrapper on the server."
@@ -1346,7 +1346,7 @@ msgstr "無法找到外部伺服器訊息"
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/foreign_servers/__init__.py:513
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/foreign_servers/user_mapping/__init__.py:520
 msgid "The specified foreign server could not be found.\n"
-msgstr "找不到指定的外國伺服器。\n"
+msgstr "找不到指定的外部伺服器。\n"
 
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/foreign_servers/__init__.py:528
 msgid "Foreign Server dropped"
@@ -1439,7 +1439,7 @@ msgstr "外部伺服器..."
 #: pgadmin/tools/debugger/static/js/direct.js:1120
 #: pgadmin/tools/debugger/static/js/direct.js:1174
 msgid "Type"
-msgstr "類型"
+msgstr "型別"
 
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/foreign_servers/static/js/foreign_server.js:152
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/foreign_servers/static/js/foreign_server.js:156
@@ -1492,36 +1492,36 @@ msgstr "權限"
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/foreign_servers/user_mapping/__init__.py:55
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/foreign_servers/user_mapping/static/js/user_mapping.js:47
 msgid "User Mappings"
-msgstr "使用者映射"
+msgstr "使用者對應"
 
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/foreign_servers/user_mapping/__init__.py:334
 msgid "Could not find the specified user mapping."
-msgstr "找不到指定的使用者映射。"
+msgstr "找不到指定的使用者對應。"
 
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/foreign_servers/user_mapping/__init__.py:359
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/foreign_servers/user_mapping/__init__.py:627
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/foreign_servers/user_mapping/__init__.py:708
 #, fuzzy
 msgid "Could not find the user mapping information."
-msgstr "無法找到使用者映射訊息。"
+msgstr "無法找到使用者對應的資訊。"
 
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/foreign_servers/user_mapping/__init__.py:535
 msgid "The specified user mapping could not be found.\n"
-msgstr "找不到指定的使用者映射。\n"
+msgstr "找不到指定的使用者對應。\n"
 
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/foreign_servers/user_mapping/__init__.py:552
 msgid "User Mapping dropped"
-msgstr "使用者映射已經刪除"
+msgstr "使用者對應已經刪除"
 
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/foreign_servers/user_mapping/static/js/user_mapping.js:61
 msgid "User Mapping"
-msgstr "使用者映射"
+msgstr "使用者對應"
 
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/foreign_servers/user_mapping/static/js/user_mapping.js:80
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/foreign_servers/user_mapping/static/js/user_mapping.js:85
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/foreign_servers/user_mapping/static/js/user_mapping.js:90
 msgid "User Mapping..."
-msgstr "使用者映射..."
+msgstr "使用者對應..."
 
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/foreign_servers/user_mapping/static/js/user_mapping.js:117
 #: pgadmin/browser/server_groups/servers/static/js/server.js:388
@@ -1548,13 +1548,13 @@ msgstr "選項"
 
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/static/js/foreign_data_wrapper.js:60
 msgid "Foreign Data Wrapper"
-msgstr "外部數據包裝"
+msgstr "外部資料封裝(FDW)"
 
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/static/js/foreign_data_wrapper.js:79
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/static/js/foreign_data_wrapper.js:84
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/static/js/foreign_data_wrapper.js:89
 msgid "Foreign Data Wrapper..."
-msgstr "外部數據包裝..."
+msgstr "外部資料封裝(FDW)..."
 
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/static/js/foreign_data_wrapper.js:140
 msgid "Handler"
@@ -1578,7 +1578,7 @@ msgstr "找不到指定的語言"
 #: pgadmin/browser/server_groups/servers/databases/languages/__init__.py:650
 #, fuzzy
 msgid "Could not find the language information."
-msgstr "無法查找語言訊息"
+msgstr "無法找到該語言的資訊"
 
 #: pgadmin/browser/server_groups/servers/databases/languages/__init__.py:501
 msgid "Language dropped"
@@ -1600,7 +1600,7 @@ msgstr "語言..."
 
 #: pgadmin/browser/server_groups/servers/databases/languages/static/js/language.js:127
 msgid "Trusted?"
-msgstr "信任麼?"
+msgstr "信任語言?"
 
 #: pgadmin/browser/server_groups/servers/databases/languages/static/js/language.js:146
 msgid "Handler Function"
@@ -1608,20 +1608,20 @@ msgstr "處理函數"
 
 #: pgadmin/browser/server_groups/servers/databases/languages/static/js/language.js:171
 msgid "Inline Function"
-msgstr "內聯函數"
+msgstr "Inline 函數"
 
 #: pgadmin/browser/server_groups/servers/databases/languages/static/js/language.js:196
 msgid "Validator Function"
-msgstr "驗證程序函數"
+msgstr "驗證函數(Validator)"
 
 #: pgadmin/browser/server_groups/servers/databases/languages/static/js/language.js:255
 msgid "Handler Function cannot be empty."
-msgstr ""
+msgstr "Handler 函數不能為空"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/__init__.py:67
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/schema.js:268
 msgid "Schemas"
-msgstr "模式"
+msgstr ""
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/__init__.py:113
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/catalog.js:11
@@ -1638,7 +1638,7 @@ msgid ""
 "It may have been removed by another user.\n"
 msgstr ""
 "\n"
-"在資料庫中找不到該模式。\n"
+"在資料庫中找不到該 schema。\n"
 " 它可能已被其他使用者刪除。\\ n"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/__init__.py:532
@@ -1646,15 +1646,15 @@ msgstr ""
 msgid ""
 "Could not find the schema in the database. It may have been removed by "
 "another user."
-msgstr "在資料庫中找不到該模式。可能已被其他使用者刪除。"
+msgstr "在資料庫中找不到該 schema。可能已被其他使用者刪除。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/__init__.py:675
 msgid "The specified schema could not be found.\n"
-msgstr "找不到指定的模式"
+msgstr "找不到指定的 schema"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/__init__.py:692
 msgid "Schema dropped"
-msgstr "模式已被刪除"
+msgstr "Schema 已被刪除"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/__init__.py:770
 #: pgadmin/static/js/backform.pgadmin.js:1472
@@ -1664,12 +1664,12 @@ msgstr "定義不完整"
 #: pgadmin/browser/server_groups/servers/databases/schemas/catalog_objects/__init__.py:47
 #: pgadmin/browser/server_groups/servers/databases/schemas/catalog_objects/static/js/catalog_object.js:10
 msgid "Catalog Objects"
-msgstr "元數據物件"
+msgstr "目錄物件"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/catalog_objects/__init__.py:260
 #: pgadmin/browser/server_groups/servers/databases/schemas/catalog_objects/__init__.py:289
 msgid "Could not find the specified catalog object."
-msgstr "找不到指定的元數據物件"
+msgstr "找不到指定的目錄物件"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/catalog_objects/columns/__init__.py:51
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/static/js/foreign_table.js:603
@@ -1696,16 +1696,16 @@ msgstr "找不到指定的元數據物件"
 #: pgadmin/tools/import_export/static/js/import_export.js:165
 #: pgadmin/tools/import_export/static/js/import_export.js:172
 msgid "Columns"
-msgstr "列"
+msgstr "欄位"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/catalog_objects/columns/__init__.py:272
 msgid "Could not find the specified column."
-msgstr "找不到指定的列"
+msgstr "找不到指定的欄位"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/catalog_objects/columns/static/js/catalog_object_column.js:10
 #: pgadmin/browser/server_groups/servers/databases/schemas/catalog_objects/columns/static/js/catalog_object_column.js:21
 msgid "catalog_object_column"
-msgstr "(元數據物件列)catalog_object_column"
+msgstr "目錄物件欄位(catalog_object_column)"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/catalog_objects/columns/static/js/catalog_object_column.js:45
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/column/static/js/column.js:94
@@ -1715,7 +1715,7 @@ msgstr "(元數據物件列)catalog_object_column"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/partition.utils.js:71
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/partition.utils.js:76
 msgid "Column"
-msgstr "列"
+msgstr "欄位"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/catalog_objects/columns/static/js/catalog_object_column.js:51
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/column/static/js/column.js:259
@@ -1726,7 +1726,7 @@ msgstr "位置"
 #: pgadmin/browser/server_groups/servers/databases/schemas/packages/edbvars/static/js/edbvar.js:53
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/column/static/js/column.js:262
 msgid "Data type"
-msgstr "數據類型"
+msgstr "資料型別"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/catalog_objects/columns/static/js/catalog_object_column.js:57
 #: pgadmin/browser/server_groups/servers/databases/schemas/collations/static/js/collation.js:23
@@ -1738,55 +1738,55 @@ msgstr "數據類型"
 #: pgadmin/browser/server_groups/servers/databases/schemas/types/static/js/type.js:439
 #: pgadmin/browser/server_groups/servers/databases/static/js/database.js:370
 msgid "Collation"
-msgstr "排序規則"
+msgstr "校對(Collation)"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/catalog_objects/static/js/catalog_object.js:20
 msgid "Catalog Object"
-msgstr "元數據物件"
+msgstr "目錄物件"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/collations/__init__.py:54
 #: pgadmin/browser/server_groups/servers/databases/schemas/collations/static/js/collation.js:11
 msgid "Collations"
-msgstr "排序規則"
+msgstr "校對(Collation)"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/collations/__init__.py:293
 msgid "Could not find the specified collation."
-msgstr "找不到指定的排序規則"
+msgstr "找不到指定的校對物件"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/collations/__init__.py:322
 #: pgadmin/browser/server_groups/servers/databases/schemas/collations/__init__.py:618
 #: pgadmin/browser/server_groups/servers/databases/schemas/collations/__init__.py:664
 msgid "Could not find the collation object in the database."
-msgstr ""
+msgstr "資料庫中找不到該校對物件"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/collations/__init__.py:432
 #: pgadmin/browser/server_groups/servers/databases/schemas/collations/static/js/collation.js:168
 msgid ""
 "Definition incomplete. Please provide Locale OR Copy Collation OR "
 "LC_TYPE/LC_COLLATE."
-msgstr ""
+msgstr "定應不完整。請提供語系(Locale)或複製校對(Collation)或LC_TYPE/LC_COLLATE"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/collations/__init__.py:501
 msgid "The specified collation could not be found.\n"
-msgstr "找不到指定的排序規則"
+msgstr "找不到指定的校對方式"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/collations/__init__.py:516
 msgid "Collation dropped"
-msgstr "排序規則已經被刪除"
+msgstr "校對方式已經被刪除"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/collations/static/js/collation.js:38
 #: pgadmin/browser/server_groups/servers/databases/schemas/collations/static/js/collation.js:44
 #: pgadmin/browser/server_groups/servers/databases/schemas/collations/static/js/collation.js:50
 msgid "Collation..."
-msgstr "排序規則..."
+msgstr "校對..."
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/collations/static/js/collation.js:108
 msgid "Copy collation"
-msgstr "複制排序規則"
+msgstr "複製校對物件"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/collations/static/js/collation.js:114
 msgid "Locale"
-msgstr "區域設置"
+msgstr "語系"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/collations/static/js/collation.js:119
 msgid "LC_COLLATE"
@@ -1799,13 +1799,13 @@ msgstr "LC_TYPE"
 #: pgadmin/browser/server_groups/servers/databases/schemas/domains/__init__.py:53
 #: pgadmin/browser/server_groups/servers/databases/schemas/domains/static/js/domain.js:12
 msgid "Domains"
-msgstr "域"
+msgstr ""
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/domains/__init__.py:362
 #: pgadmin/browser/server_groups/servers/databases/schemas/domains/__init__.py:692
 #: pgadmin/browser/server_groups/servers/databases/schemas/domains/__init__.py:786
 msgid "Could not find the specified domain."
-msgstr "找不到指定的域"
+msgstr "找不到指定的 domain"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/domains/__init__.py:384
 msgid ""
@@ -1814,43 +1814,43 @@ msgid ""
 "It may have been removed by another user or moved to another schema.\n"
 msgstr ""
 "\n"
-"無法在資料庫中找到該域。\n"
-"它可能已被另一個使用者刪除或移動到另一個模式"
+"無法在資料庫中找到該 domain。\n"
+"它可能已被另一個使用者刪除或移動到另一個 schema"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/domains/__init__.py:604
 msgid "The specified domain could not be found.\n"
-msgstr "找不到指定的域。\n"
+msgstr "找不到指定的 domain。\n"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/domains/__init__.py:621
 msgid "Domain dropped"
-msgstr "刪除的域"
+msgstr "刪除 domain "
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/domains/domain_constraints/__init__.py:49
 #: pgadmin/browser/server_groups/servers/databases/schemas/domains/domain_constraints/static/js/domain_constraints.js:13
 #: pgadmin/browser/server_groups/servers/databases/schemas/domains/domain_constraints/static/js/domain_constraints.js:26
 msgid "Domain Constraints"
-msgstr "域約束"
+msgstr " domain 限制條件"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/domains/domain_constraints/__init__.py:359
 #: pgadmin/browser/server_groups/servers/databases/schemas/domains/domain_constraints/__init__.py:384
 #: pgadmin/browser/server_groups/servers/databases/schemas/domains/domain_constraints/__init__.py:586
 #: pgadmin/browser/server_groups/servers/databases/schemas/domains/domain_constraints/__init__.py:658
 msgid "Could not find the specified domain constraint."
-msgstr "找不到指定的域約束"
+msgstr "找不到指定的 domain 限制條件"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/domains/domain_constraints/__init__.py:476
 msgid "The specified domain constraint could not be found.\n"
-msgstr "找不到指定的域約束。\n"
+msgstr "找不到指定的 domain 限制條件。\n"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/domains/domain_constraints/__init__.py:492
 msgid "Domain Constraint dropped"
-msgstr "域約束被刪除"
+msgstr " domain 限制條件被刪除"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/domains/domain_constraints/static/js/domain_constraints.js:41
 #: pgadmin/browser/server_groups/servers/databases/schemas/domains/domain_constraints/static/js/domain_constraints.js:47
 #: pgadmin/browser/server_groups/servers/databases/schemas/domains/domain_constraints/static/js/domain_constraints.js:53
 msgid "Domain Constraint..."
-msgstr "域約束..."
+msgstr " domain 限制條件..."
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/domains/domain_constraints/static/js/domain_constraints.js:81
 #: pgadmin/browser/server_groups/servers/databases/schemas/domains/static/js/domain.js:49
@@ -1879,21 +1879,21 @@ msgstr "檢查不能為空"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/domains/static/js/domain.js:84
 msgid "Domain"
-msgstr "域"
+msgstr "Domain"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/domains/static/js/domain.js:99
 #: pgadmin/browser/server_groups/servers/databases/schemas/domains/static/js/domain.js:105
 #: pgadmin/browser/server_groups/servers/databases/schemas/domains/static/js/domain.js:111
 msgid "Domain..."
-msgstr "域..."
+msgstr "Domain..."
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/domains/static/js/domain.js:167
 msgid "System domain?"
-msgstr "系統域嗎?"
+msgstr "是系統 domain 嗎?"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/domains/static/js/domain.js:178
 msgid "Base type"
-msgstr "基本類型"
+msgstr "基本型別"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/domains/static/js/domain.js:190
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/static/js/foreign_table.js:102
@@ -1905,16 +1905,16 @@ msgstr "長度"
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/static/js/foreign_table.js:159
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/column/static/js/column.js:412
 msgid "Precision"
-msgstr "精度"
+msgstr "精確度"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/domains/static/js/domain.js:244
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/static/js/foreign_table.js:212
 msgid "Default"
-msgstr "默認值"
+msgstr "預設值"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/domains/static/js/domain.js:248
 msgid "Not Null?"
-msgstr "非空?"
+msgstr "非 Null?"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/domains/static/js/domain.js:263
 #: pgadmin/browser/server_groups/servers/databases/schemas/domains/static/js/domain.js:264
@@ -1926,20 +1926,20 @@ msgstr "非空?"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/partitions/static/js/partition.js:589
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.js:621
 msgid "Constraints"
-msgstr "約束"
+msgstr "限制條件"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/domains/static/js/domain.js:288
 msgid "Base Type cannot be empty."
-msgstr "基本類型不能為空"
+msgstr "基本型別不能為空"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/__init__.py:60
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/static/js/foreign_table.js:12
 msgid "Foreign Tables"
-msgstr "外部表"
+msgstr "外部資料表"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/__init__.py:439
 msgid "Could not find the specified foreign table."
-msgstr "找不到指定的外部表"
+msgstr "找不到指定的外部資料表"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/__init__.py:458
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/__init__.py:823
@@ -1949,15 +1949,15 @@ msgstr "找不到指定的外部表"
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/__init__.py:1279
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/__init__.py:1324
 msgid "Could not find the foreign table on the server."
-msgstr ""
+msgstr "在伺服器上找不到該外部資料表"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/__init__.py:731
 msgid "The specified foreign table could not be found.\n"
-msgstr "找不到指定的外部表。\n"
+msgstr "找不到指定的外部資料表。\n"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/__init__.py:750
 msgid "Foreign Table dropped"
-msgstr "外部表已經被刪除"
+msgstr "外部資料表已經被刪除"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/__init__.py:1257
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/__init__.py:1302
@@ -1965,23 +1965,23 @@ msgstr "外部表已經被刪除"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/__init__.py:1412
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/__init__.py:1252
 msgid "-- Please create column(s) first..."
-msgstr "--請先建立列..."
+msgstr "--請先建立欄位..."
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/static/js/foreign_table.js:93
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/function.js:33
 msgid "Data Type"
-msgstr "數據類型"
+msgstr "資料型別"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/static/js/foreign_table.js:227
 msgid "Not Null"
-msgstr "非空"
+msgstr "非 Null"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/static/js/foreign_table.js:231
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/column/static/js/column.js:505
 #: pgadmin/browser/static/js/browser.js:135
 #: pgadmin/misc/statistics/static/js/statistics.js:108
 msgid "Statistics"
-msgstr "統計訊息"
+msgstr "統計資料"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/static/js/foreign_table.js:253
 msgid "Inherited From"
@@ -1991,11 +1991,11 @@ msgstr "繼承自"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/indexes/static/js/index.js:168
 #, fuzzy
 msgid "Column Name cannot be empty."
-msgstr "列名稱不能為空"
+msgstr "欄位名稱不能為空值"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/static/js/foreign_table.js:275
 msgid "Column Datatype cannot be empty."
-msgstr ""
+msgstr "欄位資料型別不能為空值"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/static/js/foreign_table.js:428
 msgid "No Inherit"
@@ -2003,21 +2003,21 @@ msgstr "無繼承"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/static/js/foreign_table.js:452
 msgid "Constraint Name cannot be empty."
-msgstr ""
+msgstr "限制條件名稱不能為空值"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/static/js/foreign_table.js:458
 msgid "Constraint Check cannot be empty."
-msgstr ""
+msgstr "限制條件檢查(Check)不能為空值"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/static/js/foreign_table.js:500
 msgid "Foreign Table"
-msgstr "外部表"
+msgstr "外部資料表"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/static/js/foreign_table.js:516
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/static/js/foreign_table.js:522
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/static/js/foreign_table.js:528
 msgid "Foreign Table..."
-msgstr "外部表..."
+msgstr "外部資料表..."
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/static/js/foreign_table.js:585
 msgid "Foreign server"
@@ -2034,21 +2034,21 @@ msgstr "繼承"
 #: pgadmin/browser/server_groups/servers/databases/schemas/sequences/static/js/sequence.js:228
 #: pgadmin/browser/server_groups/servers/databases/schemas/types/static/js/type.js:806
 msgid "Schema cannot be empty."
-msgstr "模式不能為空"
+msgstr "Schema 不能為空值"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/static/js/foreign_table.js:677
 msgid "Foreign server cannot be empty."
-msgstr "外部伺服器不能為空"
+msgstr "外部伺服器不能為空值"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_configurations/__init__.py:55
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_configurations/static/js/fts_configuration.js:407
 msgid "FTS Configurations"
-msgstr "FTS組態"
+msgstr "FTS 組態"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_configurations/__init__.py:327
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_configurations/__init__.py:641
 msgid "Could not find the FTS Configuration node."
-msgstr "找不到FTS組態節點"
+msgstr "找不到FTS 組態節點"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_configurations/__init__.py:366
 msgid "Could not find the FTS Configuration node in the database node."
@@ -2057,7 +2057,7 @@ msgstr "在資料庫節點中，找不到 FTS 組態節點。"
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_configurations/__init__.py:421
 #, fuzzy
 msgid "Provide at least copy config or parser."
-msgstr "提供至少複制組態或解析器"
+msgstr "提供至少複製組態或解析器"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_configurations/__init__.py:509
 msgid "Could not find the FTS Configuration node to update."
@@ -2123,7 +2123,7 @@ msgstr "解析器"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_configurations/static/js/fts_configuration.js:513
 msgid "Copy Config"
-msgstr "複制組態"
+msgstr "複製組態"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_configurations/static/js/fts_configuration.js:556
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_dictionaries/static/js/fts_dictionary.js:162
@@ -2398,7 +2398,7 @@ msgstr "參數名稱"
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/function.js:62
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/column/static/js/column.js:490
 msgid "Default Value"
-msgstr "默認值"
+msgstr "預設值"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/function.js:108
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/function.js:114
@@ -2848,7 +2848,7 @@ msgstr "自定義 auto-vacuum"
 #: pgadmin/browser/server_groups/servers/databases/schemas/synonyms/static/js/synonym.js:106
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.js:27
 msgid "Table"
-msgstr "表"
+msgstr "資料表"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/schema.js:150
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/schema.js:211
@@ -2861,7 +2861,7 @@ msgstr "啟用嗎?"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/schema.js:167
 msgid "Vacuum Table"
-msgstr "整理表"
+msgstr "整理資料表"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/schema.js:174
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/schema.js:240
@@ -2873,57 +2873,57 @@ msgstr "標籤"
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/schema.js:253
 #: pgadmin/tools/debugger/static/js/debugger_ui.js:235
 msgid "Default value"
-msgstr "默認值"
+msgstr "預設值"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/schema.js:196
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/schema.js:212
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/schema.js:235
 msgid "Toast Table"
-msgstr "Toast 表"
+msgstr "TOAST 資料表"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/schema.js:231
 msgid "Vacuum Toast Table"
-msgstr "回收Toast表"
+msgstr "整理 TOAST 資料表"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/schema.js:296
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/schema.js:301
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/schema.js:306
 msgid "Schema..."
-msgstr "模式..."
+msgstr "Schema..."
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/schema.js:343
 msgid "System schema?"
-msgstr "系統模式?"
+msgstr "系統 schema？"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/schema.js:352
 #: pgadmin/browser/server_groups/servers/databases/static/js/database.js:317
 msgid "Default TABLE privileges"
-msgstr "默認表權限"
+msgstr "資料表預設權限"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/schema.js:355
 #: pgadmin/browser/server_groups/servers/databases/static/js/database.js:320
 msgid "Default SEQUENCE privileges"
-msgstr "默認序列權限"
+msgstr "序列(SEQUENCE)預設權限"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/schema.js:358
 #: pgadmin/browser/server_groups/servers/databases/static/js/database.js:323
 msgid "Default FUNCTION privileges"
-msgstr "默認函數權限"
+msgstr "函數預設權限"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/schema.js:361
 #: pgadmin/browser/server_groups/servers/databases/static/js/database.js:326
 msgid "Default TYPE privileges"
-msgstr "默認類型權限"
+msgstr "資料型別預設權限"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/schema.js:380
 #: pgadmin/browser/server_groups/servers/databases/static/js/database.js:422
 msgid "Default Privileges"
-msgstr "默認權限"
+msgstr "預設權限"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/schema.js:385
 #: pgadmin/browser/server_groups/servers/databases/static/js/database.js:426
 msgid "Default Privileges: Tables"
-msgstr "默認權限: 表"
+msgstr "預設權限: 資料表"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/schema.js:386
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/__init__.py:49
@@ -2931,22 +2931,22 @@ msgstr "默認權限: 表"
 #: pgadmin/browser/server_groups/servers/databases/static/js/database.js:427
 #: pgadmin/browser/server_groups/servers/tablespaces/static/js/tablespace.js:118
 msgid "Tables"
-msgstr "表"
+msgstr "資料表"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/schema.js:392
 #: pgadmin/browser/server_groups/servers/databases/static/js/database.js:432
 msgid "Default Privileges: Sequences"
-msgstr "默認權限: 序列"
+msgstr "預設權限: 序列"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/schema.js:399
 #: pgadmin/browser/server_groups/servers/databases/static/js/database.js:438
 msgid "Default Privileges: Functions"
-msgstr "默認權限: 函數"
+msgstr "預設權限: 函數"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/schema.js:406
 #: pgadmin/browser/server_groups/servers/databases/static/js/database.js:444
 msgid "Default Privileges: Types"
-msgstr "默認權限: 類型"
+msgstr "預設權限: 類型"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/schema.js:407
 #: pgadmin/browser/server_groups/servers/databases/schemas/types/__init__.py:56
@@ -2995,11 +2995,11 @@ msgstr "公共同義詞"
 #: pgadmin/browser/server_groups/servers/databases/schemas/synonyms/static/js/synonym.js:107
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/view.js:43
 msgid "View"
-msgstr "視圖"
+msgstr "view"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/synonyms/static/js/synonym.js:112
 msgid "Target schema"
-msgstr "目標模式"
+msgstr "目標 schema"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/synonyms/static/js/synonym.js:137
 msgid "Target object"
@@ -3011,7 +3011,7 @@ msgstr "公共同義詞麼？"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/synonyms/static/js/synonym.js:195
 msgid "Target schema cannot be empty."
-msgstr "目標模式不能為空"
+msgstr "目標 schema 不能為空"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/synonyms/static/js/synonym.js:199
 msgid "Target object cannot be empty."
@@ -3019,16 +3019,16 @@ msgstr "目標物件不能為空"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/__init__.py:301
 msgid "Could not find the table."
-msgstr "找不到表"
+msgstr "找不到資料表"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/__init__.py:568
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/__init__.py:1266
 msgid "The specified table could not be found."
-msgstr ""
+msgstr "找不到指定的資料表"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/__init__.py:1066
 msgid "The specified table could not be found.\n"
-msgstr "找不到指定的表。\n"
+msgstr "找不到指定的資料表。\n"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/__init__.py:1146
 #, fuzzy
@@ -3042,23 +3042,23 @@ msgstr "觸發器已被禁用"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/__init__.py:1496
 msgid "Table rows counted"
-msgstr ""
+msgstr "資料列已計數"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/utils.py:1138
 #, fuzzy
 msgid "Table statistics have been reset"
-msgstr "表統計訊息已被重置"
+msgstr "資料表統計資訊已被重置"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/utils.py:1302
 #, fuzzy
 msgid "-- definition incomplete for {0} constraint"
-msgstr "-- 不完全定義為 {0} 約束"
+msgstr "-- 不完全定義為 {0} 限制條件"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/utils.py:1362
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/utils.py:1393
 #, fuzzy
 msgid "-- definition incomplete for foreign_key constraint"
-msgstr "-- foreign_key 約束不完整的定義"
+msgstr "-- foreign_key 限制條件不完整的定義"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/utils.py:1487
 #, fuzzy
@@ -3094,45 +3094,45 @@ msgstr "-- 定義不完整"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/utils.py:2159
 msgid "Table truncated"
-msgstr "表被截斷"
+msgstr "資料表已清空"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/utils.py:2198
 msgid "Table dropped"
-msgstr "表被刪除"
+msgstr "資料表已刪除"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/column/__init__.py:294
 #, fuzzy
 msgid "Could not find the column."
-msgstr "找不到列"
+msgstr "找不到欄位"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/column/__init__.py:489
 msgid "Could not find the column in the table."
-msgstr "在表中找不到列"
+msgstr "在資料表中找不到欄位"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/column/__init__.py:653
 msgid "The specified column could not be found.\n"
-msgstr "找不到指定的列。 \n"
+msgstr "找不到指定的欄位。 \n"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/column/__init__.py:672
 msgid "Column is dropped"
-msgstr "列被刪除"
+msgstr "欄位已刪除"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/column/__init__.py:785
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/column/__init__.py:864
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/column/__init__.py:1002
 msgid "Could not find the column on the server."
-msgstr ""
+msgstr "在伺服器上找不到欄位"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/column/static/js/column.js:43
 msgid "Please provide input for variable."
-msgstr "請提供輸入變數"
+msgstr "請提供變數的輸入值"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/column/static/js/column.js:133
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/column/static/js/column.js:139
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/column/static/js/column.js:145
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/column/static/js/column.js:151
 msgid "Column..."
-msgstr "列..."
+msgstr "欄位..."
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/column/static/js/column.js:188
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/column/static/js/column.js:523
@@ -3141,11 +3141,11 @@ msgstr "主鍵?"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/column/static/js/column.js:349
 msgid "Inherited from table"
-msgstr "繼承自表"
+msgstr "繼承自資料表"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/column/static/js/column.js:500
 msgid "Not NULL?"
-msgstr "不為NULL"
+msgstr "不為 NULL"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/column/static/js/column.js:509
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/mview.js:163
@@ -3153,11 +3153,11 @@ msgstr "不為NULL"
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/mview.js:175
 #: pgadmin/misc/file_manager/__init__.py:127
 msgid "Storage"
-msgstr "存儲"
+msgstr "儲存"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/column/static/js/column.js:527
 msgid "Foreign key?"
-msgstr "外鍵"
+msgstr "外部鍵？"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/column/static/js/column.js:531
 msgid "Inherited?"
@@ -3168,64 +3168,64 @@ msgstr "繼承？"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.js:411
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.js:497
 msgid "Inherited from table(s)"
-msgstr "繼承自表"
+msgstr "繼承自資料表"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/column/static/js/column.js:546
 msgid "System column?"
-msgstr "系統列"
+msgstr "系統欄位？"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/column/static/js/column.js:587
 #, fuzzy
 msgid "Column name cannot be empty."
-msgstr "列名稱不能為空"
+msgstr "欄位名稱不能為空"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/column/static/js/column.js:594
 #, fuzzy
 msgid "Column type cannot be empty."
-msgstr "列類型不能為空"
+msgstr "欄位型別不能為空"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/column/static/js/column.js:605
 msgid "Length should not be less than: "
-msgstr "長度應不小於:"
+msgstr "長度應不小於："
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/column/static/js/column.js:607
 msgid "Length should not be greater than: "
-msgstr "長度應不大於:"
+msgstr "長度應不大於："
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/column/static/js/column.js:621
 msgid "Precision should not be less than: "
-msgstr "精度不應小於:"
+msgstr "精確度不應小於："
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/column/static/js/column.js:623
 msgid "Precision should not be greater than: "
-msgstr "精度應不大於:"
+msgstr "精確度應不大於："
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/check_constraint/__init__.py:50
 msgid "Check Constraints"
-msgstr "Check 約束"
+msgstr "檢查限制條件"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/check_constraint/__init__.py:326
 msgid "Could not find the check constraint."
-msgstr "找不到 check 約束。"
+msgstr "找不到限制條件。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/check_constraint/__init__.py:463
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/check_constraint/__init__.py:716
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/check_constraint/__init__.py:800
 #: pgadmin/browser/server_groups/servers/pgagent/__init__.py:444
 msgid "Could not find the object on the server."
-msgstr ""
+msgstr "在伺服器上找不到該物件。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/check_constraint/__init__.py:610
 msgid "The specified check constraint could not be found.\n"
-msgstr "找不到指定的 check 約束。 \n"
+msgstr "找不到指定的限制條件。 \n"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/check_constraint/__init__.py:626
 msgid "Check constraint dropped."
-msgstr ""
+msgstr "限制條件已移除"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/check_constraint/__init__.py:900
 msgid "Check constraint updated."
-msgstr "更新Check 約束"
+msgstr "更新限制條件"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/check_constraint/static/js/check_constraint.js:31
 msgid "Check..."
@@ -3233,7 +3233,7 @@ msgstr "檢查..."
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/check_constraint/static/js/check_constraint.js:37
 msgid "Validate check constraint"
-msgstr "校驗檢查約束"
+msgstr "查驗限制條件"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/check_constraint/static/js/check_constraint.js:133
 msgid "No Inherit?"
@@ -3241,22 +3241,22 @@ msgstr "沒有繼承嗎？"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/check_constraint/static/js/check_constraint.js:154
 msgid "Don't validate?"
-msgstr "不驗證麼?"
+msgstr "不查驗嗎?"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/exclusion_constraint/__init__.py:54
 msgid "Exclusion Constraints"
-msgstr "排他約束"
+msgstr "排他性限制條件"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/exclusion_constraint/__init__.py:287
 msgid "Could not find the exclusion constraint in the table."
-msgstr "在表中找不到排他約束"
+msgstr "在資料表中找不到排他性限制條件"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/exclusion_constraint/__init__.py:418
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/exclusion_constraint/__init__.py:801
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/exclusion_constraint/__init__.py:850
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/exclusion_constraint/__init__.py:938
 msgid "Could not find the exclusion constraint."
-msgstr "找不到排他約束。"
+msgstr "找不到排他性限制條件。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/exclusion_constraint/__init__.py:551
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/exclusion_constraint/__init__.py:559
@@ -3268,11 +3268,11 @@ msgstr "找不到所需的參數 (%s)"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/exclusion_constraint/__init__.py:709
 msgid "The specified exclusion constraint could not be found.\n"
-msgstr "找不到指定的排除約束。\n"
+msgstr "找不到指定的排除限制條件。\n"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/exclusion_constraint/__init__.py:727
 msgid "Exclusion constraint dropped."
-msgstr "排除約束被刪除"
+msgstr "排除限制條件被刪除"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/exclusion_constraint/static/js/exclusion_constraint.js:26
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/indexes/static/js/index.js:84
@@ -3301,11 +3301,11 @@ msgstr "請指定列的運算符:"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/exclusion_constraint/static/js/exclusion_constraint.js:607
 msgid "Exclusion constraint"
-msgstr "排除約束"
+msgstr "排除限制條件"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/exclusion_constraint/static/js/exclusion_constraint.js:629
 msgid "Exclusion constraint..."
-msgstr "排除約束..."
+msgstr "排除限制條件..."
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/exclusion_constraint/static/js/exclusion_constraint.js:676
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/index_constraint/static/js/primary_key.js:409
@@ -3358,16 +3358,16 @@ msgstr "延遲?"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/exclusion_constraint/static/js/exclusion_constraint.js:764
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/indexes/static/js/index.js:362
 msgid "Constraint"
-msgstr "約束"
+msgstr "限制條件"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/exclusion_constraint/static/js/exclusion_constraint.js:901
 #, fuzzy
 msgid "Please specify name for exclusion constraint."
-msgstr "請指定用於排除約束的列"
+msgstr "請指定用於排除限制條件的列"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/exclusion_constraint/static/js/exclusion_constraint.js:906
 msgid "Please specify columns for exclusion constraint."
-msgstr "請指定用於排除約束的列"
+msgstr "請指定用於排除限制條件的列"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/foreign_key/__init__.py:54
 msgid "Foreign Keys"
@@ -3375,7 +3375,7 @@ msgstr "外鍵"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/foreign_key/__init__.py:296
 msgid "Could not find the foreign key constraint in the table."
-msgstr "在表中找不到外鍵約束"
+msgstr "在表中找不到外鍵限制條件"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/foreign_key/__init__.py:426
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/foreign_key/__init__.py:851
@@ -3476,7 +3476,7 @@ msgstr "請指定覆蓋索引名稱"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/index_constraint/__init__.py:54
 msgid "index_constraint"
-msgstr "索引約束"
+msgstr "索引限制條件"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/index_constraint/__init__.py:113
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/partitions/static/js/partition.js:596
@@ -3488,11 +3488,11 @@ msgstr "主鍵"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/partitions/static/js/partition.js:659
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.js:691
 msgid "Unique Constraint"
-msgstr "唯一約束"
+msgstr "唯一限制條件"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/index_constraint/__init__.py:199
 msgid "Index constraint"
-msgstr "索引約束"
+msgstr "索引限制條件"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/index_constraint/__init__.py:308
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/index_constraint/__init__.py:428
@@ -3509,7 +3509,7 @@ msgstr "找不到至少一個必需的參數 (%s)"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/index_constraint/__init__.py:744
 msgid "The specified constraint could not be found.\n"
-msgstr "找不到指定的約束"
+msgstr "找不到指定的限制條件"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/index_constraint/__init__.py:762
 msgid "{0} dropped."
@@ -3529,7 +3529,7 @@ msgstr "主鍵"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/index_constraint/static/js/unique_constraint.js:11
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/index_constraint/static/js/unique_constraint.js:34
 msgid "Unique constraint"
-msgstr "唯一約束"
+msgstr "唯一限制條件"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/index_constraint/static/js/primary_key.js:233
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/index_constraint/static/js/unique_constraint.js:219
@@ -3780,7 +3780,7 @@ msgstr "外鍵"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/partitions/static/js/partition.js:649
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.js:681
 msgid "Check constraint"
-msgstr "Check 約束"
+msgstr "Check 限制條件"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/partitions/static/js/partition.js:663
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.js:695
@@ -3790,7 +3790,7 @@ msgstr "唯一"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/partitions/static/js/partition.js:686
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.js:718
 msgid "Exclude constraint"
-msgstr "排除約束"
+msgstr "排除限制條件"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/partitions/static/js/partition.js:690
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.js:722
@@ -3861,12 +3861,12 @@ msgstr "關系"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/partitions/static/js/partition.js:800
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.js:863
 msgid "With default values?"
-msgstr "使用默認值"
+msgstr "使用預設值"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/partitions/static/js/partition.js:804
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.js:867
 msgid "With constraints?"
-msgstr "擁有約束?"
+msgstr "擁有限制條件?"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/partitions/static/js/partition.js:808
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.js:871
@@ -4514,7 +4514,7 @@ msgstr "行觸發器麼？"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/triggers/static/js/trigger.js:246
 msgid "Constraint trigger?"
-msgstr "約束觸發嗎？"
+msgstr "限制條件觸發嗎？"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/triggers/static/js/trigger.js:315
 msgid "Trigger Function"
@@ -4622,7 +4622,7 @@ msgstr "成員名稱"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/types/static/js/type.js:99
 msgid "Length/precision"
-msgstr "長度/精度"
+msgstr "長度/精確度"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/types/static/js/type.js:129
 msgid "Scale"
@@ -4681,7 +4681,7 @@ msgstr "子類型"
 #: pgadmin/browser/server_groups/servers/databases/schemas/types/static/js/type.js:475
 #: pgadmin/browser/server_groups/servers/databases/schemas/types/static/js/type.js:509
 msgid "Range Type"
-msgstr "區域類型"
+msgstr "區 domain 類型"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/types/static/js/type.js:407
 #, fuzzy
@@ -4753,7 +4753,7 @@ msgstr "變數?"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/types/static/js/type.js:628
 msgid "Default?"
-msgstr "默認值"
+msgstr "預設值"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/types/static/js/type.js:633
 msgid "Analyze function"
@@ -4839,25 +4839,25 @@ msgstr "輸出函數不能為空。"
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/__init__.py:67
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/view.js:19
 msgid "Views"
-msgstr "視圖"
+msgstr "view"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/__init__.py:132
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/mview.js:18
 msgid "Materialized Views"
-msgstr "物化視圖"
+msgstr "materilized view"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/__init__.py:355
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/__init__.py:409
 msgid "Could not find the view."
-msgstr "找不到視圖"
+msgstr "找不到view"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/__init__.py:583
 msgid "The specified view could not be found.\n"
-msgstr "找不到指定的視圖"
+msgstr "找不到指定的view"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/__init__.py:602
 msgid "View dropped"
-msgstr "刪除視圖"
+msgstr "刪除view"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/__init__.py:673
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/__init__.py:1007
@@ -4873,25 +4873,25 @@ msgstr ""
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/__init__.py:1656
 msgid "Could not find the materialized view."
-msgstr "找不到物化視圖"
+msgstr "找不到materilized view"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/__init__.py:1723
 msgid "View refreshed"
-msgstr "視圖刷新"
+msgstr "view刷新"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/mview.js:42
 msgid "Materialized View"
-msgstr "物化視圖"
+msgstr "materilized view"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/mview.js:65
 msgid "Refresh View"
-msgstr "刷新視圖"
+msgstr "刷新view"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/mview.js:71
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/mview.js:77
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/mview.js:83
 msgid "Materialized View..."
-msgstr "物化視圖..."
+msgstr "materilized view..."
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/mview.js:87
 msgid "With data"
@@ -4925,7 +4925,7 @@ msgstr "填充因子"
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/mview.js:220
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/view.js:183
 msgid "Please enter view definition."
-msgstr "請輸入視圖定義"
+msgstr "請輸入view定義"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/mview.js:295
 msgid "View refreshed successfully"
@@ -4940,7 +4940,7 @@ msgstr ""
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/view.js:74
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/view.js:80
 msgid "View..."
-msgstr "視圖..."
+msgstr "view..."
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/view.js:127
 msgid "Security barrier"
@@ -6884,7 +6884,7 @@ msgstr "請輸入使用者'{0}'的密碼以連接伺服器 - '{1}'"
 #: pgadmin/dashboard/static/js/dashboard.js:644
 #: pgadmin/dashboard/static/js/dashboard.js:991
 msgid "Backend start"
-msgstr "Backend start"
+msgstr "伺服器端啓動時間"
 
 #: pgadmin/browser/server_groups/servers/templates/servers/sql/10_plus/stats.sql:15
 #: pgadmin/browser/server_groups/servers/templates/servers/sql/10_plus/stats.sql:41
@@ -6897,7 +6897,7 @@ msgstr "Backend start"
 #: pgadmin/dashboard/static/js/dashboard.js:639
 #: pgadmin/dashboard/static/js/dashboard.js:986
 msgid "Client"
-msgstr "Client"
+msgstr "用戶端"
 
 #: pgadmin/browser/server_groups/servers/templates/servers/sql/10_plus/stats.sql:16
 #: pgadmin/browser/server_groups/servers/templates/servers/sql/10_plus/stats.sql:42
@@ -6910,21 +6910,21 @@ msgstr "Client"
 #: pgadmin/dashboard/static/js/dashboard.js:634
 #: pgadmin/dashboard/static/js/dashboard.js:981
 msgid "Application"
-msgstr "Application"
+msgstr "應用程式"
 
 #: pgadmin/browser/server_groups/servers/templates/servers/sql/10_plus/stats.sql:17
 #: pgadmin/browser/server_groups/servers/templates/servers/sql/10_plus/stats.sql:43
 #: pgadmin/browser/server_groups/servers/templates/servers/sql/9.6_plus/stats.sql:17
 #: pgadmin/browser/server_groups/servers/templates/servers/sql/9.6_plus/stats.sql:43
 msgid "Wait event type"
-msgstr "Wait event type"
+msgstr "等待事件型別"
 
 #: pgadmin/browser/server_groups/servers/templates/servers/sql/10_plus/stats.sql:18
 #: pgadmin/browser/server_groups/servers/templates/servers/sql/10_plus/stats.sql:44
 #: pgadmin/browser/server_groups/servers/templates/servers/sql/9.6_plus/stats.sql:18
 #: pgadmin/browser/server_groups/servers/templates/servers/sql/9.6_plus/stats.sql:44
 msgid "Wait event name"
-msgstr "Wait event name"
+msgstr "等待事件名稱"
 
 #: pgadmin/browser/server_groups/servers/templates/servers/sql/10_plus/stats.sql:19
 #: pgadmin/browser/server_groups/servers/templates/servers/sql/10_plus/stats.sql:45
@@ -6935,7 +6935,7 @@ msgstr "Wait event name"
 #: pgadmin/browser/server_groups/servers/templates/servers/sql/default/stats.sql:18
 #: pgadmin/browser/server_groups/servers/templates/servers/sql/default/stats.sql:43
 msgid "Query"
-msgstr "Query"
+msgstr "查詢"
 
 #: pgadmin/browser/server_groups/servers/templates/servers/sql/10_plus/stats.sql:20
 #: pgadmin/browser/server_groups/servers/templates/servers/sql/10_plus/stats.sql:46
@@ -6946,7 +6946,7 @@ msgstr "Query"
 #: pgadmin/browser/server_groups/servers/templates/servers/sql/default/stats.sql:19
 #: pgadmin/browser/server_groups/servers/templates/servers/sql/default/stats.sql:44
 msgid "Query start"
-msgstr "Query start"
+msgstr "查詢開始"
 
 #: pgadmin/browser/server_groups/servers/templates/servers/sql/10_plus/stats.sql:21
 #: pgadmin/browser/server_groups/servers/templates/servers/sql/10_plus/stats.sql:47
@@ -6957,7 +6957,7 @@ msgstr "Query start"
 #: pgadmin/browser/server_groups/servers/templates/servers/sql/default/stats.sql:20
 #: pgadmin/browser/server_groups/servers/templates/servers/sql/default/stats.sql:45
 msgid "Xact start"
-msgstr "Xact start"
+msgstr "Xact 開始"
 
 #: pgadmin/browser/server_groups/servers/templates/servers/sql/10_plus/stats.sql:42
 #: pgadmin/browser/server_groups/servers/templates/servers/sql/9.2_plus/stats.sql:41
@@ -6973,20 +6973,20 @@ msgstr "Streaming Replication"
 #: pgadmin/dashboard/static/js/dashboard.js:658
 #: pgadmin/dashboard/static/js/dashboard.js:1005
 msgid "Waiting?"
-msgstr "Waiting?"
+msgstr "等待中?"
 
 #: pgadmin/browser/server_groups/static/js/server_group.js:11
 msgid "Server Group"
-msgstr "伺服器組"
+msgstr "伺服器群組"
 
 #: pgadmin/browser/server_groups/static/js/server_group.js:25
 msgid "Server Group..."
-msgstr "伺服器組..."
+msgstr "伺服器群組..."
 
 #: pgadmin/browser/static/js/browser.js:25
 #: pgadmin/misc/depends/static/js/depends.js:357
 msgid "Please select an object in the tree view."
-msgstr "請在樹視圖中選擇一個物件"
+msgstr "請在樹狀圖中選擇一個物件"
 
 #: pgadmin/browser/static/js/browser.js:156
 msgid "Dependencies"
@@ -7002,16 +7002,16 @@ msgstr "沒有選中的物件"
 
 #: pgadmin/browser/static/js/browser.js:710
 msgid "Preference loading failed."
-msgstr ""
+msgstr "偏好設定載入失敗。"
 
 #: pgadmin/browser/static/js/browser.js:1649
 msgid "Error retrieving details for the node."
-msgstr "檢索節點的詳細訊息時出錯"
+msgstr "取得節點的詳細訊息時出現錯錯。"
 
 #: pgadmin/browser/static/js/browser.js:2001
 #, python-format
 msgid "Are you sure you wish to close the %s browser?"
-msgstr ""
+msgstr "你確定要關閉 %s 瀏覽器？"
 
 #: pgadmin/browser/static/js/collection.js:35
 #: pgadmin/browser/static/js/node.js:92
@@ -7034,7 +7034,7 @@ msgstr "錯誤訊息。"
 
 #: pgadmin/browser/static/js/error.js:26
 msgid "Additional info"
-msgstr "附加訊息。"
+msgstr "額外訊息。"
 
 #: pgadmin/browser/static/js/node.js:100
 msgid "Properties..."
@@ -7402,32 +7402,29 @@ msgstr "Oid"
 
 #: pgadmin/dashboard/static/js/dashboard.js:649
 #: pgadmin/dashboard/static/js/dashboard.js:996
-#, fuzzy
 msgid "State"
-msgstr "已啟動"
+msgstr "狀態"
 
 #: pgadmin/dashboard/static/js/dashboard.js:666
 #: pgadmin/dashboard/static/js/dashboard.js:1013
-#, fuzzy
 msgid "Wait Event"
-msgstr "Wait event type"
+msgstr "等待事件"
 
 #: pgadmin/dashboard/static/js/dashboard.js:671
 #: pgadmin/dashboard/static/js/dashboard.js:1018
 msgid "Blocking PIDs"
-msgstr ""
+msgstr "阻擋中的 PID"
 
 #: pgadmin/dashboard/static/js/dashboard.js:728
 #: pgadmin/dashboard/static/js/dashboard.js:1069
-#, fuzzy
 msgid "Lock type"
-msgstr "源類型"
+msgstr "鎖定類型"
 
 #: pgadmin/dashboard/static/js/dashboard.js:733
 #: pgadmin/dashboard/static/js/dashboard.js:1074
 #, fuzzy
 msgid "Target relation"
-msgstr "相關性"
+msgstr "目標關連性"
 
 #: pgadmin/dashboard/static/js/dashboard.js:738
 #: pgadmin/dashboard/static/js/dashboard.js:1079
@@ -7436,9 +7433,8 @@ msgstr ""
 
 #: pgadmin/dashboard/static/js/dashboard.js:743
 #: pgadmin/dashboard/static/js/dashboard.js:1084
-#, fuzzy
 msgid "Tuple"
-msgstr "規則"
+msgstr ""
 
 #: pgadmin/dashboard/static/js/dashboard.js:748
 #: pgadmin/dashboard/static/js/dashboard.js:1089
@@ -7452,15 +7448,13 @@ msgstr ""
 
 #: pgadmin/dashboard/static/js/dashboard.js:758
 #: pgadmin/dashboard/static/js/dashboard.js:1099
-#, fuzzy
 msgid "Class"
-msgstr "任務類"
+msgstr ""
 
 #: pgadmin/dashboard/static/js/dashboard.js:763
 #: pgadmin/dashboard/static/js/dashboard.js:1104
-#, fuzzy
 msgid "Object ID"
-msgstr "物件檔案"
+msgstr "物件 ID"
 
 #: pgadmin/dashboard/static/js/dashboard.js:768
 #: pgadmin/dashboard/static/js/dashboard.js:1109
@@ -7469,41 +7463,35 @@ msgstr ""
 
 #: pgadmin/dashboard/static/js/dashboard.js:778
 #: pgadmin/dashboard/static/js/dashboard.js:1119
-#, fuzzy
 msgid "Granted?"
-msgstr "建立"
+msgstr "已授權？"
 
 #: pgadmin/dashboard/static/js/dashboard.js:800
 #: pgadmin/dashboard/static/js/dashboard.js:1136
-#, fuzzy
 msgid "XID"
-msgstr "Oid"
+msgstr ""
 
 #: pgadmin/dashboard/static/js/dashboard.js:805
 #: pgadmin/dashboard/static/js/dashboard.js:1141
-#, fuzzy
 msgid "Prepared at"
-msgstr "准備事務"
+msgstr ""
 
 #: pgadmin/dashboard/static/js/dashboard.js:817
-#, fuzzy
 msgid "Category"
-msgstr "類別類型"
+msgstr "類別"
 
 #: pgadmin/dashboard/static/js/dashboard.js:822
-#, fuzzy
 msgid "Setting"
-msgstr "存儲設置"
+msgstr "設定"
 
 #: pgadmin/dashboard/static/js/dashboard.js:827
-#, fuzzy
 msgid "Unit"
-msgstr "沒有標題"
+msgstr "單位"
 
 #: pgadmin/dashboard/static/js/dashboard.js:832
 #, fuzzy
 msgid "Description"
-msgstr "節數"
+msgstr "描述"
 
 #: pgadmin/dashboard/static/js/dashboard.js:1239
 msgid "cancel"
@@ -7577,12 +7565,12 @@ msgstr "連線"
 #: pgadmin/dashboard/templates/dashboard/database_dashboard.html:71
 #: pgadmin/dashboard/templates/dashboard/server_dashboard.html:71
 msgid "Locks"
-msgstr "鎖"
+msgstr "鎖定"
 
 #: pgadmin/dashboard/templates/dashboard/database_dashboard.html:74
 #: pgadmin/dashboard/templates/dashboard/server_dashboard.html:74
 msgid "Prepared Transactions"
-msgstr "准備事務"
+msgstr "預備交易"
 
 #: pgadmin/dashboard/templates/dashboard/database_dashboard.html:81
 #: pgadmin/dashboard/templates/dashboard/database_dashboard.html:88
@@ -7593,7 +7581,7 @@ msgstr "准備事務"
 #: pgadmin/dashboard/templates/dashboard/server_dashboard.html:105
 #: pgadmin/misc/file_manager/templates/file_manager/index.html:21
 msgid "Refresh"
-msgstr "刷新"
+msgstr "重新整理"
 
 #: pgadmin/dashboard/templates/dashboard/server_dashboard.html:5
 msgid "Server sessions"
@@ -7609,7 +7597,7 @@ msgstr "組態"
 
 #: pgadmin/dashboard/templates/dashboard/welcome_dashboard.html:5
 msgid "Welcome"
-msgstr ""
+msgstr "歡迎"
 
 #: pgadmin/dashboard/templates/dashboard/welcome_dashboard.html:10
 msgid "Feature rich"
@@ -7617,7 +7605,7 @@ msgstr "功能超多"
 
 #: pgadmin/dashboard/templates/dashboard/welcome_dashboard.html:10
 msgid "Maximises PostgreSQL"
-msgstr "PostgreSQL 的最佳助手"
+msgstr "PostgreSQL 的最佳助理"
 
 #: pgadmin/dashboard/templates/dashboard/welcome_dashboard.html:10
 msgid "Open Source"
@@ -7632,12 +7620,9 @@ msgid ""
 "administrators alike."
 msgstr ""
 "pgAdmin 是開源的 PostgreSQL 管理工具。"
-"它以圖型化介面提供 SQL 查詢器、Stored procedure 除錯工具、及其他更多功能。"
+"它以圖型化介面提供 SQL 查詢器、Stored procedure 除錯工具、還有更多方便好用的功能。"
 "這些工具是為開發者、資料庫管理者、以及系統管理者所設計的。<br/>"
 "台灣中文介面由<a href='http://postgresql.tw' target='_blank'>台灣 PostgreSQL 使用者社群</a>編譯而成。<br/>"
-"<li><a href='http://docs.postgresql.tw'>正體中文使用手冊</li>"
-"<li><a href='http://www.facebook.com/pgsqlTaiwan/'>Facebook 粉絲專頁 (@pgsqlTaiwan)</li>"
-"<li><a href='http://www.facebook.com/groups/pgsql.tw'>Facebook 社團</li>"
 
 #: pgadmin/dashboard/templates/dashboard/welcome_dashboard.html:20
 msgid "Quick Links"
@@ -7653,16 +7638,16 @@ msgstr "設定 pgAdmin"
 
 #: pgadmin/dashboard/templates/dashboard/welcome_dashboard.html:45
 msgid "Getting Started"
-msgstr "開始瞭解 PostgreSQL"
+msgstr "PostgreSQL 相關資訊"
 
 #: pgadmin/dashboard/templates/dashboard/welcome_dashboard.html:52
 msgid "PostgreSQL Documentation"
-msgstr "PostgreSQL 文件"
+msgstr "PostgreSQL 官方使用手冊"
 
 #: pgadmin/dashboard/templates/dashboard/welcome_dashboard.html:58
 #: pgadmin/help/__init__.py:35
 msgid "pgAdmin Website"
-msgstr "pgAdmin 首頁"
+msgstr "pgAdmin 官方首頁"
 
 #: pgadmin/dashboard/templates/dashboard/welcome_dashboard.html:64
 msgid "Planet PostgreSQL"
@@ -8049,7 +8034,7 @@ msgstr "沒有選擇類別"
 
 #: pgadmin/settings/__init__.py:43
 msgid "Reset Layout"
-msgstr "介面重新整理"
+msgstr "重新整理介面"
 
 #: pgadmin/settings/__init__.py:80 pgadmin/tools/backup/__init__.py:200
 #: pgadmin/tools/debugger/__init__.py:97
@@ -8069,7 +8054,7 @@ msgstr "介面重新整理"
 msgid ""
 "Are you sure you want to reset the current layout? This will cause the "
 "application to reload and any un-saved data will be lost."
-msgstr "你確定要重置目前的介面？重新載入程式將會遺失未儲存的資料。"
+msgstr "你確定要重置目前的介面？這會重新載入程式，未儲存的資料將會遺失。"
 
 #: pgadmin/static/js/alertify.pgadmin.defaults.js:92
 msgid "Connection Lost"
@@ -8750,7 +8735,7 @@ msgstr "成本"
 
 #: pgadmin/tools/datagrid/templates/datagrid/index.html:232
 msgid "Buffers"
-msgstr "緩沖區"
+msgstr "緩衝區"
 
 #: pgadmin/tools/datagrid/templates/datagrid/index.html:238
 msgid "Timing"
@@ -8759,12 +8744,12 @@ msgstr "計時"
 #: pgadmin/tools/datagrid/templates/datagrid/index.html:247
 #: pgadmin/tools/sqleditor/__init__.py:163
 msgid "Auto commit?"
-msgstr "自動提交麼?"
+msgstr "自動提交(commit)嗎？"
 
 #: pgadmin/tools/datagrid/templates/datagrid/index.html:253
 #: pgadmin/tools/sqleditor/__init__.py:169
 msgid "Auto rollback?"
-msgstr "自動回滾麼?"
+msgstr "自動回復交易(rollback)嗎？"
 
 #: pgadmin/tools/datagrid/templates/datagrid/index.html:257
 msgid "Cancel query"
@@ -8776,11 +8761,11 @@ msgstr ""
 
 #: pgadmin/tools/datagrid/templates/datagrid/index.html:272
 msgid "Clear Query Window"
-msgstr "清除查詢窗口"
+msgstr "清除查詢視窗"
 
 #: pgadmin/tools/datagrid/templates/datagrid/index.html:275
 msgid "Clear History"
-msgstr "清除曆史記錄"
+msgstr "清除歷史記錄"
 
 #: pgadmin/tools/datagrid/templates/datagrid/index.html:282
 msgid "Download as CSV (F8)"
@@ -8789,7 +8774,7 @@ msgstr "以CSV 下載 (F8)"
 #: pgadmin/tools/datagrid/templates/datagrid/index.html:299
 #: pgadmin/tools/datagrid/templates/datagrid/index.html:300
 msgid "Apply"
-msgstr "應用"
+msgstr "套用"
 
 #: pgadmin/tools/datagrid/templates/datagrid/index.html:362
 #, python-format
@@ -8799,7 +8784,7 @@ msgstr "讀取 SQL 腳本出錯︰ \"%s\""
 #: pgadmin/tools/debugger/__init__.py:46
 #: pgadmin/tools/debugger/static/js/debugger.js:90
 msgid "Debugger"
-msgstr "調試器"
+msgstr "除錯器"
 
 #: pgadmin/tools/debugger/__init__.py:66
 #: pgadmin/tools/sqleditor/__init__.py:131
@@ -8834,7 +8819,7 @@ msgstr "在資料庫中，找不到 pldbgapi 延伸套件"
 msgid ""
 "The debugger plugin is not enabled. Please create the pldbgapi extension "
 "in this database."
-msgstr "調試器插件未啟用。 請在此資料庫中建立pldbgapi擴展。"
+msgstr "調試器插件未啟用。 請在此資料庫中建立pldbgapi延伸套件。"
 
 #: pgadmin/tools/debugger/__init__.py:254
 msgid "The function/procedure cannot be debugged"
@@ -9222,12 +9207,12 @@ msgstr "導入/導出"
 #: pgadmin/tools/import_export/__init__.py:115
 #, fuzzy
 msgid "Copying table data '{0}.{1}' on database '{2}' and server ({3}:{4})..."
-msgstr "複制表數據-'{0}.{1}' 在資料庫 '{2}' 和伺服器 ({3} {4})上."
+msgstr "複製表數據-'{0}.{1}' 在資料庫 '{2}' 和伺服器 ({3} {4})上."
 
 #: pgadmin/tools/import_export/__init__.py:129
 #, fuzzy
 msgid "Copying table data '{0}.{1}' on database '{2}' for the server '{3}'..."
-msgstr "複制表數據 '{0}.{1}' 資料庫 '{2}' 到伺服器-'{3}'"
+msgstr "複製表數據 '{0}.{1}' 資料庫 '{2}' 到伺服器-'{3}'"
 
 #: pgadmin/tools/import_export/__init__.py:220
 #: pgadmin/tools/maintenance/__init__.py:203
@@ -9274,7 +9259,7 @@ msgstr "導入列..."
 msgid ""
 "An optional list of columns to be copied. If no column list is specified,"
 " all columns of the table will be copied."
-msgstr "要複制的列的可選列表。 如果未指定列列表，則將複制表的所有列。"
+msgstr "要複製的列的可選列表。 如果未指定列列表，則將複製表的所有列。"
 
 #: pgadmin/tools/import_export/static/js/import_export.js:130
 msgid "Columns to export"
@@ -9313,7 +9298,7 @@ msgid ""
 " will be read as zero-length strings rather than nulls, even when they "
 "are not quoted. This option is allowed only in import, and only when "
 "using CSV format."
-msgstr "不要將指定的列值與空字符串匹配。在默認情況下，空字符串為空，這意味著空值將被讀取為零長度字符串，而不是null他們沒有引用。此選項僅在導入時允許，且僅當使用CSV格式時才允許。"
+msgstr "不要將指定的列值與空字符串匹配。在預設情況下，空字符串為空，這意味著空值將被讀取為零長度字符串，而不是null他們沒有引用。此選項僅在導入時允許，且僅當使用CSV格式時才允許。"
 
 #: pgadmin/tools/import_export/static/js/import_export.js:203
 #: pgadmin/tools/import_export/static/js/import_export.js:218
@@ -9328,7 +9313,7 @@ msgid ""
 "the file. The default is a tab character in text format, a comma in CSV "
 "format. This must be a single one-byte character. This option is not "
 "allowed when using binary format."
-msgstr "指定用於分隔檔案每行（行）中的列的字符。默認值為文本格式的制表符，CSV格式的逗號。它必須是一個單字節字符。使用二進制格式時，不允許使用此選項。"
+msgstr "指定用於分隔檔案每行（行）中的列的字符。預設值為文本格式的制表符，CSV格式的逗號。它必須是一個單字節字符。使用二進制格式時，不允許使用此選項。"
 
 #: pgadmin/tools/import_export/static/js/import_export.js:208
 msgid "Quote"
@@ -9339,7 +9324,7 @@ msgid ""
 "Specifies the quoting character to be used when a data value is quoted. "
 "The default is double-quote. This must be a single one-byte character. "
 "This option is allowed only when using CSV format."
-msgstr "指定在引用數據值時要使用的引號字符。默認值為雙引號。 它必須是一個單字節字符。 此選項僅在使用CSV格式時允許。"
+msgstr "指定在引用數據值時要使用的引號字符。預設值為雙引號。 它必須是一個單字節字符。 此選項僅在使用CSV格式時允許。"
 
 #: pgadmin/tools/import_export/static/js/import_export.js:223
 msgid "Escape"
@@ -9353,7 +9338,7 @@ msgid ""
 "must be a single one-byte character. This option is allowed only when "
 "using CSV format."
 msgstr ""
-"指定應在與QUOTE值匹配的數據字符之前出現的字符。默認值與QUOTE值相同（以便在數據中出現時，引號字符加倍）。它必須是一個單字節字符。 "
+"指定應在與QUOTE值匹配的數據字符之前出現的字符。預設值與QUOTE值相同（以便在數據中出現時，引號字符加倍）。它必須是一個單字節字符。 "
 "僅當使用CSV格式時，才允許使用此選項。"
 
 #: pgadmin/tools/import_export/static/js/import_export.js:294
@@ -9584,24 +9569,24 @@ msgstr "詳細輸出?"
 #: pgadmin/tools/sqleditor/__init__.py:158
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:200
 msgid "Explain"
-msgstr "解釋"
+msgstr "解析(Explain)"
 
 #: pgadmin/tools/sqleditor/__init__.py:145
 msgid "Show costs?"
-msgstr "顯示代價訊息？"
+msgstr "顯示成本資訊？"
 
 #: pgadmin/tools/sqleditor/__init__.py:151
 msgid "Show buffers?"
-msgstr "顯示的緩沖區訊息？"
+msgstr "顯示的緩衝區資訊？"
 
 #: pgadmin/tools/sqleditor/__init__.py:157
 #, fuzzy
 msgid "Show timing?"
-msgstr "顯示時間訊息"
+msgstr "顯示時間資訊"
 
 #: pgadmin/tools/sqleditor/__init__.py:175
 msgid "Font size"
-msgstr "字體大小"
+msgstr "字型大小"
 
 #: pgadmin/tools/sqleditor/__init__.py:179
 #, fuzzy
@@ -9612,7 +9597,7 @@ msgid ""
 " 1.2, or to reduce by 20 percent, use a value of 0.8. Minimum 0.1, "
 "maximum 10."
 msgstr ""
-"用於SQL文本框和編輯器的字體大小。 指定的值以\"em\"為單位，其中1是默認的相對字體大小。 例如，要將字體大小增加20% "
+"用於SQL文本框和編輯器的字體大小。 指定的值以\"em\"為單位，其中1是預設的相對字體大小。 例如，要將字體大小增加20% "
 "，請使用值1.2，或者減少 20% ，使用值0.8。 最小0.1，最大10。"
 
 #: pgadmin/tools/sqleditor/__init__.py:190
@@ -9636,7 +9621,7 @@ msgstr ""
 #: pgadmin/tools/sqleditor/__init__.py:211
 #, fuzzy
 msgid "Line wrapping?"
-msgstr "使用者映射"
+msgstr "使用者對應"
 
 #: pgadmin/tools/sqleditor/__init__.py:213
 msgid "Specifies whether or not to wrap SQL code in the editor."
@@ -9735,11 +9720,11 @@ msgstr "該物件沒有找到主鍵，所以無法保存記錄"
 
 #: pgadmin/tools/sqleditor/__init__.py:1658
 msgid "File type not supported"
-msgstr "不支持的檔案類型"
+msgstr "不支援的檔案類型"
 
 #: pgadmin/tools/sqleditor/__init__.py:1810
 msgid "Transaction status check failed."
-msgstr "事務狀態檢查失敗"
+msgstr "事務交易狀態檢查失敗"
 
 #: pgadmin/tools/sqleditor/command.py:70
 msgid "This feature has not been implemented for object type '{0}'."
@@ -9747,65 +9732,65 @@ msgstr ""
 
 #: pgadmin/tools/sqleditor/command.py:245
 msgid "Filter string is empty."
-msgstr "篩選字符串為空"
+msgstr "篩選字串為空"
 
 #: pgadmin/tools/sqleditor/command.py:321
 msgid "Data cannot be saved for the current object."
-msgstr "目前物件的數據不能保存"
+msgstr "目前物件的資料不能保存"
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:190
 msgid "Data Output"
-msgstr "數據輸出"
+msgstr "資料輸出"
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:220
 msgid "Query History"
-msgstr ""
+msgstr "查詢歷史"
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:254
 msgid "The data has changed. Do you want to save changes?"
-msgstr ""
+msgstr "資料有所變更，你要儲存這些變更嗎？"
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:258
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:417
 msgid "The text has changed. Do you want to save changes?"
-msgstr ""
+msgstr "文字有所變更，你要儲存這些變更嗎？"
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:429
 msgid "Don't save"
-msgstr ""
+msgstr "不要儲存"
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:465
 msgid "Save changes?"
-msgstr ""
+msgstr "儲存變更？"
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:981
 msgid "Fetching all records..."
-msgstr ""
+msgstr "取得所有資料..."
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:1404
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:1686
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:2593
 msgid "Unsaved changes"
-msgstr "未保存的更改"
+msgstr "未儲存的變更"
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:1405
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:2594
 msgid "Are you sure you wish to discard the current changes?"
-msgstr "是否確實要放棄目前更改？"
+msgstr "是否確定要放棄目前的變更？"
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:1429
 msgid "Clear history"
-msgstr "清除曆史記錄"
+msgstr "清除歷史記錄"
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:1430
 msgid "Are you sure you wish to clear the history?"
-msgstr "是否確實要清除曆史記錄？"
+msgstr "是否確定要清除歷史記錄？"
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:1687
 msgid ""
 "The data has been modified, but not saved. Are you sure you wish to "
 "discard the changes?"
-msgstr "數據已修改，但未保存。 確定要放棄更改嗎?"
+msgstr "資料已修改，但未儲存。 確定要放棄變更嗎?"
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:1717
 msgid "Initializing query execution."
@@ -9819,26 +9804,26 @@ msgstr "等待查詢執行完成..."
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:1810
 #, python-format
 msgid "Query returned successfully in %s."
-msgstr "耗時%s 成功返回查詢"
+msgstr "成功查詢，耗時 %s。"
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:1846
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:1957
 msgid "Loading data from the database server and rendering..."
-msgstr "從資料庫伺服器載入數據並渲染.."
+msgstr "從資料庫伺服器載入資料並排版.."
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:1963
 #, python-format
 msgid "Successfully run. Total query runtime: %s."
-msgstr ""
+msgstr "成功執行。全部查詢執行的時間： %s。"
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:1964
 #, python-format
 msgid "%s rows affected."
-msgstr ""
+msgstr "更新 %s 筆資料列"
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:2304
 msgid "Row(s) deleted."
-msgstr ""
+msgstr "資料列已刪除"
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:2308
 msgid "Operation failed"
@@ -9848,19 +9833,19 @@ msgstr "操作失敗"
 msgid ""
 "There are unsaved changes in the grid. Please save them first to avoid "
 "data inconsistencies."
-msgstr ""
+msgstr "在表格中有一些未儲存的變更。請先儲存，以免導致資料的不一致。"
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:2314
 msgid "Are you sure you wish to delete selected row(s)?"
-msgstr "是否確實要刪除選定的行？"
+msgstr "是否確實要刪除選定的資料列？"
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:2375
 msgid "Saving the updated data..."
-msgstr "保存更新後的數據..."
+msgstr "保存更新後的資料..."
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:2462
 msgid "Data saved successfully."
-msgstr ""
+msgstr "資料成功儲存"
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:2467
 #, python-format
@@ -10462,7 +10447,7 @@ msgstr "找不到指定的資料庫"
 #~ msgstr "錯誤"
 
 #~ msgid "Oops, unable to copy to clipboard"
-#~ msgstr "哎呀，不能複制到剪貼板"
+#~ msgstr "哎呀，不能複製到剪貼板"
 
 #~ msgid "Column Name can not be empty!"
 #~ msgstr "列名稱不能為空!"
@@ -10558,10 +10543,10 @@ msgstr "找不到指定的資料庫"
 #~ msgstr "枚舉類型要求至少一個標籤。"
 
 #~ msgid "Length/precision should not be less than "
-#~ msgstr "長度/精度不應低於"
+#~ msgstr "長度/精確度不應低於"
 
 #~ msgid "Length/precision should not be greater than "
-#~ msgstr "長度/精度不應大於"
+#~ msgstr "長度/精確度不應大於"
 
 #~ msgid "Scale should not be less than "
 #~ msgstr "規模不應小於"
@@ -10597,7 +10582,7 @@ msgstr "找不到指定的資料庫"
 #~ msgstr "報錯，載入腳本-"
 
 #~ msgid "Are you sure you wish to close the %(appname)s browser?"
-#~ msgstr "是否確實要清除曆史記錄？"
+#~ msgstr "是否確實要清除歷史記錄？"
 
 #~ msgid "'%s' must be an integer."
 #~ msgstr "'%s'必須是一個整數"
@@ -10630,7 +10615,7 @@ msgstr "找不到指定的資料庫"
 #~ msgstr ""
 
 #~ msgid "Copy Row"
-#~ msgstr "複制行"
+#~ msgstr "複製行"
 
 #~ msgid "Clear query window"
 #~ msgstr "清除查詢窗口"
@@ -10645,7 +10630,7 @@ msgstr "找不到指定的資料庫"
 #~ msgstr "查看最後 100 行"
 
 #~ msgid "View Filtered Rows..."
-#~ msgstr "視圖篩選行..."
+#~ msgstr "view篩選行..."
 
 #~ msgid "View Data"
 #~ msgstr "查看數據"
@@ -10660,7 +10645,7 @@ msgstr "找不到指定的資料庫"
 #~ msgstr ""
 
 #~ msgid "History"
-#~ msgstr "曆史"
+#~ msgstr "歷史"
 
 #~ msgid "Total query runtime: %s."
 #~ msgstr "總查詢運行時: %s."
@@ -10681,7 +10666,7 @@ msgstr "找不到指定的資料庫"
 #~ msgstr ""
 
 #~ msgid "Couldnot find the foreign data wrapper information."
-#~ msgstr "無法找到外部數據包裝訊息"
+#~ msgstr "無法找到外部資料封裝(FDW)訊息"
 
 #~ msgid "Handler Function cannot be empty"
 #~ msgstr "處理函數不能為空"
@@ -10696,7 +10681,7 @@ msgstr "找不到指定的資料庫"
 #~ msgstr "安全標籤"
 
 #~ msgid "Check Constraint dropped."
-#~ msgstr "Check 約束被刪除"
+#~ msgstr "Check 限制條件被刪除"
 
 #~ msgid "Are you sure you want to reset the statistics for table %s?"
 #~ msgstr "你確實要重置表 %s的統計訊息？"
@@ -10759,13 +10744,13 @@ msgstr "找不到指定的資料庫"
 #~ msgstr "列名稱不能為空"
 
 #~ msgid "Column Datatype cannot be empty!"
-#~ msgstr "列數據類型不能為空!"
+#~ msgstr "列資料型別不能為空!"
 
 #~ msgid "Constraint Name cannot be empty!"
-#~ msgstr "約束名稱不能為空！"
+#~ msgstr "限制條件名稱不能為空！"
 
 #~ msgid "Constraint Check cannot be empty!"
-#~ msgstr "約束檢查不能為空！"
+#~ msgstr "限制條件檢查不能為空！"
 
 #~ msgid "Token cannot be empty!"
 #~ msgstr "標記不能為空!"
@@ -10777,7 +10762,7 @@ msgstr "找不到指定的資料庫"
 #~ msgstr "必須指定名稱!"
 
 #~ msgid "Select parser or configuration to copy!"
-#~ msgstr "選擇分析器或複制組態！"
+#~ msgstr "選擇分析器或複製組態！"
 
 #~ msgid "Schema must be selected!"
 #~ msgstr "模式必須選擇!"
@@ -10825,7 +10810,7 @@ msgstr "找不到指定的資料庫"
 #~ msgstr ""
 
 #~ msgid "Constraint?"
-#~ msgstr "約束麼?"
+#~ msgstr "限制條件麼?"
 
 #~ msgid ""
 #~ "Schedules are specified using a <b"

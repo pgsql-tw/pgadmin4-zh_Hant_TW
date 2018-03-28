@@ -3261,7 +3261,6 @@ msgstr "找不到排他性限制條件。"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/exclusion_constraint/__init__.py:559
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/foreign_key/__init__.py:568
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/foreign_key/__init__.py:576
-, python-format
 msgid "Could not find required parameter (%s)."
 msgstr "找不到所需的參數 (%s)"
 
@@ -3459,7 +3458,7 @@ msgstr "在更新時"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/foreign_key/static/js/foreign_key.js:999
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/foreign_key/static/js/foreign_key.js:1019
 msgid "Action"
-msgstr "行動"
+msgstr "執行"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/foreign_key/static/js/foreign_key.js:1018
 msgid "On delete"
@@ -3467,7 +3466,7 @@ msgstr "在刪除時"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/foreign_key/static/js/foreign_key.js:1044
 msgid "Please specify columns for Foreign key."
-msgstr "請為外鍵指定列"
+msgstr "請為外部鍵指定欄位"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/foreign_key/static/js/foreign_key.js:1053
 msgid "Please specify covering index name."
@@ -3499,12 +3498,11 @@ msgstr "索引限制條件"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/index_constraint/__init__.py:906
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/index_constraint/__init__.py:983
 msgid "Could not find the {} in the table."
-msgstr "在表中找不到 {} "
+msgstr "在資料表中找不到 {} "
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/index_constraint/__init__.py:575
-, python-format
 msgid "Could not find at least one required parameter (%s)."
-msgstr "找不到至少一個必需的參數 (%s)"
+msgstr "無法取得任何一個必須的參數 (%s)"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/index_constraint/__init__.py:744
 msgid "The specified constraint could not be found.\n"
@@ -7244,7 +7242,7 @@ msgstr "你目前執行的版本為{1}.{0}，但目前版本為{2}。"
 msgid ""
 "Please click <a class=\"alert-link\" href=\"{0}\" "
 "target=\"_new\">here</a> for more information."
-msgstr ""
+msgstr "請點選<a class='alter-link' href='{0}' target='_new'>這裡</a>，取得更多資訊。"
 
 #: pgadmin/dashboard/__init__.py:57
 msgid "Dashboard"
@@ -7256,7 +7254,7 @@ msgstr "儀表板"
 
 #: pgadmin/dashboard/__init__.py:78
 msgid "Session statistics refresh rate"
-msgstr "連線統計刷新率"
+msgstr "連線統計更新率"
 
 #: pgadmin/dashboard/__init__.py:80 pgadmin/dashboard/__init__.py:88
 #: pgadmin/dashboard/__init__.py:96 pgadmin/dashboard/__init__.py:104
@@ -7268,128 +7266,128 @@ msgstr "圖表"
 #: pgadmin/dashboard/__init__.py:97 pgadmin/dashboard/__init__.py:105
 #: pgadmin/dashboard/__init__.py:113
 msgid "The number of seconds between graph samples."
-msgstr "圖表采樣間隔的秒數"
+msgstr "圖表取樣間隔的秒數"
 
 #: pgadmin/dashboard/__init__.py:86
 msgid "Transaction throughput refresh rate"
-msgstr "事務吞吐量刷新率"
+msgstr "交易事務處理量更新率"
 
 #: pgadmin/dashboard/__init__.py:94
 msgid "Tuples in refresh rate"
-msgstr "元組插入刷新率"
+msgstr "Tuple 寫入更新率"
 
 #: pgadmin/dashboard/__init__.py:102
 msgid "Tuples out refresh rate"
-msgstr "元組讀取刷新率"
+msgstr "Tuple 讀取更新率"
 
 #: pgadmin/dashboard/__init__.py:110
 msgid "Block I/O statistics refresh rate"
-msgstr "數據塊 I/O 統計刷新率"
+msgstr "資料 I/O 統計更新率"
 
 #: pgadmin/dashboard/__init__.py:177 pgadmin/dashboard/__init__.py:192
 #: pgadmin/dashboard/static/js/dashboard.js:550
 msgid "Please connect to the selected server to view the table."
-msgstr "請連接到所選的伺服器，以便查看表"
+msgstr "請選擇伺服器，以便查看表"
 
 #: pgadmin/dashboard/__init__.py:182 pgadmin/dashboard/__init__.py:197
 #: pgadmin/dashboard/static/js/dashboard.js:425
 msgid "Please connect to the selected server to view the graph."
-msgstr "請連接到所選的伺服器，以便查看圖表"
+msgstr "請選擇伺服器連線，以便查看圖表"
 
 #: pgadmin/dashboard/__init__.py:207
 
 msgid "Please connect to the selected database to view the table."
-msgstr "請連接到所選的伺服器，以便查看表"
+msgstr "請選擇資料庫連線，以便查看資料表"
 
 #: pgadmin/dashboard/__init__.py:212
 
 msgid "Please connect to the selected database to view the graph."
-msgstr "請連接到所選的伺服器，以便查看圖表"
+msgstr "請選擇資料庫連線，以便查看圖表"
 
 #: pgadmin/dashboard/__init__.py:487 pgadmin/dashboard/__init__.py:513
 msgid "Failed"
-msgstr ""
+msgstr "作業失敗"
 
 #: pgadmin/dashboard/static/js/dashboard.js:35
 msgid "Cancel the active query"
-msgstr ""
+msgstr "取消目前的查詢"
 
 #: pgadmin/dashboard/static/js/dashboard.js:41
 msgid "Terminate the session"
-msgstr ""
+msgstr "中止連線"
 
 #: pgadmin/dashboard/static/js/dashboard.js:72
 msgid "Cancel Active Query?"
-msgstr ""
+msgstr "要取消目前的查詢嗎？"
 
 #: pgadmin/dashboard/static/js/dashboard.js:73
 msgid "Are you sure you wish to cancel the active query?"
-msgstr ""
+msgstr "你想要取消目前的查詢？"
 
 #: pgadmin/dashboard/static/js/dashboard.js:74
 msgid "Active query cancelled successfully."
-msgstr ""
+msgstr "目前的查詢已經完成取消"
 
 #: pgadmin/dashboard/static/js/dashboard.js:75
 msgid "An error occurred whilst cancelling the active query."
-msgstr ""
+msgstr "在取消目前查詢時發生錯誤"
 
 #: pgadmin/dashboard/static/js/dashboard.js:78
 msgid "Terminate Session?"
-msgstr ""
+msgstr "中止連線？"
 
 #: pgadmin/dashboard/static/js/dashboard.js:79
 msgid "Are you sure you wish to terminate the session?"
-msgstr ""
+msgstr "你確定要中止這個連線？"
 
 #: pgadmin/dashboard/static/js/dashboard.js:80
 msgid "Session terminated successfully."
-msgstr ""
+msgstr "連線完成中止"
 
 #: pgadmin/dashboard/static/js/dashboard.js:81
 msgid "An error occurred whilst terminating the active query."
-msgstr ""
+msgstr "在中止目前查詢時發生錯誤"
 
 #: pgadmin/dashboard/static/js/dashboard.js:142
 msgid "View the active session details"
-msgstr ""
+msgstr "檢視連線詳細資訊"
 
 #: pgadmin/dashboard/static/js/dashboard.js:158
 msgid "Backend type"
-msgstr ""
+msgstr "後端類別"
 
 #: pgadmin/dashboard/static/js/dashboard.js:160
 #: pgadmin/dashboard/static/js/dashboard.js:167
 #: pgadmin/dashboard/static/js/dashboard.js:171
 #: pgadmin/dashboard/static/js/dashboard.js:176
 msgid "Details"
-msgstr ""
+msgstr "詳細資訊"
 
 #: pgadmin/dashboard/static/js/dashboard.js:165
 msgid "Query started at"
-msgstr ""
+msgstr "查詢起啓時間"
 
 #: pgadmin/dashboard/static/js/dashboard.js:169
 msgid "Last state changed at"
-msgstr ""
+msgstr "前次更新時間"
 
 #: pgadmin/dashboard/static/js/dashboard.js:214
 #: pgadmin/dashboard/static/js/dashboard.js:304
 msgid "An error occurred whilst loading the dashboard."
-msgstr ""
+msgstr "載入儀表板時發生錯誤"
 
 #: pgadmin/dashboard/static/js/dashboard.js:315
 msgid "Please connect to the selected server to view the dashboard."
-msgstr ""
+msgstr "請選擇伺服器進行連線，以顯示儀表板"
 
 #: pgadmin/dashboard/static/js/dashboard.js:429
 msgid "An error occurred whilst rendering the graph."
-msgstr ""
+msgstr "繪製圖型時發生錯誤"
 
 #: pgadmin/dashboard/static/js/dashboard.js:554
 
 msgid "An error occurred whilst rendering the table."
-msgstr "獲取查詢工具選項時發生錯誤"
+msgstr "在輸出資料表時發生錯誤"
 
 #: pgadmin/dashboard/static/js/dashboard.js:619
 #: pgadmin/dashboard/static/js/dashboard.js:718
@@ -7397,7 +7395,7 @@ msgstr "獲取查詢工具選項時發生錯誤"
 #: pgadmin/dashboard/static/js/dashboard.js:1064
 
 msgid "PID"
-msgstr "Oid"
+msgstr ""
 
 #: pgadmin/dashboard/static/js/dashboard.js:649
 #: pgadmin/dashboard/static/js/dashboard.js:996
@@ -7622,6 +7620,7 @@ msgstr ""
 "它以圖型化介面提供 SQL 查詢器、Stored procedure 除錯工具、還有更多方便好用的功能。"
 "這些工具是為開發者、資料庫管理者、以及系統管理者所設計的。<br/>"
 "台灣中文介面由<a href='http://postgresql.tw' target='_blank'>台灣 PostgreSQL 使用者社群</a>編譯而成。<br/>"
+"Github 專案：<a href='http://github.com/pgsql-tw/pgadmin4-zh_Hant_TW' target='_blank'>pgadmin4-zh_Hant_TW</a>，歡迎參與協作。<br/>"
 
 #: pgadmin/dashboard/templates/dashboard/welcome_dashboard.html:20
 msgid "Quick Links"
@@ -7629,7 +7628,7 @@ msgstr "快速連結"
 
 #: pgadmin/dashboard/templates/dashboard/welcome_dashboard.html:27
 msgid "Add New Server"
-msgstr "增加新的伺服器"
+msgstr "加入新伺服器"
 
 #: pgadmin/dashboard/templates/dashboard/welcome_dashboard.html:34
 msgid "Configure pgAdmin"

@@ -2834,7 +2834,7 @@ msgstr "塊命中"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/catalog.js:21
 msgid "Catalog"
-msgstr "元數據"
+msgstr "元資料"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/schema.js:130
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/schema.js:195
@@ -3335,7 +3335,7 @@ msgstr "改變存取方法將清除列集合"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/partitions/static/js/partition.js:759
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.js:805
 msgid "Fill factor"
-msgstr "填充因子"
+msgstr "Fill factor"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/exclusion_constraint/static/js/exclusion_constraint.js:734
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/foreign_key/static/js/foreign_key.js:727
@@ -3593,27 +3593,27 @@ msgstr "存取方法"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/indexes/static/js/index.js:339
 msgid "Unique?"
-msgstr "唯一？"
+msgstr "是否唯一？"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/indexes/static/js/index.js:343
 msgid "Clustered?"
-msgstr "集群?"
+msgstr "是否為叢集？"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/indexes/static/js/index.js:347
 msgid "Valid?"
-msgstr "有效麼?"
+msgstr "是否有效？"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/indexes/static/js/index.js:351
 msgid "Primary?"
-msgstr "主鍵?"
+msgstr "是否為主鍵?"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/indexes/static/js/index.js:355
 msgid "System index?"
-msgstr "系統索引？"
+msgstr "是否為系統索引？"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/indexes/static/js/index.js:358
 msgid "Concurrent build?"
-msgstr "並發產生?"
+msgstr "同步進行產生?"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/indexes/static/js/index.js:414
 
@@ -3627,11 +3627,11 @@ msgstr "存取方法不能為空"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/indexes/static/js/index.js:428
 msgid "You must specify column name."
-msgstr "你必須指定列名稱"
+msgstr "你必須指定欄位名稱"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/indexes/static/js/index.js:433
 msgid "You must specify at least one column."
-msgstr "你需要指定至少一個列"
+msgstr "你需要指定至少一個欄位"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/partitions/__init__.py:52
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/partitions/static/js/partition.js:12
@@ -3660,17 +3660,17 @@ msgstr ""
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/partitions/static/js/partition.js:976
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.js:383
 msgid "Partition"
-msgstr ""
+msgstr "分割區"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/partitions/static/js/partition.js:50
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.js:70
 msgid "Truncate"
-msgstr "截斷"
+msgstr "清空"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/partitions/static/js/partition.js:55
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.js:75
 msgid "Truncate Cascade"
-msgstr "級聯截斷"
+msgstr "巢狀清空"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/partitions/static/js/partition.js:61
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.js:81
@@ -4892,32 +4892,32 @@ msgstr "materilized view..."
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/mview.js:87
 msgid "With data"
-msgstr "包括數據"
+msgstr "包括資料"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/mview.js:93
 msgid "With no data"
-msgstr "不包括數據"
+msgstr "不包括資料"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/mview.js:101
 msgid "With data (concurrently)"
-msgstr "包含數據(並發)"
+msgstr "包含資料(同步進行)"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/mview.js:107
 msgid "With no data (concurrently)"
-msgstr "不包含數據(並發)"
+msgstr "不包含資料(同步進行)"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/mview.js:149
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/view.js:118
 msgid "System view?"
-msgstr "系統數據"
+msgstr "系統資料"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/mview.js:162
 msgid "With Data"
-msgstr "包含數據"
+msgstr "包含資料"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/mview.js:174
 msgid "Fill Factor"
-msgstr "填充因子"
+msgstr ""
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/mview.js:220
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/view.js:183
@@ -7833,7 +7833,7 @@ msgstr "檢索訊息 - %s 時，產生錯誤"
 #: pgadmin/misc/depends/static/js/depends.js:285
 #: pgadmin/misc/statistics/static/js/statistics.js:280
 msgid "Failed to retrieve data from the server."
-msgstr "從伺服器中檢索數據失敗"
+msgstr "從伺服器中檢索資料失敗"
 
 #: pgadmin/misc/depends/static/js/depends.js:313
 #: pgadmin/tools/datagrid/static/js/datagrid.js:124
@@ -8303,7 +8303,7 @@ msgstr "Pre-Data"
 #: pgadmin/tools/backup/static/js/backup.js:156
 #: pgadmin/tools/restore/static/js/restore.js:112
 msgid "Data"
-msgstr "數據"
+msgstr "資料"
 
 #: pgadmin/tools/backup/static/js/backup.js:163
 #: pgadmin/tools/restore/static/js/restore.js:121
@@ -8323,7 +8323,7 @@ msgstr "物件類型"
 #: pgadmin/tools/backup/static/js/backup.js:174
 #: pgadmin/tools/restore/static/js/restore.js:134
 msgid "Only data"
-msgstr "只有數據"
+msgstr "只有資料"
 
 #: pgadmin/tools/backup/static/js/backup.js:183
 #: pgadmin/tools/restore/static/js/restore.js:145
@@ -8353,7 +8353,7 @@ msgstr "特權"
 
 #: pgadmin/tools/backup/static/js/backup.js:208
 msgid "Unlogged table data"
-msgstr "未記錄日志的表數據"
+msgstr "未記錄日志的表資料"
 
 #: pgadmin/tools/backup/static/js/backup.js:212
 #: pgadmin/tools/backup/static/js/backup.js:216
@@ -9320,7 +9320,7 @@ msgid ""
 "Specifies the quoting character to be used when a data value is quoted. "
 "The default is double-quote. This must be a single one-byte character. "
 "This option is allowed only when using CSV format."
-msgstr "指定在引用數據值時要使用的引號字符。預設值為雙引號。 它必須是一個單字節字符。 此選項僅在使用CSV格式時允許。"
+msgstr "指定在引用資料值時要使用的引號字符。預設值為雙引號。 它必須是一個單字節字符。 此選項僅在使用CSV格式時允許。"
 
 #: pgadmin/tools/import_export/static/js/import_export.js:223
 msgid "Escape"
@@ -9334,7 +9334,7 @@ msgid ""
 "must be a single one-byte character. This option is allowed only when "
 "using CSV format."
 msgstr ""
-"指定應在與QUOTE值匹配的數據字符之前出現的字符。預設值與QUOTE值相同（以便在數據中出現時，引號字符加倍）。它必須是一個單字節字符。 "
+"指定應在與QUOTE值匹配的資料字符之前出現的字符。預設值與QUOTE值相同（以便在資料中出現時，引號字符加倍）。它必須是一個單字節字符。 "
 "僅當使用CSV格式時，才允許使用此選項。"
 
 #: pgadmin/tools/import_export/static/js/import_export.js:294
@@ -9364,7 +9364,7 @@ msgstr "分隔符應僅包含一個字符"
 #: pgadmin/tools/import_export/static/js/import_export.js:532
 #, python-format
 msgid "Import/Export data - table '%s'"
-msgstr "匯入/匯出數據的表 '%s'"
+msgstr "匯入/匯出資料的表 '%s'"
 
 #: pgadmin/tools/maintenance/__init__.py:43
 #: pgadmin/tools/maintenance/static/js/maintenance.js:271
@@ -9495,7 +9495,7 @@ msgstr "單個事務"
 
 #: pgadmin/tools/restore/static/js/restore.js:193
 msgid "No data for Failed Tables"
-msgstr "失敗表中沒有數據"
+msgstr "失敗表中沒有資料"
 
 #: pgadmin/tools/restore/static/js/restore.js:197
 #: pgadmin/tools/restore/static/js/restore.js:202
@@ -10629,7 +10629,7 @@ msgstr "找不到指定的資料庫"
 #~ msgstr "view篩選行..."
 
 #~ msgid "View Data"
-#~ msgstr "查看數據"
+#~ msgstr "查看資料"
 
 #~ msgid " untitled"
 #~ msgstr "沒有標題"

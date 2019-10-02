@@ -8,6 +8,6 @@ LANGUAGES = {
     'ja': 'Japanese',
     'pl': 'Polish',
     'ru': 'Russian',
-    'zh_Hant_TW': 'Mandarin (T)'
+    'zh_Hant_TW': 'Mandarin (Taiwan)'
 }
 

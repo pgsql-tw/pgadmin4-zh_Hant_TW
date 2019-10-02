@@ -116,7 +116,7 @@ msgstr "無"
 #: pgadmin/browser/__init__.py:239
 #: pgadmin/browser/register_browser_preferences.py:72
 msgid "Prevent Docking"
-msgstr "防止停靠"
+msgstr "僅允許調整大小"
 
 #: pgadmin/browser/__init__.py:246
 #: pgadmin/browser/register_browser_preferences.py:74
@@ -155,7 +155,7 @@ msgstr "請輸入您的主密碼。"
 msgid ""
 "This is required to unlock saved passwords and reconnect to the database "
 "server(s)."
-msgstr "這是解鎖已儲存的密碼並重新連線到資料庫伺服器所必須的。"
+msgstr "這是解鎖已儲存的密碼所必須的，如此才能重新連線到資料庫伺服器。"
 
 #: pgadmin/browser/__init__.py:802
 msgid "Incorrect master password"
@@ -2326,7 +2326,7 @@ msgstr "外部伺服器不能為空。"
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_configurations/__init__.py:58
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_configurations/static/js/fts_configuration.js:416
 msgid "FTS Configurations"
-msgstr "FTS組態設定"
+msgstr "FTS 組態設定"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_configurations/__init__.py:320
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_configurations/__init__.py:643
@@ -2407,7 +2407,7 @@ msgstr "解析器"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_configurations/static/js/fts_configuration.js:522
 msgid "Copy config"
-msgstr "複制組態設定"
+msgstr "複製組態設定"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_configurations/static/js/fts_configuration.js:565
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_dictionaries/static/js/fts_dictionary.js:178
@@ -2420,7 +2420,7 @@ msgstr "必須指定名稱。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_configurations/static/js/fts_configuration.js:574
 msgid "Select parser or configuration to copy."
-msgstr "選擇要複制的分析器或組態設定。"
+msgstr "選擇要複製的分析器或組態設定。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_configurations/static/js/fts_configuration.js:583
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_dictionaries/static/js/fts_dictionary.js:192
@@ -3152,7 +3152,7 @@ msgstr "類別"
 #: pgadmin/browser/server_groups/servers/databases/schemas/synonyms/static/js/synonym.js:118
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.js:44
 msgid "Table"
-msgstr "表"
+msgstr "資料表"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/schema.js:135
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/schema.js:226
@@ -3163,14 +3163,14 @@ msgstr "要自定義自動收縮嗎？"
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/schema.js:296
 #: pgadmin/browser/server_groups/servers/databases/schemas/types/static/js/type.js:252
 msgid "Label"
-msgstr "標簽"
+msgstr "標籤"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/schema.js:224
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/schema.js:227
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/schema.js:243
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/schema.js:291
 msgid "TOAST table"
-msgstr "TOAST 表"
+msgstr "TOAST 資料表"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/schema.js:352
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/schema.js:357
@@ -3443,7 +3443,7 @@ msgstr "繼承自表"
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/mview.js:189
 #: pgadmin/misc/file_manager/__init__.py:127
 msgid "Storage"
-msgstr "存儲"
+msgstr "儲存"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/columns/static/js/column.js:545
 msgid "NONE"
@@ -3460,7 +3460,7 @@ msgstr ""
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/columns/static/js/column.js:582
 msgid "Identity"
-msgstr "身份標識"
+msgstr "身份識別"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/columns/static/js/column.js:587
 msgid "ALWAYS"
@@ -3468,13 +3468,13 @@ msgstr "ALWAYS"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/columns/static/js/column.js:588
 msgid "BY DEFAULT"
-msgstr "按默認"
+msgstr "依預設"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/columns/static/js/column.js:639
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/partition.utils.js:80
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/partition.utils.js:189
 msgid "Expression"
-msgstr "表達式"
+msgstr "表示式"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/columns/static/js/column.js:650
 msgid "Foreign key?"
@@ -4199,7 +4199,7 @@ msgstr "TOAST表大小"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/tables/sql/9.2_plus/stats.sql:39
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/tables/sql/default/stats.sql:35
 msgid "Tuple length"
-msgstr "元組長度"
+msgstr "Tuple長度"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/partitions/static/js/partition.js:47
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.js:35
@@ -4208,7 +4208,7 @@ msgstr "元組長度"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/tables/sql/9.2_plus/stats.sql:42
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/tables/sql/default/stats.sql:38
 msgid "Dead tuple length"
-msgstr "死元組長度"
+msgstr "死Tuple長度"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/partitions/static/js/partition.js:47
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.js:35
@@ -4402,7 +4402,7 @@ msgstr "關系"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/partitions/static/js/partition.js:757
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.js:857
 msgid "With default values?"
-msgstr "使用默認值？"
+msgstr "使用預設值？"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/partitions/static/js/partition.js:761
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.js:861
@@ -4576,7 +4576,7 @@ msgstr "分區鍵列不能為空。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/partition.utils.js:230
 msgid "Partition key expression cannot be empty."
-msgstr "分區鍵表達式不能為空。"
+msgstr "分區鍵表示式不能為空。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/partition.utils.js:256
 msgid "Operation"
@@ -4689,11 +4689,11 @@ msgstr "使用者可以從可用列列表中選擇任何列。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.js:997
 msgid "Expression: "
-msgstr "表達式： "
+msgstr "表示式： "
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.js:998
 msgid "User can specify expression to create partition key."
-msgstr "使用者可以指定表達式來建立分區鍵。"
+msgstr "使用者可以指定表示式來建立分區鍵。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.js:1000
 msgid "Example: "
@@ -4705,7 +4705,7 @@ msgid ""
 "column 'saledate', having datatype 'date/timestamp', then we need to "
 "specify the expression as 'extract(YEAR from saledate)' as partition key."
 msgstr ""
-"假設我們要為 \"saledate\" 列建立一個基於每年的分區表,其資料型別為\"date/timestamp\", 然後我們需要將表達式指定為"
+"假設我們要為 \"saledate\" 列建立一個基於每年的分區表,其資料型別為\"date/timestamp\", 然後我們需要將表示式指定為"
 " \"extract(YEAR from saledate)\" 作為分區鍵。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.js:1086
@@ -4730,13 +4730,13 @@ msgstr "使用者可以建立分離多個分區。在附加操作中, 使用者�
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.js:1092
 msgid "Default: "
-msgstr "默認: "
+msgstr "預設: "
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.js:1093
 msgid ""
 "The default partition can store rows that do not fall into any existing "
 "partition』s range or list."
-msgstr "默認分區可以存儲不屬於任何現有分區範圍或列表的行。"
+msgstr "預設分區可以存儲不屬於任何現有分區範圍或列表的行。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.js:1095
 msgid "From/To/In input: "
@@ -4819,7 +4819,7 @@ msgstr "索引掃描"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/indexes/sql/default/coll_stats.sql:4
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/indexes/sql/default/stats.sql:3
 msgid "Index tuples read"
-msgstr "索引元組讀取"
+msgstr "索引Tuple讀取"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/exclusion_constraint/sql/default/stats.sql:4
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/index_constraint/sql/default/stats.sql:4
@@ -4829,7 +4829,7 @@ msgstr "索引元組讀取"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/tables/sql/9.2_plus/stats.sql:5
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/tables/sql/default/stats.sql:5
 msgid "Index tuples fetched"
-msgstr "索引元組獲取"
+msgstr "索引Tuple獲取"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/exclusion_constraint/sql/default/stats.sql:5
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/index_constraint/sql/default/stats.sql:5
@@ -4911,7 +4911,7 @@ msgstr "順序掃描"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/tables/sql/9.2_plus/stats.sql:3
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/tables/sql/default/stats.sql:3
 msgid "Sequential tuples read"
-msgstr "按順序元組讀取"
+msgstr "按順序Tuple讀取"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/tables/sql/9.1_plus/stats.sql:6
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/tables/sql/9.2_plus/stats.sql:6
@@ -4920,7 +4920,7 @@ msgstr "按順序元組讀取"
 #: pgadmin/browser/server_groups/servers/databases/templates/databases/sql/9.2_plus/stats.sql:10
 #: pgadmin/browser/server_groups/servers/databases/templates/databases/sql/default/stats.sql:10
 msgid "Tuples inserted"
-msgstr "元組已插入"
+msgstr "Tuple已插入"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/tables/sql/9.1_plus/stats.sql:7
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/tables/sql/9.2_plus/stats.sql:7
@@ -4929,7 +4929,7 @@ msgstr "元組已插入"
 #: pgadmin/browser/server_groups/servers/databases/templates/databases/sql/9.2_plus/stats.sql:11
 #: pgadmin/browser/server_groups/servers/databases/templates/databases/sql/default/stats.sql:11
 msgid "Tuples updated"
-msgstr "元組已更新"
+msgstr "Tuple已更新"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/tables/sql/9.1_plus/stats.sql:8
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/tables/sql/9.2_plus/stats.sql:8
@@ -4938,28 +4938,28 @@ msgstr "元組已更新"
 #: pgadmin/browser/server_groups/servers/databases/templates/databases/sql/9.2_plus/stats.sql:12
 #: pgadmin/browser/server_groups/servers/databases/templates/databases/sql/default/stats.sql:12
 msgid "Tuples deleted"
-msgstr "元組已刪除"
+msgstr "Tuple已刪除"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/tables/sql/9.1_plus/stats.sql:9
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/tables/sql/9.2_plus/stats.sql:9
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/tables/sql/default/coll_table_stats.sql:6
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/tables/sql/default/stats.sql:9
 msgid "Tuples HOT updated"
-msgstr "元組已熱更新"
+msgstr "Tuple已熱更新"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/tables/sql/9.1_plus/stats.sql:10
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/tables/sql/9.2_plus/stats.sql:10
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/tables/sql/default/coll_table_stats.sql:7
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/tables/sql/default/stats.sql:10
 msgid "Live tuples"
-msgstr "存活元組"
+msgstr "存活Tuple"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/tables/sql/9.1_plus/stats.sql:11
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/tables/sql/9.2_plus/stats.sql:11
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/tables/sql/default/coll_table_stats.sql:8
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/tables/sql/default/stats.sql:11
 msgid "Dead tuples"
-msgstr "死亡元組"
+msgstr "死亡Tuple"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/tables/sql/9.1_plus/stats.sql:12
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/tables/sql/9.2_plus/stats.sql:12
@@ -5055,31 +5055,31 @@ msgstr "自動分析計數器"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/tables/sql/9.2_plus/stats.sql:32
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/tables/sql/default/stats.sql:28
 msgid "Toast table size"
-msgstr "Toast 表大小"
+msgstr "TOAST 資料表大小"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/tables/sql/9.1_plus/stats.sql:38
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/tables/sql/9.2_plus/stats.sql:38
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/tables/sql/default/stats.sql:34
 msgid "Tuple count"
-msgstr "元組總數"
+msgstr "Tuple總數"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/tables/sql/9.1_plus/stats.sql:40
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/tables/sql/9.2_plus/stats.sql:40
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/tables/sql/default/stats.sql:36
 msgid "Tuple percent"
-msgstr "元組百分比"
+msgstr "Tuple百分比"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/tables/sql/9.1_plus/stats.sql:41
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/tables/sql/9.2_plus/stats.sql:41
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/tables/sql/default/stats.sql:37
 msgid "Dead tuple count"
-msgstr "死元組總數"
+msgstr "死Tuple總數"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/tables/sql/9.1_plus/stats.sql:43
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/tables/sql/9.2_plus/stats.sql:43
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/tables/sql/default/stats.sql:39
 msgid "Dead tuple percent"
-msgstr "死元組百分比"
+msgstr "死Tuple百分比"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/tables/sql/9.1_plus/stats.sql:45
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/tables/sql/9.2_plus/stats.sql:45
@@ -5352,7 +5352,7 @@ msgstr "是否為變量?"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/types/static/js/type.js:642
 msgid "Default?"
-msgstr "是否默認?"
+msgstr "是否預設?"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/types/static/js/type.js:647
 msgid "Analyze function"
@@ -5411,7 +5411,7 @@ msgstr "成員"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/types/static/js/type.js:749
 msgid "Labels"
-msgstr "標簽"
+msgstr "標籤"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/types/static/js/type.js:758
 msgid "System type?"
@@ -5637,7 +5637,7 @@ msgstr "是否允許連線？"
 
 #: pgadmin/browser/server_groups/servers/databases/static/js/database.js:414
 msgid "Default Privileges"
-msgstr "默認權限"
+msgstr "預設權限"
 
 #: pgadmin/browser/server_groups/servers/databases/static/js/database.js:496
 msgid "Connect to database"
@@ -5661,12 +5661,12 @@ msgstr "Xact 已回溯"
 #: pgadmin/browser/server_groups/servers/databases/templates/databases/sql/9.2_plus/stats.sql:8
 #: pgadmin/browser/server_groups/servers/databases/templates/databases/sql/default/stats.sql:8
 msgid "Tuples returned"
-msgstr "元組已回傳"
+msgstr "Tuple已回傳"
 
 #: pgadmin/browser/server_groups/servers/databases/templates/databases/sql/9.2_plus/stats.sql:9
 #: pgadmin/browser/server_groups/servers/databases/templates/databases/sql/default/stats.sql:9
 msgid "Tuples fetched"
-msgstr "元組已獲取"
+msgstr "Tuple已獲取"
 
 #: pgadmin/browser/server_groups/servers/databases/templates/databases/sql/9.2_plus/stats.sql:13
 msgid "Last statistics reset"
@@ -5686,7 +5686,7 @@ msgstr "快照沖突"
 
 #: pgadmin/browser/server_groups/servers/databases/templates/databases/sql/9.2_plus/stats.sql:17
 msgid "Bufferpin conflicts"
-msgstr "緩沖沖突"
+msgstr "緩衝沖突"
 
 #: pgadmin/browser/server_groups/servers/databases/templates/databases/sql/9.2_plus/stats.sql:18
 msgid "Deadlock conflicts"
@@ -6492,7 +6492,7 @@ msgstr "如果作業步驟將在本地資料庫伺服器上執行，請選擇<b>
 #: pgadmin/browser/server_groups/servers/pgagent/steps/static/js/pga_jobstep.js:180
 #: pgadmin/browser/server_groups/servers/pgagent/steps/static/js/pga_jobstep.js:190
 msgid "Connection string"
-msgstr "連線字符串"
+msgstr "連線字串"
 
 #: pgadmin/browser/server_groups/servers/pgagent/steps/static/js/pga_jobstep.js:188
 msgid "Please select the database on which the job step will run."
@@ -6509,7 +6509,7 @@ msgid ""
 "backslash, i.e., ' and \\.<br>For more information, please see the "
 "documentation on %s"
 msgstr ""
-"請指定遠程資料庫伺服器的連線字符串。每個參數設定都在窗體關鍵字 = 值中。等號周圍的空格是可選的。若要編寫空值或包含空格的值, 請用單引號 "
+"請指定遠程資料庫伺服器的連線字串。每個參數設定都在窗體關鍵字 = 值中。等號周圍的空格是可選的。若要編寫空值或包含空格的值, 請用單引號 "
 "(例如, 關鍵字 = \"值\") 將其包圍。值中的單引號和反斜杠必須使用反斜杠轉義, 即, 『 和 \\. <br> 有關詳細信息, 請參閱 "
 "%s 上的文件"
 
@@ -6538,17 +6538,17 @@ msgstr "請選擇一個資料庫."
 
 #: pgadmin/browser/server_groups/servers/pgagent/steps/static/js/pga_jobstep.js:250
 msgid "Please enter a connection string."
-msgstr "請輸入用於連線的字符串."
+msgstr "請輸入用於連線的字串."
 
 #: pgadmin/browser/server_groups/servers/pgagent/steps/static/js/pga_jobstep.js:252
 #: pgadmin/browser/server_groups/servers/pgagent/steps/static/js/pga_jobstep.js:272
 msgid "Please enter a valid connection string."
-msgstr "請輸入一個有效的連線字符串."
+msgstr "請輸入一個有效的連線字串."
 
 #: pgadmin/browser/server_groups/servers/pgagent/steps/static/js/pga_jobstep.js:277
 #, python-format
 msgid "Invalid parameter in the connection string - %s."
-msgstr "連線字符串中的無效參數- %s."
+msgstr "連線字串中的無效參數- %s."
 
 #: pgadmin/browser/server_groups/servers/pgagent/steps/static/js/pga_jobstep.js:300
 msgid "Please specify code to execute."
@@ -6704,7 +6704,7 @@ msgid ""
 "        ]\n"
 msgstr ""
 "\n"
-"角色成員資格信息必須作為一個字符串傳遞, 該字符串呈現\n"
+"角色成員資格信息必須作為一個字串傳遞, 該字串呈現\n"
 "格式為以下格式的 JSON 物件:\n"
 "rolmembership:{\n"
 "    'added': [{\n"
@@ -6740,7 +6740,7 @@ msgid ""
 "]"
 msgstr ""
 "\n"
-"在下面的檔案中, 必須將安全標簽作為 JSON 物件的數組傳遞\n"
+"在下面的檔案中, 必須將安全標籤作為 JSON 物件的數組傳遞\n"
 "格式：\n"
 "eclabels:[{\n"
 "    provider: <provider>,\n"
@@ -6776,7 +6776,7 @@ msgid ""
 "        ]\n"
 msgstr ""
 "\n"
-"在下面的檔案中, 必須將安全標簽作為 JSON 物件的數組傳遞\n"
+"在下面的檔案中, 必須將安全標籤作為 JSON 物件的數組傳遞\n"
 "格式：\n"
 "seclabels:{\n"
 "    'added': [{\n"
@@ -6982,7 +6982,7 @@ msgstr "提供者"
 #: pgadmin/browser/server_groups/servers/roles/static/js/role.js:43
 #: pgadmin/browser/server_groups/servers/static/js/server.js:36
 msgid "Security label"
-msgstr "安全標簽"
+msgstr "安全標籤"
 
 #: pgadmin/browser/server_groups/servers/roles/static/js/role.js:52
 #: pgadmin/browser/server_groups/servers/roles/static/js/role.js:62
@@ -7048,7 +7048,7 @@ msgstr "從父角色繼承權限?"
 
 #: pgadmin/browser/server_groups/servers/roles/static/js/role.js:474
 msgid "Can initiate streaming replication and backups?"
-msgstr "可以啟動流複制和備份嗎?"
+msgstr "可以啟動流複製和備份嗎?"
 
 #: pgadmin/browser/server_groups/servers/roles/static/js/role.js:481
 msgid "Roles"
@@ -7086,7 +7086,7 @@ msgstr "應選定至少一個權限。"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.js:46
 msgid "Label must be specified."
-msgstr "必須指定標簽。"
+msgstr "必須指定標籤。"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.js:77
 #: pgadmin/browser/server_groups/servers/static/js/server.js:82
@@ -7661,7 +7661,7 @@ msgstr "請在樹狀圖中選擇一個物件。"
 
 #: pgadmin/browser/static/js/browser.js:231
 msgid "Dependencies"
-msgstr "相依關系"
+msgstr "相依關係"
 
 #: pgadmin/browser/static/js/browser.js:242
 msgid "Dependents"
@@ -8029,19 +8029,19 @@ msgstr "圖表采樣間隔的秒數。"
 
 #: pgadmin/dashboard/__init__.py:87
 msgid "Transaction throughput refresh rate"
-msgstr "事務吞吐量更新率"
+msgstr "交易事務輸出量更新率"
 
 #: pgadmin/dashboard/__init__.py:95
 msgid "Tuples in refresh rate"
-msgstr "元組插入更新率"
+msgstr "Tuple 插入更新率"
 
 #: pgadmin/dashboard/__init__.py:103
 msgid "Tuples out refresh rate"
-msgstr "元組讀取更新率"
+msgstr "Tuple讀取更新率"
 
 #: pgadmin/dashboard/__init__.py:111
 msgid "Block I/O statistics refresh rate"
-msgstr "資料塊 I/O 統計更新率"
+msgstr "資料區塊 I/O 統計更新率"
 
 #: pgadmin/dashboard/__init__.py:119
 msgid "Show graphs?"
@@ -8049,7 +8049,7 @@ msgstr "顯示圖表？"
 
 #: pgadmin/dashboard/__init__.py:121
 msgid "If set to True, graphs will be displayed on dashboards."
-msgstr "如果設定為 True, 圖形將顯示在儀表盤上。"
+msgstr "如果設定為 True, 圖表將顯示在儀表盤上。"
 
 #: pgadmin/dashboard/__init__.py:127
 msgid "Show activity?"
@@ -8061,7 +8061,7 @@ msgstr "如果設定為 True, 活動表將顯示在儀表盤上。"
 
 #: pgadmin/dashboard/__init__.py:135
 msgid "Show graph data points?"
-msgstr "是否顯示圖形資料點？"
+msgstr "是否於圖表上顯示資料點？"
 
 #: pgadmin/dashboard/__init__.py:137
 msgid "If set to True, data points will be visible on graph lines."
@@ -8069,18 +8069,18 @@ msgstr "如果設定為 True, 資料點將在圖形線上可見。"
 
 #: pgadmin/dashboard/__init__.py:143
 msgid "Show mouse hover tooltip?"
-msgstr "顯示鼠標懸停工具提示？"
+msgstr "顯示游標工具提示？"
 
 #: pgadmin/dashboard/__init__.py:145
 msgid ""
 "If set to True, tooltip will appear on mouse hover on the graph lines "
 "giving the data point details"
-msgstr "如果設定為 True, 則工具提示將顯示在提供資料點詳細信息的圖形線上的鼠標懸停上"
+msgstr "如果設定為 True, 則工具提示將顯示在提供資料點詳細資訊的圖形線上的游標旁"
 
 #: pgadmin/dashboard/__init__.py:202 pgadmin/dashboard/__init__.py:232
 #: pgadmin/dashboard/static/js/dashboard.js:725
 msgid "Please connect to the selected server to view the table."
-msgstr "請連線到選定的伺服器以查看表。"
+msgstr "請連線到選定的伺服器以查看資料表。"
 
 #: pgadmin/dashboard/__init__.py:207 pgadmin/dashboard/__init__.py:237
 #: pgadmin/dashboard/static/js/dashboard.js:594
@@ -8089,7 +8089,7 @@ msgstr "請連線到所選的伺服器，以便查看圖表。"
 
 #: pgadmin/dashboard/__init__.py:217
 msgid "Please connect to the selected database to view the table."
-msgstr "請連線到選定的資料庫以查看表。"
+msgstr "請連線到選定的資料庫以查看資料表。"
 
 #: pgadmin/dashboard/__init__.py:222
 msgid "Please connect to the selected database to view the graph."
@@ -8226,7 +8226,7 @@ msgstr "頁"
 #: pgadmin/dashboard/static/js/dashboard.js:1066
 #: pgadmin/dashboard/static/js/dashboard.js:1329
 msgid "Tuple"
-msgstr "元組"
+msgstr "Tuple"
 
 #: pgadmin/dashboard/static/js/dashboard.js:1071
 #: pgadmin/dashboard/static/js/dashboard.js:1334
@@ -8266,7 +8266,7 @@ msgstr "XID"
 #: pgadmin/dashboard/static/js/dashboard.js:1128
 #: pgadmin/dashboard/static/js/dashboard.js:1386
 msgid "Prepared at"
-msgstr "已准備於"
+msgstr "已準備於"
 
 #: pgadmin/dashboard/static/js/dashboard.js:1140
 msgid "Category"
@@ -8327,17 +8327,17 @@ msgstr "資料庫連線"
 #: pgadmin/dashboard/templates/dashboard/database_dashboard.html:17
 #: pgadmin/dashboard/templates/dashboard/server_dashboard.html:17
 msgid "Transactions per second"
-msgstr "每秒事務"
+msgstr "每秒交易量"
 
 #: pgadmin/dashboard/templates/dashboard/database_dashboard.html:29
 #: pgadmin/dashboard/templates/dashboard/server_dashboard.html:29
 msgid "Tuples in"
-msgstr "元組插入"
+msgstr "Tuple插入"
 
 #: pgadmin/dashboard/templates/dashboard/database_dashboard.html:39
 #: pgadmin/dashboard/templates/dashboard/server_dashboard.html:39
 msgid "Tuples out"
-msgstr "元組讀取"
+msgstr "Tuple讀取"
 
 #: pgadmin/dashboard/templates/dashboard/database_dashboard.html:49
 #: pgadmin/dashboard/templates/dashboard/server_dashboard.html:49
@@ -8373,7 +8373,7 @@ msgstr "更新"
 #: pgadmin/dashboard/templates/dashboard/database_dashboard.html:112
 #: pgadmin/dashboard/templates/dashboard/server_dashboard.html:119
 msgid "All Dashboard elements are currently disabled."
-msgstr "目前禁用了所有儀表盤組件。"
+msgstr "目前所有儀表盤物件都被停用。"
 
 #: pgadmin/dashboard/templates/dashboard/server_dashboard.html:7
 msgid "Server sessions"
@@ -8521,7 +8521,7 @@ msgstr "命中"
 
 #: pgadmin/help/__init__.py:27
 msgid "Online Help"
-msgstr "線上協助"
+msgstr "線上手冊"
 
 #: pgadmin/help/__init__.py:41
 msgid "PostgreSQL Website"
@@ -8661,7 +8661,7 @@ msgstr "上次存取的目錄"
 
 #: pgadmin/misc/file_manager/__init__.py:180
 msgid "File dialog view"
-msgstr "\"檔案\" 對話框視圖"
+msgstr "\"檔案\" 對話框樣式"
 
 #: pgadmin/misc/file_manager/__init__.py:183
 msgid "Grid"
@@ -9039,7 +9039,7 @@ msgstr "錯誤"
 
 #: pgadmin/static/js/selection/clipboard.js:81
 msgid "Oops, unable to copy to clipboard"
-msgstr "抱歉, 無法複制到剪貼板"
+msgstr "抱歉, 無法複製到剪貼板"
 
 #: pgadmin/static/js/selection/grid_selector.js:51
 msgid "Select/Deselect All"
@@ -9142,7 +9142,7 @@ msgstr "\"使用 PID 從伺服器程序已接收 "
 
 #: pgadmin/static/js/sqleditor/history/query_history_details.js:173
 msgid "Copy to Query Editor"
-msgstr "複制到查詢編輯器"
+msgstr "複製到查詢編輯器"
 
 #: pgadmin/static/js/tree/pgadmin_tree_save_state.js:89
 msgid "Error resetting the tree saved state.\""
@@ -9731,7 +9731,7 @@ msgstr "成本"
 
 #: pgadmin/tools/datagrid/templates/datagrid/index.html:287
 msgid "Buffers"
-msgstr "緩沖區"
+msgstr "緩衝區"
 
 #: pgadmin/tools/datagrid/templates/datagrid/index.html:293
 msgid "Timing"
@@ -9739,7 +9739,7 @@ msgstr "計時"
 
 #: pgadmin/tools/datagrid/templates/datagrid/index.html:299
 msgid "Summary"
-msgstr "概要"
+msgstr "摘要"
 
 #: pgadmin/tools/datagrid/templates/datagrid/index.html:305
 msgid "Settings"
@@ -9762,11 +9762,11 @@ msgstr "除錯器"
 #: pgadmin/tools/debugger/__init__.py:74
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:35
 msgid "Open in new browser tab"
-msgstr "在新瀏覽器選項標籤中打開"
+msgstr "在新的瀏覽器頁籤中打開"
 
 #: pgadmin/tools/debugger/__init__.py:76
 msgid "If set to True, the Debugger will be opened in a new browser tab."
-msgstr "如果設定為 True, 除錯器將在新的瀏覽器選項標籤中打開。"
+msgstr "如果設定為 True, 除錯器將在新的瀏覽器頁籤中打開。"
 
 #: pgadmin/tools/debugger/__init__.py:82
 msgid "Accesskey (Continue/Start)"
@@ -10018,11 +10018,11 @@ msgstr "空？"
 
 #: pgadmin/tools/debugger/static/js/debugger_ui.js:295
 msgid "Expression?"
-msgstr "表達式？"
+msgstr "表示式？"
 
 #: pgadmin/tools/debugger/static/js/debugger_ui.js:310
 msgid "Use Default?"
-msgstr "使用默認值？"
+msgstr "使用預設值？"
 
 #: pgadmin/tools/debugger/static/js/debugger_ui.js:834
 #: pgadmin/tools/debugger/static/js/debugger_ui.js:884
@@ -10222,15 +10222,15 @@ msgstr "導入/導出"
 
 #: pgadmin/tools/import_export/__init__.py:114
 msgid "Copying table data '{0}.{1}' on database '{2}' and server ({3}:{4})"
-msgstr "正在複制伺服器({3}:{4})上的資料庫 '{2}'中表 '{0}.{1}' 的資料"
+msgstr "正在複製伺服器({3}:{4})上的資料庫 '{2}'中表 '{0}.{1}' 的資料"
 
 #: pgadmin/tools/import_export/__init__.py:127
 msgid "Copying table data"
-msgstr "複制表資料"
+msgstr "複製表資料"
 
 #: pgadmin/tools/import_export/__init__.py:136
 msgid "Copying table data '{0}.{1}' on database '{2}' for the server '{3}'"
-msgstr "正在複制伺服器 '{3}'上的資料庫 '{2}'中表 '{0}.{1}' 的資料"
+msgstr "正在複製伺服器 '{3}'上的資料庫 '{2}'中表 '{0}.{1}' 的資料"
 
 #: pgadmin/tools/import_export/__init__.py:225
 #: pgadmin/tools/maintenance/__init__.py:201
@@ -10275,7 +10275,7 @@ msgstr "導入列..."
 msgid ""
 "An optional list of columns to be copied. If no column list is specified,"
 " all columns of the table will be copied."
-msgstr "要複制的列的可選列表。 如果未指定列列表，則將複制表的所有列。"
+msgstr "要複製的列的可選列表。 如果未指定列列表，則將複製表的所有列。"
 
 #: pgadmin/tools/import_export/static/js/import_export.js:191
 msgid "Columns to export"
@@ -10287,7 +10287,7 @@ msgstr "導出列..."
 
 #: pgadmin/tools/import_export/static/js/import_export.js:233
 msgid "NULL Strings"
-msgstr "NULL 字符串"
+msgstr "NULL 字串"
 
 #: pgadmin/tools/import_export/static/js/import_export.js:239
 msgid ""
@@ -10297,8 +10297,8 @@ msgid ""
 " don't want to distinguish nulls from empty strings. This option is not "
 "allowed when using binary format."
 msgstr ""
-"指定表示空值的字符串。默認值為文本格式的 \\N (backslash-N), 以及 CSV "
-"格式中不帶引號的空字符串。對於不想區分空字符串和空字符串的情況, 即使是文本格式的字符串, 也可能更喜歡空字符串。使用二進制格式時, "
+"指定表示空值的字串。預設值為文本格式的 \\N (backslash-N), 以及 CSV "
+"格式中不帶引號的空字串。對於不想區分空字串和空字串的情況, 即使是文本格式的字串, 也可能更喜歡空字串。使用二進制格式時, "
 "不允許使用此選項。"
 
 #: pgadmin/tools/import_export/static/js/import_export.js:242
@@ -10317,7 +10317,7 @@ msgid ""
 "are not quoted. This option is allowed only in import, and only when "
 "using CSV format."
 msgstr ""
-"不要將指定的列值與空字符串符合。在空字符串為空的默認情況下, 這意味著空值將被讀取為零長度字符串而不是 null, "
+"不要將指定的列值與空字串符合。在空字串為空的預設情況下, 這意味著空值將被讀取為零長度字串而不是 null, "
 "即使它們沒有被引用。此選項僅允許在導入中使用, 並且僅在使用 CSV 格式時允許。"
 
 #: pgadmin/tools/import_export/static/js/import_export.js:308
@@ -10332,7 +10332,7 @@ msgid ""
 "the file. The default is a tab character in text format, a comma in CSV "
 "format. This must be a single one-byte character. This option is not "
 "allowed when using binary format."
-msgstr "指定用於分隔檔案每行（行）中的列的字符。默認值為文本格式的制表符，CSV格式的逗號。它必須是一個單字節字符。使用二進制格式時，不允許使用此選項。"
+msgstr "指定用於分隔檔案每行（行）中的列的字符。預設值為文本格式的制表符，CSV格式的逗號。它必須是一個單字節字符。使用二進制格式時，不允許使用此選項。"
 
 #: pgadmin/tools/import_export/static/js/import_export.js:314
 msgid "Quote"
@@ -10343,7 +10343,7 @@ msgid ""
 "Specifies the quoting character to be used when a data value is quoted. "
 "The default is double-quote. This must be a single one-byte character. "
 "This option is allowed only when using CSV format."
-msgstr "指定在引用資料值時要使用的引號字符。默認值為雙引號。 它必須是一個單字節字符。 此選項僅在使用CSV格式時允許。"
+msgstr "指定在引用資料值時要使用的引號字符。預設值為雙引號。 它必須是一個單字節字符。 此選項僅在使用CSV格式時允許。"
 
 #: pgadmin/tools/import_export/static/js/import_export.js:341
 msgid "Escape"
@@ -10357,7 +10357,7 @@ msgid ""
 "must be a single one-byte character. This option is allowed only when "
 "using CSV format."
 msgstr ""
-"指定應在與QUOTE值符合的資料字符之前出現的字符。默認值與QUOTE值相同（以便在資料中出現時，引號字符加倍）。它必須是一個單字節字符。 "
+"指定應在與QUOTE值符合的資料字符之前出現的字符。預設值與QUOTE值相同（以便在資料中出現時，引號字符加倍）。它必須是一個單字節字符。 "
 "僅當使用CSV格式時，才允許使用此選項。"
 
 #: pgadmin/tools/import_export/static/js/import_export.js:410
@@ -10961,7 +10961,7 @@ msgstr "顯示代價信息？"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:55
 msgid "Show buffers?"
-msgstr "顯示的緩沖區信息？"
+msgstr "顯示的緩衝區信息？"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:61
 msgid "Show timing?"
@@ -10977,11 +10977,11 @@ msgstr "顯示設定？"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:81
 msgid "Set auto commit on or off by default in new Query Tool tabs."
-msgstr "默認情況下, 在新的 \"查詢工具\" 選項標籤中設定自動提交打開或關閉。"
+msgstr "預設情況下, 在新的 \"查詢工具\" 選項標籤中設定自動提交打開或關閉。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:89
 msgid "Set auto rollback on or off by default in new Query Tool tabs."
-msgstr "默認情況下, 在新的 \"查詢工具\" 選項標籤中設定自動回溯打開或關閉。"
+msgstr "預設情況下, 在新的 \"查詢工具\" 選項標籤中設定自動回溯打開或關閉。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:95
 msgid "Prompt to save unsaved query changes?"
@@ -11015,34 +11015,35 @@ msgstr "指定是否提示使用者在查詢工具退出時提交或回溯活動
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:126
 msgid "Plain text mode?"
-msgstr ""
+msgstr "純文字模式"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:127
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:138
 msgid "Editor"
-msgstr ""
+msgstr "編輯器"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:128
 msgid ""
 "When set to True, keywords wont be highlighted and code folding will be "
 "disabled. Plain text mode will improve editor performance with large "
 "files."
-msgstr ""
+msgstr "設定為 True 時，各種關鍵字都不會明顯標示，Code folding 也會停用。"
+"純文字模式在編輯大檔案時能有比較好的效能。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:137
 msgid "Code folding?"
-msgstr ""
+msgstr "Code folding? (允許折疊程式碼)"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:139
 msgid ""
 "Enable or disable code folding. In plain text mode, this will have no "
 "effect as code folding is always disabled in that mode. Disabling will "
 "improve editor performance with large files."
-msgstr ""
+msgstr "在純文字模式時，這個模式沒有任何作用，也就是停用的狀態。停用這個模式可以在大檔案編輯時，取得較好的效能。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:148
 msgid "Font size"
-msgstr "字體大小"
+msgstr "字型大小"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:152
 msgid ""
@@ -11052,27 +11053,27 @@ msgid ""
 " 1.2, or to reduce by 20 percent, use a value of 0.8. Minimum 0.1, "
 "maximum 10."
 msgstr ""
-"要用於 SQL 文本框和編輯器的字體大小。指定的值為 \"em\" 單位, "
-"其中1是默認的相對字體大小。例如:若要將字體大小增加百分之二十請使用1.2 的值或將減少百分之二十, 請使用0.8 的值。最小 0.1, "
-"最大10。"
+"要用於 SQL 文字框和編輯器的字體大小。指定的值為 \"em\" 單位, "
+"其中 1 是預設的字形大小。例如：若要將字形大小增加百分之二十請使用 1.2 或想要減少百分之二十，請使用0.8 的值。最小值為 0.1，"
+"最大為 10。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:163
 msgid "Tab size"
-msgstr "Tab大小"
+msgstr ""
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:167
 msgid "The number of spaces per tab. Minimum 2, maximum 8."
-msgstr "Tab 代表空格的數量，最小2，最大為8。"
+msgstr "Tab 代表每個 Tab 鍵的空格數量，最小 2，最大為 8。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:174
 msgid "Use spaces?"
-msgstr "使用空間嗎？"
+msgstr "使用空白字元嗎？"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:176
 msgid ""
 "Specifies whether or not to insert spaces instead of tabs when the tab "
 "key or auto-indent are used."
-msgstr "指定在使用Tab鍵或自動縮進時是否插入空格而不是Tab。"
+msgstr "指定在使用 Tab 鍵或自動縮排時是否插入空白而不是 Tab。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:184
 msgid "Line wrapping?"
@@ -11080,11 +11081,11 @@ msgstr "自動換行？"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:186
 msgid "Specifies whether or not to wrap SQL code in the editor."
-msgstr "指定編輯器中SQL代碼是否換行。"
+msgstr "指定編輯器中 SQL 字串是否自動換行。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:193
 msgid "Insert bracket pairs?"
-msgstr "插入配對的括號？"
+msgstr "自動插入相配對的括號？"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:195
 msgid "Specifies whether or not to insert paired brackets in the editor."
@@ -11096,29 +11097,29 @@ msgstr "大括號符合？"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:205
 msgid "Specifies whether or not to highlight matched braces in the editor."
-msgstr "指定是否在編輯器中突出顯示符合的大括號。"
+msgstr "指定是否在編輯器中明顯標示符合的大括號。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:213
 msgid "CSV quoting"
-msgstr "CSV引用"
+msgstr "CSV quoting (是否使用括號?)"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:214
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:227
 msgid "CSV Output"
-msgstr "CSV輸出"
+msgstr "CSV 輸出"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:226
 msgid "CSV quote character"
-msgstr "CSV引用符號"
+msgstr "CSV 括號定義"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:238
 msgid "CSV field separator"
-msgstr "CSV字段分隔符"
+msgstr "CSV 欄位分隔符號"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:239
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:253
 msgid "CSV output"
-msgstr "CSV輸出"
+msgstr "CSV 輸出"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:252
 msgid "Replace null values with"
@@ -11129,11 +11130,11 @@ msgid ""
 "Specifies the string that represents a null value while downloading query"
 " results as CSV. You can specify any arbitrary string to represent a null"
 " value, with quotes if desired."
-msgstr "指定在以 CSV 形式下載查詢結果時表示空值的字符串。您可以指定任何任意字符串來表示空值, 並在需要時使用引號。"
+msgstr "指定在以 CSV 形式下載查詢結果時表示空值的字串。您可以指定任何任意字串來表示空值, 並在需要時使用引號。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:263
 msgid "Result copy quoting"
-msgstr "複制結果時包含引用"
+msgstr "複製結果時包含引用"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:264
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:277
@@ -11143,11 +11144,11 @@ msgstr "結果網格"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:276
 msgid "Result copy quote character"
-msgstr "複制結果時包含引號字符"
+msgstr "複製結果時包含引號字符"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:288
 msgid "Result copy field separator"
-msgstr "複制結果時包含字段分隔符"
+msgstr "複製結果時包含字段分隔符"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:302
 msgid "Connection status"
@@ -11193,7 +11194,7 @@ msgstr "Accesskey (儲存檔案)"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:493
 msgid "Accesskey (Copy rows)"
-msgstr "Accesskey (複制行)"
+msgstr "Accesskey (複製行)"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:506
 msgid "Accesskey (Paste rows)"

@@ -382,7 +382,7 @@ msgstr "打開查詢工具"
 
 #: pgadmin/browser/register_browser_preferences.py:229
 msgid "View data"
-msgstr "視圖資料"
+msgstr "瀏覽資料"
 
 #: pgadmin/browser/register_browser_preferences.py:244
 msgid "Create object"
@@ -451,7 +451,7 @@ msgstr "缺少必要的屬性。"
 #: pgadmin/static/js/alertify.pgadmin.defaults.js:303
 #: pgadmin/tools/grant_wizard/__init__.py:129 pgadmin/utils/exception.py:35
 msgid "Connection to the server has been lost."
-msgstr "到伺服器的連線已丟失。"
+msgstr "到伺服器的連線已遺失。"
 
 #: pgadmin/browser/server_groups/__init__.py:127
 msgid "The specified server group cannot be deleted."
@@ -1468,20 +1468,20 @@ msgstr "事件觸發器事件不能為空。"
 
 #: pgadmin/browser/server_groups/servers/databases/extensions/__init__.py:56
 msgid "Extensions"
-msgstr "擴展"
+msgstr "延伸套件"
 
 #: pgadmin/browser/server_groups/servers/databases/extensions/__init__.py:223
 msgid "Could not find the specified extension."
-msgstr "找不到指定的擴展。"
+msgstr "找不到指定的延伸套件。"
 
 #: pgadmin/browser/server_groups/servers/databases/extensions/__init__.py:238
 #: pgadmin/browser/server_groups/servers/databases/extensions/__init__.py:420
 msgid "Could not find the extension information."
-msgstr "找不到擴展信息。"
+msgstr "找不到延伸套件信息。"
 
 #: pgadmin/browser/server_groups/servers/databases/extensions/__init__.py:360
 msgid "The specified extension could not be found.\n"
-msgstr "找不到指定的擴展。\n"
+msgstr "找不到指定的延伸套件。\n"
 
 #: pgadmin/browser/server_groups/servers/databases/extensions/__init__.py:375
 msgid "Extension dropped"
@@ -1489,7 +1489,7 @@ msgstr "拓展已被刪除"
 
 #: pgadmin/browser/server_groups/servers/databases/extensions/__init__.py:478
 msgid "Could not find the extension on the server."
-msgstr "在伺服器上找不到此擴展。"
+msgstr "在伺服器上找不到此延伸套件。"
 
 #: pgadmin/browser/server_groups/servers/databases/extensions/static/js/extension.js:27
 #: pgadmin/browser/server_groups/servers/databases/extensions/static/js/extension.js:58
@@ -1500,7 +1500,7 @@ msgstr "拓展"
 #: pgadmin/browser/server_groups/servers/databases/extensions/static/js/extension.js:79
 #: pgadmin/browser/server_groups/servers/databases/extensions/static/js/extension.js:84
 msgid "Extension..."
-msgstr "擴展..."
+msgstr "延伸套件..."
 
 #: pgadmin/browser/server_groups/servers/databases/extensions/static/js/extension.js:193
 #: pgadmin/browser/server_groups/servers/databases/schemas/collations/static/js/collation.js:107
@@ -1523,7 +1523,7 @@ msgstr "擴展..."
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/view.js:121
 #: pgadmin/tools/grant_wizard/static/js/grant_wizard.js:140
 msgid "Schema"
-msgstr "架構"
+msgstr "Schema"
 
 #: pgadmin/browser/server_groups/servers/databases/extensions/static/js/extension.js:206
 msgid "Relocatable?"
@@ -1563,12 +1563,12 @@ msgstr "名稱不能為空。"
 #: pgadmin/browser/server_groups/servers/databases/external_tables/__init__.py:56
 #: pgadmin/static/js/browser/server_groups/servers/databases/external_tables/external_tables.js:15
 msgid "External Tables"
-msgstr "外部表"
+msgstr "外部資料表"
 
 #: pgadmin/browser/server_groups/servers/databases/external_tables/__init__.py:205
 #: pgadmin/browser/server_groups/servers/databases/external_tables/__init__.py:248
 msgid "Could not find the external table."
-msgstr "找不到外部表。"
+msgstr "找不到外部資料表。"
 
 #: pgadmin/browser/server_groups/servers/databases/external_tables/properties.py:55
 msgid "readablewritablewritable"
@@ -1895,7 +1895,7 @@ msgstr "處理函數不能為空。"
 #: pgadmin/browser/server_groups/servers/databases/schemas/__init__.py:67
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/schema.js:324
 msgid "Schemas"
-msgstr "架構"
+msgstr "Schema"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/__init__.py:113
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/catalog.js:20
@@ -1912,7 +1912,7 @@ msgid ""
 "It may have been removed by another user.\n"
 msgstr ""
 "\n"
-"在資料庫中找不到架構。\n"
+"在資料庫中找不到Schema。\n"
 "它可能已被其他使用者刪除。\n"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/__init__.py:534
@@ -1920,15 +1920,15 @@ msgstr ""
 msgid ""
 "Could not find the schema in the database. It may have been removed by "
 "another user."
-msgstr "在資料庫中找不到該架構。可能已被其他使用者刪除。"
+msgstr "在資料庫中找不到該Schema。可能已被其他使用者刪除。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/__init__.py:687
 msgid "The specified schema could not be found.\n"
-msgstr "找不到指定的架構\n"
+msgstr "找不到指定的Schema\n"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/__init__.py:708
 msgid "Schema dropped"
-msgstr "架構已被刪除"
+msgstr "Schema已被刪除"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/__init__.py:781
 #: pgadmin/static/js/backform.pgadmin.js:1782
@@ -2091,7 +2091,7 @@ msgid ""
 msgstr ""
 "\n"
 "無法在資料庫中找到該域。\n"
-"它可能已被另一個使用者刪除或移動到另一個架構\n"
+"它可能已被另一個使用者刪除或移動到另一個Schema\n"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/domains/__init__.py:606
 msgid "The specified domain could not be found.\n"
@@ -2232,11 +2232,11 @@ msgstr "基本型別不能為空。"
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/__init__.py:63
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/static/js/foreign_table.js:25
 msgid "Foreign Tables"
-msgstr "外部表"
+msgstr "外部資料表"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/__init__.py:434
 msgid "Could not find the specified foreign table."
-msgstr "找不到指定的外部表。"
+msgstr "找不到指定的外部資料表。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/__init__.py:453
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/__init__.py:820
@@ -2246,15 +2246,15 @@ msgstr "找不到指定的外部表。"
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/__init__.py:1307
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/__init__.py:1352
 msgid "Could not find the foreign table on the server."
-msgstr "在伺服器上找不到外部表。"
+msgstr "在伺服器上找不到外部資料表。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/__init__.py:735
 msgid "The specified foreign table could not be found.\n"
-msgstr "找不到指定的外部表。\n"
+msgstr "找不到指定的外部資料表。\n"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/__init__.py:754
 msgid "Foreign Table dropped"
-msgstr "外部表已經被刪除"
+msgstr "外部資料表已經被刪除"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/__init__.py:1285
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/__init__.py:1330
@@ -2294,13 +2294,13 @@ msgstr "約束檢查不能為空。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/static/js/foreign_table.js:490
 msgid "Foreign Table"
-msgstr "外部表"
+msgstr "外部資料表"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/static/js/foreign_table.js:506
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/static/js/foreign_table.js:512
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/static/js/foreign_table.js:518
 msgid "Foreign Table..."
-msgstr "外部表..."
+msgstr "外部資料表..."
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/static/js/foreign_table.js:574
 msgid "Foreign server"
@@ -2317,7 +2317,7 @@ msgstr "繼承"
 #: pgadmin/browser/server_groups/servers/databases/schemas/sequences/static/js/sequence.js:207
 #: pgadmin/browser/server_groups/servers/databases/schemas/types/static/js/type.js:821
 msgid "Schema cannot be empty."
-msgstr "架構不能為空。"
+msgstr "Schema不能為空。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/static/js/foreign_table.js:666
 msgid "Foreign server cannot be empty."
@@ -2427,7 +2427,7 @@ msgstr "選擇要複制的分析器或組態設定。"
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_parsers/static/js/fts_parser.js:202
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_templates/static/js/fts_template.js:142
 msgid "Schema must be selected."
-msgstr "必須選擇架構。"
+msgstr "必須選擇Schema。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_dictionaries/__init__.py:56
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_dictionaries/static/js/fts_dictionary.js:63
@@ -2656,7 +2656,7 @@ msgstr "在資料庫中找不到該函數。"
 #: pgadmin/browser/server_groups/servers/databases/schemas/packages/edbfuncs/__init__.py:621
 #: pgadmin/browser/server_groups/servers/databases/schemas/packages/edbfuncs/static/js/edbproc.js:24
 msgid "Procedures"
-msgstr "存儲過程"
+msgstr "預儲程序"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/__init__.py:1727
 msgid "Trigger Functions"
@@ -2686,7 +2686,7 @@ msgstr "系統函數?"
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/function.js:214
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/trigger_function.js:140
 msgid "System procedure?"
-msgstr "系統存儲過程?"
+msgstr "系統預儲程序?"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/function.js:221
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/trigger_function.js:147
@@ -2714,7 +2714,7 @@ msgstr "簽名參數"
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/trigger_function.js:167
 #: pgadmin/browser/server_groups/servers/databases/schemas/packages/edbfuncs/static/js/edbfunc.js:87
 msgid "Return type"
-msgstr "返回型別"
+msgstr "回傳型別"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/function.js:245
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/function.js:247
@@ -2748,7 +2748,7 @@ msgstr "波動性"
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/function.js:281
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/trigger_function.js:214
 msgid "Returns a set?"
-msgstr "是否返回設定？"
+msgstr "是否回傳設定？"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/function.js:285
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/trigger_function.js:218
@@ -2808,7 +2808,7 @@ msgstr "所有者不能為空。"
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/function.js:383
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/trigger_function.js:291
 msgid "Return type cannot be empty."
-msgstr "返回型別不能為空。"
+msgstr "回傳型別不能為空。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/function.js:388
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/procedure.js:182
@@ -2839,13 +2839,13 @@ msgstr "代碼不能為空。"
 #: pgadmin/browser/server_groups/servers/databases/schemas/packages/edbfuncs/static/js/edbproc.js:38
 #: pgadmin/browser/server_groups/servers/databases/schemas/synonyms/static/js/synonym.js:115
 msgid "Procedure"
-msgstr "存儲過程"
+msgstr "預儲程序"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/procedure.js:58
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/procedure.js:64
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/procedure.js:70
 msgid "Procedure..."
-msgstr "存儲過程..."
+msgstr "預儲程序..."
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/trigger_function.js:24
 msgid "Trigger functions"
@@ -3176,11 +3176,11 @@ msgstr "TOAST 表"
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/schema.js:357
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/schema.js:362
 msgid "Schema..."
-msgstr "架構..."
+msgstr "Schema..."
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/schema.js:400
 msgid "System schema?"
-msgstr "是否為系統架構?"
+msgstr "是否為系統Schema?"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/schema.js:409
 #: pgadmin/browser/server_groups/servers/databases/static/js/database.js:319
@@ -3261,11 +3261,11 @@ msgstr "公共同義詞"
 #: pgadmin/browser/server_groups/servers/databases/schemas/synonyms/static/js/synonym.js:119
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/view.js:52
 msgid "View"
-msgstr "視圖"
+msgstr "檢視表 View"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/synonyms/static/js/synonym.js:124
 msgid "Target schema"
-msgstr "目標架構"
+msgstr "目標Schema"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/synonyms/static/js/synonym.js:149
 msgid "Target object"
@@ -3312,7 +3312,7 @@ msgstr "否"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/synonyms/static/js/synonym.js:199
 msgid "Target schema cannot be empty."
-msgstr "目標架構不能為空."
+msgstr "目標Schema不能為空."
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/synonyms/static/js/synonym.js:203
 msgid "Target object cannot be empty."
@@ -3792,7 +3792,7 @@ msgstr "排除約束..."
 #: pgadmin/tools/backup/static/js/backup.js:363
 #: pgadmin/tools/restore/static/js/restore.js:255
 msgid "Tablespace"
-msgstr "表空間"
+msgstr "資料表空間"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/exclusion_constraint/static/js/exclusion_constraint.js:700
 msgid "Access method"
@@ -4121,7 +4121,7 @@ msgstr "並發產生?"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/indexes/static/js/index.js:497
 msgid "Tablespace cannot be empty."
-msgstr "表空間不能為空。"
+msgstr "資料表空間不能為空。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/indexes/static/js/index.js:503
 msgid "Access method cannot be empty."
@@ -4287,7 +4287,7 @@ msgstr "分區表？"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/partitions/static/js/partition.js:843
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.js:972
 msgid "Partition Scheme"
-msgstr "分區架構"
+msgstr "分區Schema"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/partitions/static/js/partition.js:419
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/partitions/static/js/partition.js:550
@@ -4455,7 +4455,7 @@ msgstr "確實要分離此分區嗎？"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/partitions/static/js/partition.js:900
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.js:1049
 msgid "Error fetching tables to be attached"
-msgstr "獲取要附加的表時出錯"
+msgstr "獲取要附加的表時出現錯誤"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/partitions/static/js/partition.js:933
 msgid ""
@@ -4488,7 +4488,7 @@ msgstr "表名不能為空。"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/partitions/static/js/partition.js:996
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.js:1162
 msgid "Table schema cannot be empty."
-msgstr "表架構不能為空。"
+msgstr "表Schema不能為空。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/partitions/static/js/partition.js:1001
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.js:1171
@@ -5391,7 +5391,7 @@ msgstr "對齊型別"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/types/static/js/type.js:707
 msgid "Storage type"
-msgstr "存儲型別"
+msgstr "儲存型別"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/types/static/js/type.js:720
 msgid "Passed by value?"
@@ -5436,59 +5436,59 @@ msgstr "輸出函數不能為空。"
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/__init__.py:68
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/view.js:31
 msgid "Views"
-msgstr "視圖"
+msgstr "檢視表 View"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/__init__.py:133
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/mview.js:31
 msgid "Materialized Views"
-msgstr "物化視圖"
+msgstr "具體化檢視表 Materialized View"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/__init__.py:355
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/__init__.py:411
 msgid "Could not find the view."
-msgstr "找不到視圖。"
+msgstr "找不到該檢視表。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/__init__.py:594
 msgid "The specified view could not be found.\n"
-msgstr "找不到指定的視圖。\n"
+msgstr "找不到指定的檢視表。\n"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/__init__.py:613
 msgid "View dropped"
-msgstr "視圖已刪除"
+msgstr "該檢視表已刪除"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/__init__.py:683
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/__init__.py:1110
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/__init__.py:1260
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/__init__.py:1321
 msgid "Could not find the view on the server."
-msgstr "在伺服器上找不到視圖。"
+msgstr "在伺服器上找不到檢視表。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/__init__.py:1438
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/__init__.py:1652
 msgid "Could not find the materialized view on the server."
-msgstr "在伺服器上找不到物化視圖。"
+msgstr "在伺服器上找不到具體化檢視表 Materialized View。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/__init__.py:1796
 msgid "Could not find the materialized view."
-msgstr "找不到物化視圖."
+msgstr "找不到具體化檢視表 Materialized View."
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/__init__.py:1863
 msgid "View refreshed"
-msgstr "視圖已更新"
+msgstr "檢視表已經更新"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/mview.js:56
 msgid "Materialized View"
-msgstr "物化視圖"
+msgstr "具體化檢視表 Materialized View"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/mview.js:77
 msgid "Refresh View"
-msgstr "更新視圖"
+msgstr "更新檢視表"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/mview.js:83
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/mview.js:89
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/mview.js:95
 msgid "Materialized View..."
-msgstr "物化視圖..."
+msgstr "具體化檢視表 Materialized View..."
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/mview.js:99
 msgid "With data"
@@ -5500,16 +5500,16 @@ msgstr "不包括資料"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/mview.js:113
 msgid "With data (concurrently)"
-msgstr "包含資料(並發)"
+msgstr "包含資料(同時)"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/mview.js:119
 msgid "With no data (concurrently)"
-msgstr "不包含資料(並發)"
+msgstr "不包含資料(同時)"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/mview.js:162
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/view.js:126
 msgid "System view?"
-msgstr "是否為系統視圖?"
+msgstr "是否為系統檢視表?"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/mview.js:176
 msgid "With data?"
@@ -5517,7 +5517,7 @@ msgstr "是否包括資料?"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/mview.js:234
 msgid "Please enter view definition."
-msgstr "請輸入視圖定義。"
+msgstr "請輸入檢視表定義。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/mview.js:273
 msgid "View refreshed successfully"
@@ -5526,7 +5526,7 @@ msgstr "視圖已成功更新"
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/mview.js:277
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/mview.js:283
 msgid "Error refreshing view"
-msgstr "更新視圖時出錯"
+msgstr "更新視圖時出現錯誤"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/view.js:75
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/view.js:81
@@ -5656,12 +5656,12 @@ msgstr "Xact已提交"
 #: pgadmin/browser/server_groups/servers/databases/templates/databases/sql/9.2_plus/stats.sql:5
 #: pgadmin/browser/server_groups/servers/databases/templates/databases/sql/default/stats.sql:5
 msgid "Xact rolled back"
-msgstr "Xact 已回滾"
+msgstr "Xact 已回溯"
 
 #: pgadmin/browser/server_groups/servers/databases/templates/databases/sql/9.2_plus/stats.sql:8
 #: pgadmin/browser/server_groups/servers/databases/templates/databases/sql/default/stats.sql:8
 msgid "Tuples returned"
-msgstr "元組已返回"
+msgstr "元組已回傳"
 
 #: pgadmin/browser/server_groups/servers/databases/templates/databases/sql/9.2_plus/stats.sql:9
 #: pgadmin/browser/server_groups/servers/databases/templates/databases/sql/default/stats.sql:9
@@ -5674,7 +5674,7 @@ msgstr "上次重置統計資訊"
 
 #: pgadmin/browser/server_groups/servers/databases/templates/databases/sql/9.2_plus/stats.sql:14
 msgid "Tablespace conflicts"
-msgstr "表空間沖突"
+msgstr "資料表空間沖突"
 
 #: pgadmin/browser/server_groups/servers/databases/templates/databases/sql/9.2_plus/stats.sql:15
 msgid "Lock conflicts"
@@ -5719,7 +5719,7 @@ msgstr "在伺服器上找不到pgAgent任務。"
 
 #: pgadmin/browser/server_groups/servers/pgagent/__init__.py:537
 msgid "Updated the next runtime to now."
-msgstr "現在已將下一個運行時更新。"
+msgstr "現在已將下一個執行時更新。"
 
 #: pgadmin/browser/server_groups/servers/pgagent/schedules/__init__.py:44
 #: pgadmin/browser/server_groups/servers/pgagent/schedules/static/js/pga_schedule.js:23
@@ -6376,11 +6376,11 @@ msgstr "pgAgent 作業..."
 
 #: pgadmin/browser/server_groups/servers/pgagent/static/js/pga_job.js:65
 msgid "Run now"
-msgstr "現在運行"
+msgstr "現在執行"
 
 #: pgadmin/browser/server_groups/servers/pgagent/static/js/pga_job.js:91
 msgid "Not running currently."
-msgstr "目前沒有運行."
+msgstr "目前沒有執行."
 
 #: pgadmin/browser/server_groups/servers/pgagent/static/js/pga_job.js:92
 msgid "Unknown"
@@ -6395,7 +6395,7 @@ msgstr "作業類"
 msgid ""
 "Please select a class to categorize the job. This option will not affect "
 "the way the job runs."
-msgstr "請選擇一個類對作業進行分類。此選項不會影響作業的運行方式。"
+msgstr "請選擇一個類對作業進行分類。此選項不會影響作業的執行方式。"
 
 #: pgadmin/browser/server_groups/servers/pgagent/static/js/pga_job.js:115
 #: pgadmin/browser/server_groups/servers/pgagent/static/js/pga_job.js:119
@@ -6407,7 +6407,7 @@ msgid ""
 "Enter the hostname of a machine running pgAgent if you wish to ensure "
 "only that machine will run this job. Leave blank if any host may run the "
 "job."
-msgstr "如果您希望確保只有該計算機將運行此作業，請輸入運行pgAgent的計算機的主機名。 如果任何主機可以運行作業，請留空。"
+msgstr "如果您希望確保只有該計算機將執行此作業，請輸入執行pgAgent的計算機的主機名。 如果任何主機可以執行作業，請留空。"
 
 #: pgadmin/browser/server_groups/servers/pgagent/static/js/pga_job.js:123
 msgid "Created"
@@ -6419,11 +6419,11 @@ msgstr "更改"
 
 #: pgadmin/browser/server_groups/servers/pgagent/static/js/pga_job.js:129
 msgid "Next run"
-msgstr "下一步運行"
+msgstr "下一步執行"
 
 #: pgadmin/browser/server_groups/servers/pgagent/static/js/pga_job.js:132
 msgid "Last run"
-msgstr "上次運行"
+msgstr "上次執行"
 
 #: pgadmin/browser/server_groups/servers/pgagent/static/js/pga_job.js:134
 msgid "Last result"
@@ -6431,7 +6431,7 @@ msgstr "最後的結果"
 
 #: pgadmin/browser/server_groups/servers/pgagent/static/js/pga_job.js:138
 msgid "Running at"
-msgstr "運行在"
+msgstr "執行在"
 
 #: pgadmin/browser/server_groups/servers/pgagent/static/js/pga_job.js:143
 #: pgadmin/browser/server_groups/servers/pgagent/steps/__init__.py:43
@@ -6496,7 +6496,7 @@ msgstr "連線字符串"
 
 #: pgadmin/browser/server_groups/servers/pgagent/steps/static/js/pga_jobstep.js:188
 msgid "Please select the database on which the job step will run."
-msgstr "請選擇該任務將要運行的資料庫。"
+msgstr "請選擇該任務將要執行的資料庫。"
 
 #: pgadmin/browser/server_groups/servers/pgagent/steps/static/js/pga_jobstep.js:194
 #, python-format
@@ -6511,7 +6511,7 @@ msgid ""
 msgstr ""
 "請指定遠程資料庫伺服器的連線字符串。每個參數設定都在窗體關鍵字 = 值中。等號周圍的空格是可選的。若要編寫空值或包含空格的值, 請用單引號 "
 "(例如, 關鍵字 = \"值\") 將其包圍。值中的單引號和反斜杠必須使用反斜杠轉義, 即, 『 和 \\. <br> 有關詳細信息, 請參閱 "
-"%s 上的文檔"
+"%s 上的文件"
 
 #: pgadmin/browser/server_groups/servers/pgagent/steps/static/js/pga_jobstep.js:199
 msgid "On error"
@@ -6561,7 +6561,7 @@ msgstr "請選擇 \"錯誤時有效\" 選項。"
 #: pgadmin/browser/server_groups/servers/pgagent/templates/pga_job/sql/pre3.4/stats.sql:2
 #: pgadmin/browser/server_groups/servers/pgagent/templates/pga_jobstep/sql/pre3.4/stats.sql:2
 msgid "Run"
-msgstr "運行"
+msgstr "執行"
 
 #: pgadmin/browser/server_groups/servers/pgagent/templates/pga_job/sql/pre3.4/stats.sql:3
 #: pgadmin/browser/server_groups/servers/pgagent/templates/pga_jobstep/sql/pre3.4/stats.sql:3
@@ -6595,47 +6595,47 @@ msgstr "輸出"
 #: pgadmin/browser/server_groups/servers/resource_groups/__init__.py:60
 #: pgadmin/browser/server_groups/servers/resource_groups/static/js/resource_group.js:20
 msgid "Resource Groups"
-msgstr "資源組"
+msgstr "資源群組"
 
 #: pgadmin/browser/server_groups/servers/resource_groups/__init__.py:274
 #: pgadmin/browser/server_groups/servers/resource_groups/__init__.py:337
 msgid "Could not find the resource group."
-msgstr "找不到資源組."
+msgstr "找不到資源群組."
 
 #: pgadmin/browser/server_groups/servers/resource_groups/__init__.py:516
 msgid "The specified resource group could not be found.\n"
-msgstr "找不到指定的資源組。\n"
+msgstr "找不到指定的資源群組。\n"
 
 #: pgadmin/browser/server_groups/servers/resource_groups/__init__.py:533
 msgid "Resource Group dropped"
-msgstr "資源組已刪除"
+msgstr "資源群組已刪除"
 
 #: pgadmin/browser/server_groups/servers/resource_groups/__init__.py:591
 #: pgadmin/browser/server_groups/servers/resource_groups/__init__.py:658
 msgid "The specified resource group could not be found."
-msgstr "找不到指定的資源組。"
+msgstr "找不到指定的資源群組。"
 
 #: pgadmin/browser/server_groups/servers/resource_groups/static/js/resource_group.js:34
 msgid "Resource Group"
-msgstr "資源組"
+msgstr "資源群組"
 
 #: pgadmin/browser/server_groups/servers/resource_groups/static/js/resource_group.js:50
 #: pgadmin/browser/server_groups/servers/resource_groups/static/js/resource_group.js:64
 #: pgadmin/browser/server_groups/servers/resource_groups/static/js/resource_group.js:69
 msgid "Resource Group..."
-msgstr "資源組..."
+msgstr "資源群組..."
 
 #: pgadmin/browser/server_groups/servers/resource_groups/static/js/resource_group.js:93
 msgid "CPU rate limit (percentage)"
-msgstr "CPU 速率限制 (百分比)"
+msgstr "CPU 速度限制 (百分比)"
 
 #: pgadmin/browser/server_groups/servers/resource_groups/static/js/resource_group.js:96
 msgid "Dirty rate limit (KB)"
-msgstr "髒占比限制 (KB)"
+msgstr "Dirty rate 限制 (KB)"
 
 #: pgadmin/browser/server_groups/servers/resource_groups/static/js/resource_group.js:120
 msgid "CPU rate limit cannot be empty."
-msgstr "CPU 占比限制不能為空."
+msgstr "CPU 速度限制不能為空。"
 
 #: pgadmin/browser/server_groups/servers/resource_groups/static/js/resource_group.js:130
 msgid "Dirty rate limit cannot be empty."
@@ -6643,7 +6643,7 @@ msgstr "髒率限制不能為空。"
 
 #: pgadmin/browser/server_groups/servers/roles/__init__.py:29
 msgid "Login/Group Roles"
-msgstr "登錄/組角色"
+msgstr "角色：使用者/群組"
 
 #: pgadmin/browser/server_groups/servers/roles/__init__.py:157
 msgid "Date format is invalid."
@@ -6896,7 +6896,7 @@ msgid ""
 "Error retrieving the role information.\n"
 "{0}"
 msgstr ""
-"檢索角色信息時出錯。\n"
+"檢索角色信息時出現錯誤。\n"
 "{0}"
 
 #: pgadmin/browser/server_groups/servers/roles/__init__.py:541
@@ -6909,7 +6909,7 @@ msgstr "在資料庫伺服器上找不到角色。"
 msgid ""
 "Error retrieving roles from the database server.\n"
 "{0}"
-msgstr "從資料庫伺服器檢索角色時出錯。"
+msgstr "從資料庫伺服器檢索角色時出現錯誤。"
 
 #: pgadmin/browser/server_groups/servers/roles/__init__.py:589
 #: pgadmin/browser/server_groups/servers/roles/__init__.py:624
@@ -6919,7 +6919,7 @@ msgid ""
 "Error fetching role information from the database server.\n"
 "{0}"
 msgstr ""
-"從資料庫伺服器獲取角色信息時出錯。\n"
+"從資料庫伺服器獲取角色信息時出現錯誤。\n"
 "{0}"
 
 #: pgadmin/browser/server_groups/servers/roles/__init__.py:642
@@ -6966,13 +6966,13 @@ msgstr "無法檢索角色信息。{0}"
 msgid ""
 "Error retrieving variable information for the role.\n"
 "{0}"
-msgstr "檢索角色的變量信息時出錯。{0}"
+msgstr "檢索角色的變量信息時出現錯誤。{0}"
 
 #: pgadmin/browser/server_groups/servers/roles/__init__.py:1102
 msgid ""
 "Error retrieving the variable options for the role.\n"
 "{0}"
-msgstr "檢索角色的變量選項時出錯。{0}"
+msgstr "檢索角色的變量選項時出現錯誤。{0}"
 
 #: pgadmin/browser/server_groups/servers/roles/static/js/role.js:39
 #: pgadmin/browser/server_groups/servers/static/js/server.js:32
@@ -7224,7 +7224,7 @@ msgstr "清除已儲存的密碼"
 #: pgadmin/browser/server_groups/servers/static/js/server.js:647
 #, python-format
 msgid "Are you sure you want to clear the saved password for server %s?"
-msgstr "確實要清除伺服器 %s 的已保存密碼嗎？"
+msgstr "確實要清除伺服器 %s 的已儲存密碼嗎？"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.js:685
 msgid "Clear SSH Tunnel password"
@@ -7235,7 +7235,7 @@ msgstr "清除 SSH 隧道密碼"
 msgid ""
 "Are you sure you want to clear the saved password of SSH Tunnel for "
 "server %s?"
-msgstr "確實要清除伺服器 %s 的 SSH 隧道的保存密碼嗎？"
+msgstr "確實要清除伺服器 %s 的 SSH 隧道的儲存密碼嗎？"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.js:761
 msgid "Server group"
@@ -7288,7 +7288,7 @@ msgstr "現在連線？"
 #: pgadmin/browser/server_groups/servers/static/js/server.js:808
 #: pgadmin/browser/server_groups/servers/static/js/server.js:969
 msgid "Save password?"
-msgstr "保存密碼？"
+msgstr "儲存密碼？"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.js:823
 msgid "SSL mode"
@@ -7430,34 +7430,34 @@ msgstr "請選擇參數名稱。"
 #: pgadmin/browser/server_groups/servers/tablespaces/__init__.py:33
 #: pgadmin/browser/server_groups/servers/tablespaces/static/js/tablespace.js:23
 msgid "Tablespaces"
-msgstr "表空間"
+msgstr "資料表空間"
 
 #: pgadmin/browser/server_groups/servers/tablespaces/__init__.py:165
 msgid "Could not find the tablespace."
-msgstr "找不到表空間."
+msgstr "找不到資料表空間."
 
 #: pgadmin/browser/server_groups/servers/tablespaces/__init__.py:265
 msgid "Could not find the tablespace information."
-msgstr "找不到表空間信息。"
+msgstr "找不到資料表空間信息。"
 
 #: pgadmin/browser/server_groups/servers/tablespaces/__init__.py:414
 msgid "The specified tablespace could not be found.\n"
-msgstr "找不到指定的表空間\n"
+msgstr "找不到指定的資料表空間\n"
 
 #: pgadmin/browser/server_groups/servers/tablespaces/__init__.py:431
 msgid "Tablespace dropped"
-msgstr "表空間已刪除"
+msgstr "資料表空間已刪除"
 
 #: pgadmin/browser/server_groups/servers/tablespaces/__init__.py:488
 #: pgadmin/browser/server_groups/servers/tablespaces/__init__.py:553
 msgid "Could not find the tablespace on the server."
-msgstr "在伺服器上找不到表空間。"
+msgstr "在伺服器上找不到資料表空間。"
 
 #: pgadmin/browser/server_groups/servers/tablespaces/static/js/tablespace.js:56
 #: pgadmin/browser/server_groups/servers/tablespaces/static/js/tablespace.js:62
 #: pgadmin/browser/server_groups/servers/tablespaces/static/js/tablespace.js:68
 msgid "Tablespace..."
-msgstr "表空間..."
+msgstr "資料表空間..."
 
 #: pgadmin/browser/server_groups/servers/tablespaces/static/js/tablespace.js:75
 msgid "Move objects to..."
@@ -7465,7 +7465,7 @@ msgstr "移動物件到..."
 
 #: pgadmin/browser/server_groups/servers/tablespaces/static/js/tablespace.js:118
 msgid "New tablespace"
-msgstr "新建表空間"
+msgstr "新建資料表空間"
 
 #: pgadmin/browser/server_groups/servers/tablespaces/static/js/tablespace.js:125
 msgid "Object type"
@@ -7477,7 +7477,7 @@ msgstr "所有"
 
 #: pgadmin/browser/server_groups/servers/tablespaces/static/js/tablespace.js:132
 msgid "Materialized views"
-msgstr "物化視圖"
+msgstr "具體化檢視表 Materialized View"
 
 #: pgadmin/browser/server_groups/servers/tablespaces/static/js/tablespace.js:135
 msgid "Object owner"
@@ -7485,7 +7485,7 @@ msgstr "物件所有者"
 
 #: pgadmin/browser/server_groups/servers/tablespaces/static/js/tablespace.js:183
 msgid "Move objects to another tablespace"
-msgstr "將物件移動到另一個表空間"
+msgstr "將物件移動到另一個資料表空間"
 
 #: pgadmin/browser/server_groups/servers/tablespaces/static/js/tablespace.js:194
 #: pgadmin/browser/templates/browser/index.html:159
@@ -7496,7 +7496,7 @@ msgstr "使用者"
 
 #: pgadmin/browser/server_groups/servers/tablespaces/static/js/tablespace.js:264
 msgid "Please select tablespace"
-msgstr "選擇表空間"
+msgstr "選擇資料表空間"
 
 #: pgadmin/browser/server_groups/servers/tablespaces/static/js/tablespace.js:282
 msgid "Move objects..."
@@ -7548,7 +7548,7 @@ msgstr "用於使用者 \"{0}\" 連線伺服器 \"{1}\" 的資料庫伺服器密
 #: pgadmin/dashboard/static/js/dashboard.js:962
 #: pgadmin/dashboard/static/js/dashboard.js:1232
 msgid "Backend start"
-msgstr "後台啟動"
+msgstr "背景啟動"
 
 #: pgadmin/browser/server_groups/servers/templates/servers/sql/10_plus/stats.sql:15
 #: pgadmin/browser/server_groups/servers/templates/servers/sql/10_plus/stats.sql:41
@@ -7628,7 +7628,7 @@ msgstr "Xact 開始"
 #: pgadmin/browser/server_groups/servers/templates/servers/sql/9.6_plus/stats.sql:42
 #: pgadmin/browser/server_groups/servers/templates/servers/sql/default/stats.sql:37
 msgid "Streaming Replication"
-msgstr "流複制"
+msgstr "串流複寫(Streaming Replication)"
 
 #: pgadmin/browser/server_groups/servers/templates/servers/sql/9.2_plus/stats.sql:17
 #: pgadmin/browser/server_groups/servers/templates/servers/sql/9.2_plus/stats.sql:42
@@ -7661,29 +7661,29 @@ msgstr "請在樹狀圖中選擇一個物件。"
 
 #: pgadmin/browser/static/js/browser.js:231
 msgid "Dependencies"
-msgstr "依賴關系"
+msgstr "相依關系"
 
 #: pgadmin/browser/static/js/browser.js:242
 msgid "Dependents"
-msgstr "依賴組件"
+msgstr "相依物件"
 
 #: pgadmin/browser/static/js/browser.js:345
 #: pgadmin/browser/static/js/toolbar.js:29
 #: pgadmin/browser/static/js/toolbar.js:88
 #: pgadmin/tools/datagrid/static/js/datagrid.js:74
 msgid "View Data"
-msgstr "視圖資料"
+msgstr "瀏覽資料"
 
 #: pgadmin/browser/static/js/browser.js:346
 #: pgadmin/browser/static/js/toolbar.js:20
 #: pgadmin/browser/static/js/toolbar.js:90
 #: pgadmin/tools/datagrid/static/js/datagrid.js:75
 msgid "Filtered Rows"
-msgstr "篩選的行"
+msgstr "篩選過的資料列"
 
 #: pgadmin/browser/static/js/browser.js:373
 msgid "No object selected"
-msgstr "沒有選中的物件"
+msgstr "沒有選擇任何物件"
 
 #: pgadmin/browser/static/js/browser.js:572
 msgid "Master password"
@@ -7692,7 +7692,7 @@ msgstr "主密碼"
 #: pgadmin/browser/static/js/browser.js:578
 #: pgadmin/browser/static/js/browser.js:617
 msgid "Reset Master Password"
-msgstr "重置主密碼"
+msgstr "重設主密碼"
 
 #: pgadmin/browser/static/js/browser.js:618
 msgid ""
@@ -7708,7 +7708,7 @@ msgstr "確實要關閉 %s 瀏覽器嗎？"
 
 #: pgadmin/browser/static/js/browser.js:1797
 msgid "Error retrieving details for the node."
-msgstr "檢索節點的詳細信息時出錯。"
+msgstr "取得節點的詳細內容時出現錯誤。"
 
 #: pgadmin/browser/static/js/collection.js:49
 #: pgadmin/browser/static/js/node.js:118
@@ -7745,7 +7745,7 @@ msgstr "所選物件沒有可用的屬性。"
 #: pgadmin/browser/static/js/node.js:439
 #, python-format
 msgid "Error retrieving properties - %s"
-msgstr "檢索屬性時出錯- %s"
+msgstr "檢索屬性時出現錯誤- %s"
 
 #: pgadmin/browser/static/js/collection.js:330
 #: pgadmin/misc/dependencies/static/js/dependencies.js:230
@@ -7766,7 +7766,7 @@ msgstr "請至少選擇一個要刪除的物件。"
 msgid ""
 "Are you sure you want to drop all the selected objects and all the "
 "objects that depend on them?"
-msgstr "確實要刪除所有選定的物件和依賴於它們的所有物件嗎？"
+msgstr "確實要刪除所有選定的物件和相依於它們的所有物件嗎？"
 
 #: pgadmin/browser/static/js/collection.js:357
 msgid "DROP CASCADE multiple objects?"
@@ -7783,7 +7783,7 @@ msgstr "DROP多個物件？"
 #: pgadmin/browser/static/js/collection.js:386
 #, python-format
 msgid "Error dropping %s"
-msgstr "刪除 %s 時出錯"
+msgstr "刪除 %s 時出現錯誤"
 
 #: pgadmin/browser/static/js/error.js:25
 msgid "Error message"
@@ -7795,7 +7795,7 @@ msgstr "附加信息"
 
 #: pgadmin/browser/static/js/layout.js:141
 msgid "Failed to save the lock layout setting."
-msgstr "未能保存鎖定排版設定。"
+msgstr "未能儲存鎖定排版設定。"
 
 #: pgadmin/browser/static/js/node.js:130
 msgid "Properties..."
@@ -7836,32 +7836,32 @@ msgstr "正在編輯？"
 msgid ""
 "Are you sure you want to drop %s \"%s\" and all the objects that depend "
 "on it?"
-msgstr "確定要刪除 %s \"%s\"和所有依賴它的物件嗎？"
+msgstr "確定要刪除 %s \"%s\"和所有相依它的物件嗎？"
 
 #: pgadmin/browser/static/js/node.js:751
 #, python-format
 msgid "DROP CASCADE %s?"
-msgstr "級聯刪除 %s 嗎？"
+msgstr "同步移除與 %s 的相依物件嗎？"
 
 #: pgadmin/browser/static/js/node.js:756 pgadmin/browser/static/js/node.js:770
 #, python-format
 msgid "The %s \"%s\" cannot be dropped."
-msgstr "不能刪除%s \"%s\" 。"
+msgstr "不能刪除 %s \"%s\" 。"
 
 #: pgadmin/browser/static/js/node.js:763
 #, python-format
 msgid "Are you sure you want to drop %s \"%s\"?"
-msgstr "是否確實要刪除%s\"%s\"？"
+msgstr "是否確實要刪除 %s\"%s\" 嗎？"
 
 #: pgadmin/browser/static/js/node.js:765
 #, python-format
 msgid "DROP %s?"
-msgstr "刪除%s 麼？"
+msgstr "刪除 %s 嗎？"
 
 #: pgadmin/browser/static/js/node.js:803
 #, python-format
 msgid "Error dropping %s: \"%s\""
-msgstr "刪除%s: \"%s\"時，出錯"
+msgstr "刪除 %s: \"%s\"時，出現錯誤"
 
 #: pgadmin/browser/static/js/node.js:1193
 #: pgadmin/browser/static/js/node.js:1195
@@ -7873,17 +7873,17 @@ msgstr "編輯"
 #: pgadmin/browser/static/js/node.js:1209
 #: pgadmin/browser/static/js/node.js:1380
 msgid "SQL help for this object type."
-msgstr "此物件型別的 SQL 幫助。"
+msgstr "此物件型別的 SQL 說明。"
 
 #: pgadmin/browser/static/js/node.js:1298
 #: pgadmin/tools/grant_wizard/static/js/grant_wizard.js:1152
 msgid "Error saving properties"
-msgstr "保存屬性時出錯"
+msgstr "儲存屬性時出現錯誤"
 
 #: pgadmin/browser/static/js/node.js:1392
 #: pgadmin/browser/static/js/wizard.js:131
 msgid "Help for this dialog."
-msgstr "此對話框的幫助。"
+msgstr "此對話框的說明。"
 
 #: pgadmin/browser/static/js/node.js:1404
 msgid "Cancel changes to this object."
@@ -7895,7 +7895,7 @@ msgstr "重置"
 
 #: pgadmin/browser/static/js/node.js:1418
 msgid "Reset the fields on this dialog."
-msgstr "重置此對話框上的字段。"
+msgstr "重置此對話框上的欄位。"
 
 #: pgadmin/browser/static/js/node.js:1430
 #: pgadmin/preferences/static/js/preferences.js:431
@@ -7903,11 +7903,11 @@ msgstr "重置此對話框上的字段。"
 #: pgadmin/tools/datagrid/templates/datagrid/index.html:37
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:4268
 msgid "Save"
-msgstr "保存"
+msgstr "儲存"
 
 #: pgadmin/browser/static/js/node.js:1432
 msgid "Save this object."
-msgstr "保存此物件。"
+msgstr "儲存此物件。"
 
 #: pgadmin/browser/static/js/node.ui.js:37
 msgid "Select All"
@@ -7948,7 +7948,7 @@ msgstr "左側面板徽標"
 #: pgadmin/browser/static/js/wizard.js:139
 #: pgadmin/misc/file_manager/templates/file_manager/index.html:15
 msgid "Back"
-msgstr "返回"
+msgstr "回傳"
 
 #: pgadmin/browser/static/js/wizard.js:141
 msgid "Next"
@@ -7968,7 +7968,7 @@ msgstr "切換導航"
 
 #: pgadmin/browser/templates/browser/index.html:115
 msgid "File"
-msgstr "檔案"
+msgstr "設定"
 
 #: pgadmin/browser/templates/browser/index.html:125
 msgid "Object"
@@ -7985,35 +7985,35 @@ msgstr "工具"
 #: pgadmin/browser/templates/browser/index.html:140 pgadmin/help/__init__.py:59
 #: pgadmin/help/__init__.py:70 pgadmin/static/js/sqleditor/filter_dialog.js:72
 msgid "Help"
-msgstr "幫助"
+msgstr "說明"
 
 #: pgadmin/browser/templates/browser/index.html:162
 msgid "Logout"
-msgstr "注銷"
+msgstr "登出"
 
 #: pgadmin/browser/templates/browser/upgrade.html:1
 msgid ""
 "You are currently running version {0} of {1}, however the current version"
 " is {2}."
-msgstr "您目前正在運行 {1} 的版本 {0}, 但目前版本為 {2}。"
+msgstr "您正在執行 {1} 的版本 {0}, 但目前最新版本為 {2}。"
 
 #: pgadmin/browser/templates/browser/upgrade.html:3
 msgid ""
 "Please click <a class=\"alert-link\" href=\"{0}\" "
 "target=\"_new\">here</a> for more information."
-msgstr "請點擊 <a class=\"alert-link\" href=\"{0}\" target=\"_new\">這裏</a> 了解更多信息."
+msgstr "請點選 <a class=\"alert-link\" href=\"{0}\" target=\"_new\">這裏</a> 瞭解更多資訊。"
 
 #: pgadmin/dashboard/__init__.py:56
 msgid "Dashboard"
-msgstr "儀表盤"
+msgstr "儀錶版"
 
 #: pgadmin/dashboard/__init__.py:74
 msgid "Dashboards"
-msgstr "儀表盤"
+msgstr "儀錶版"
 
 #: pgadmin/dashboard/__init__.py:79
 msgid "Session statistics refresh rate"
-msgstr "會話統計資訊更新率"
+msgstr "連線統計資訊更新率"
 
 #: pgadmin/dashboard/__init__.py:81 pgadmin/dashboard/__init__.py:89
 #: pgadmin/dashboard/__init__.py:97 pgadmin/dashboard/__init__.py:105
@@ -8105,7 +8105,7 @@ msgstr "取消活動查詢"
 
 #: pgadmin/dashboard/static/js/dashboard.js:51
 msgid "Terminate the session"
-msgstr "終止會話"
+msgstr "終止連線"
 
 #: pgadmin/dashboard/static/js/dashboard.js:78
 msgid "Cancel Active Query?"
@@ -8121,27 +8121,27 @@ msgstr "活動查詢已成功取消。"
 
 #: pgadmin/dashboard/static/js/dashboard.js:81
 msgid "An error occurred whilst cancelling the active query."
-msgstr "取消活動查詢時出錯。"
+msgstr "取消活動查詢時出現錯誤。"
 
 #: pgadmin/dashboard/static/js/dashboard.js:84
 msgid "Terminate Session?"
-msgstr "終止會話？"
+msgstr "終止連線？"
 
 #: pgadmin/dashboard/static/js/dashboard.js:85
 msgid "Are you sure you wish to terminate the session?"
-msgstr "確實要終止會話嗎？"
+msgstr "確實要終止連線嗎？"
 
 #: pgadmin/dashboard/static/js/dashboard.js:86
 msgid "Session terminated successfully."
-msgstr "會話已成功終止。"
+msgstr "連線已成功終止。"
 
 #: pgadmin/dashboard/static/js/dashboard.js:87
 msgid "An error occurred whilst terminating the active query."
-msgstr "終止活動查詢時出錯。"
+msgstr "終止活動查詢時出現錯誤。"
 
 #: pgadmin/dashboard/static/js/dashboard.js:142
 msgid "View the active session details"
-msgstr "查看活動會話詳細信息"
+msgstr "查看活動連線詳細信息"
 
 #: pgadmin/dashboard/static/js/dashboard.js:160
 msgid "Backend type"
@@ -8167,7 +8167,7 @@ msgstr "上次狀態更改於"
 #: pgadmin/dashboard/static/js/dashboard.js:369
 #: pgadmin/dashboard/static/js/dashboard.js:375
 msgid "An error occurred whilst loading the dashboard."
-msgstr "載入儀表板時出錯。"
+msgstr "載入儀表板時出現錯誤。"
 
 #: pgadmin/dashboard/static/js/dashboard.js:252
 #: pgadmin/dashboard/static/js/dashboard.js:383
@@ -8180,11 +8180,11 @@ msgstr "請連線到選定的伺服器以查看儀表盤。"
 
 #: pgadmin/dashboard/static/js/dashboard.js:597
 msgid "An error occurred whilst rendering the graph."
-msgstr "渲染圖形時出錯。"
+msgstr "渲染圖形時出現錯誤。"
 
 #: pgadmin/dashboard/static/js/dashboard.js:728
 msgid "An error occurred whilst rendering the table."
-msgstr "渲染表時出錯。"
+msgstr "渲染表時出現錯誤。"
 
 #: pgadmin/dashboard/static/js/dashboard.js:937
 #: pgadmin/dashboard/static/js/dashboard.js:1041
@@ -8298,7 +8298,7 @@ msgstr "你不能 "
 
 #: pgadmin/dashboard/static/js/dashboard.js:1451
 msgid " background worker processes."
-msgstr " 後台工作進程.。"
+msgstr " 背景工作程序.。"
 
 #: pgadmin/dashboard/static/js/dashboard.js:1458
 msgid "You are not allowed to "
@@ -8306,11 +8306,11 @@ msgstr "不允許你 "
 
 #: pgadmin/dashboard/static/js/dashboard.js:1460
 msgid " the main active session."
-msgstr " 主活動會話。"
+msgstr " 主活動連線。"
 
 #: pgadmin/dashboard/static/js/dashboard.js:1466
 msgid "The session is already in idle state."
-msgstr "會話已處於空閑狀態。"
+msgstr "連線已處於閒置狀態。"
 
 #: pgadmin/dashboard/static/js/dashboard.js:1478
 msgid "Superuser privileges are required to "
@@ -8322,7 +8322,7 @@ msgstr " 另一個使用者查詢。"
 
 #: pgadmin/dashboard/templates/dashboard/database_dashboard.html:7
 msgid "Database sessions"
-msgstr "資料庫會話"
+msgstr "資料庫連線"
 
 #: pgadmin/dashboard/templates/dashboard/database_dashboard.html:17
 #: pgadmin/dashboard/templates/dashboard/server_dashboard.html:17
@@ -8352,7 +8352,7 @@ msgstr "伺服器活動"
 #: pgadmin/dashboard/templates/dashboard/database_dashboard.html:68
 #: pgadmin/dashboard/templates/dashboard/server_dashboard.html:68
 msgid "Sessions"
-msgstr "會話"
+msgstr "連線"
 
 #: pgadmin/dashboard/templates/dashboard/database_dashboard.html:72
 #: pgadmin/dashboard/templates/dashboard/server_dashboard.html:72
@@ -8362,7 +8362,7 @@ msgstr "鎖"
 #: pgadmin/dashboard/templates/dashboard/database_dashboard.html:76
 #: pgadmin/dashboard/templates/dashboard/server_dashboard.html:76
 msgid "Prepared Transactions"
-msgstr "准備事務"
+msgstr "預備事務"
 
 #: pgadmin/dashboard/templates/dashboard/database_dashboard.html:88
 #: pgadmin/dashboard/templates/dashboard/server_dashboard.html:92
@@ -8377,7 +8377,7 @@ msgstr "目前禁用了所有儀表盤組件。"
 
 #: pgadmin/dashboard/templates/dashboard/server_dashboard.html:7
 msgid "Server sessions"
-msgstr "伺服器會話"
+msgstr "伺服器連線"
 
 #: pgadmin/dashboard/templates/dashboard/server_dashboard.html:80
 msgid "Configuration"
@@ -8389,15 +8389,15 @@ msgstr "歡迎"
 
 #: pgadmin/dashboard/templates/dashboard/welcome_dashboard.html:11
 msgid "Feature rich"
-msgstr "特性豐富"
+msgstr "功能完整"
 
 #: pgadmin/dashboard/templates/dashboard/welcome_dashboard.html:11
 msgid "Maximises PostgreSQL"
-msgstr "最強的PostgreSQL"
+msgstr "最先進的 PostgreSQL"
 
 #: pgadmin/dashboard/templates/dashboard/welcome_dashboard.html:11
 msgid "Open Source"
-msgstr "開源"
+msgstr "開放原始碼"
 
 #: pgadmin/dashboard/templates/dashboard/welcome_dashboard.html:13
 msgid ""
@@ -8407,12 +8407,12 @@ msgid ""
 "designed to answer the needs of developers, DBAs and system "
 "administrators alike."
 msgstr ""
-"pgAdmin 是 PostgreSQL 資料庫的開源管理和管理工具。它包括圖形管理界面、SQL "
-"查詢工具、過程代碼除錯器等等。該工具旨在滿足開發人員、DBA 和系統管理員的需求。"
+"pgAdmin 是 PostgreSQL 資料庫的一個開源管理工具。它提供了圖形化管理界面、SQL "
+"查詢工具、程序原始碼除錯工具等等。此系統工具目標在於滿足開發人員、DBA 和系統管理員的需求。"
 
 #: pgadmin/dashboard/templates/dashboard/welcome_dashboard.html:22
 msgid "Quick Links"
-msgstr "快速鏈接"
+msgstr "快速連結"
 
 #: pgadmin/dashboard/templates/dashboard/welcome_dashboard.html:28
 msgid "Add New Server"
@@ -8428,20 +8428,20 @@ msgstr "入門指南"
 
 #: pgadmin/dashboard/templates/dashboard/welcome_dashboard.html:52
 msgid "PostgreSQL Documentation"
-msgstr "PostgreSQL 文檔"
+msgstr "PostgreSQL 文件"
 
 #: pgadmin/dashboard/templates/dashboard/welcome_dashboard.html:58
 #: pgadmin/help/__init__.py:34
 msgid "pgAdmin Website"
-msgstr "pgAdmin 主頁"
+msgstr "pgAdmin 首頁"
 
 #: pgadmin/dashboard/templates/dashboard/welcome_dashboard.html:64
 msgid "Planet PostgreSQL"
-msgstr "PostgreSQL星球"
+msgstr "Planet PostgreSQL"
 
 #: pgadmin/dashboard/templates/dashboard/welcome_dashboard.html:70
 msgid "Community Support"
-msgstr "社區支持"
+msgstr "社群支援"
 
 #: pgadmin/dashboard/templates/dashboard/sql/default/activity.sql:10
 #: pgadmin/dashboard/templates/dashboard/sql/gpdb_5.0_plus/activity.sql:10
@@ -8462,12 +8462,12 @@ msgstr "合計"
 #: pgadmin/dashboard/templates/dashboard/sql/gpdb_5.0_plus/dashboard_stats.sql:8
 #: pgadmin/tools/user_management/static/js/user_management.js:311
 msgid "Active"
-msgstr "活躍"
+msgstr "執行中"
 
 #: pgadmin/dashboard/templates/dashboard/sql/default/dashboard_stats.sql:9
 #: pgadmin/dashboard/templates/dashboard/sql/gpdb_5.0_plus/dashboard_stats.sql:9
 msgid "Idle"
-msgstr "空閑"
+msgstr "閒置"
 
 #: pgadmin/dashboard/templates/dashboard/sql/default/dashboard_stats.sql:19
 #: pgadmin/dashboard/templates/dashboard/sql/gpdb_5.0_plus/dashboard_stats.sql:19
@@ -8482,7 +8482,7 @@ msgstr "提交"
 #: pgadmin/dashboard/templates/dashboard/sql/default/dashboard_stats.sql:21
 #: pgadmin/dashboard/templates/dashboard/sql/gpdb_5.0_plus/dashboard_stats.sql:21
 msgid "Rollbacks"
-msgstr "回滾"
+msgstr "回溯"
 
 #: pgadmin/dashboard/templates/dashboard/sql/default/dashboard_stats.sql:31
 #: pgadmin/dashboard/templates/dashboard/sql/gpdb_5.0_plus/dashboard_stats.sql:31
@@ -8507,7 +8507,7 @@ msgstr "獲取"
 #: pgadmin/dashboard/templates/dashboard/sql/default/dashboard_stats.sql:44
 #: pgadmin/dashboard/templates/dashboard/sql/gpdb_5.0_plus/dashboard_stats.sql:44
 msgid "Returned"
-msgstr "返回"
+msgstr "回傳"
 
 #: pgadmin/dashboard/templates/dashboard/sql/default/dashboard_stats.sql:54
 #: pgadmin/dashboard/templates/dashboard/sql/gpdb_5.0_plus/dashboard_stats.sql:54
@@ -8521,7 +8521,7 @@ msgstr "命中"
 
 #: pgadmin/help/__init__.py:27
 msgid "Online Help"
-msgstr "在線幫助"
+msgstr "線上協助"
 
 #: pgadmin/help/__init__.py:41
 msgid "PostgreSQL Website"
@@ -8529,23 +8529,23 @@ msgstr "PostgreSQL 網站"
 
 #: pgadmin/help/__init__.py:57
 msgid "PostgreSQL Help Path"
-msgstr "PostgreSQL 幫助路徑"
+msgstr "PostgreSQL 說明路徑"
 
 #: pgadmin/help/__init__.py:60
 msgid ""
 "Path to the PostgreSQL documentation. $VERSION$ will be replaced with the"
 " major.minor version number."
-msgstr "PostgreSQL文檔的路徑。$VERSION$將替換為major.minor版本號。"
+msgstr "PostgreSQL 文件的路徑。$VERSION$ 應替換為 major.minor 版本號。"
 
 #: pgadmin/help/__init__.py:68
 msgid "EDB Advanced Server Help Path"
-msgstr "EDB Advanced Server 幫助路徑"
+msgstr "EDB Advanced Server 說明路徑"
 
 #: pgadmin/help/__init__.py:71
 msgid ""
 "Path to the EDB Advanced Server documentation. $VERSION$ will be replaced"
 " with the major.minor version number."
-msgstr "EDB Advanced Server文檔的路徑。 $VERSION$將替換為major.minor版本號。"
+msgstr "EDB Advanced Server 文件的路徑。 $VERSION$ 應替換為 major.minor 版本號。"
 
 #: pgadmin/misc/__init__.py:51 pgadmin/tools/backup/static/js/backup.js:76
 #: pgadmin/tools/backup/static/js/backup.js:83
@@ -8562,33 +8562,33 @@ msgstr "EDB Advanced Server文檔的路徑。 $VERSION$將替換為major.minor�
 #: pgadmin/tools/import_export/static/js/import_export.js:320
 #: pgadmin/tools/import_export/static/js/import_export.js:347
 msgid "Miscellaneous"
-msgstr "雜項"
+msgstr "其他"
 
 #: pgadmin/misc/__init__.py:66 pgadmin/misc/__init__.py:67
 msgid "User language"
-msgstr "使用者語言"
+msgstr "使用者語言介面"
 
 #: pgadmin/misc/bgprocess/processes.py:86
 #: pgadmin/misc/bgprocess/processes.py:649
 #: pgadmin/misc/bgprocess/processes.py:692
 msgid "Could not find a process with the specified ID."
-msgstr "找不到具有指定 ID 的進程。"
+msgstr "找不到具有指定 ID 的程序。"
 
 #: pgadmin/misc/bgprocess/processes.py:254
 msgid "The process has already been started."
-msgstr "進程已被啟動。"
+msgstr "程序已被啟動。"
 
 #: pgadmin/misc/bgprocess/processes.py:256
 msgid "The process has already finished and cannot be restarted."
-msgstr "該進程已完成並且已經無法重新啟動。"
+msgstr "該程序已完成並且已經無法重新啟動。"
 
 #: pgadmin/misc/bgprocess/processes.py:554
 msgid "Status for the background process '{0}' could not be loaded."
-msgstr "無法載入後台進程 \"{0}\" 的狀態。"
+msgstr "無法載入背景程序 \"{0}\" 的狀態。"
 
 #: pgadmin/misc/bgprocess/processes.py:703
 msgid "Unable to kill the background process '{0}'"
-msgstr "無法終止後台進程 \"{0}\""
+msgstr "無法終止背景程序 \"{0}\""
 
 #: pgadmin/misc/bgprocess/static/js/bgprocess.js:216
 msgid "Started"
@@ -8596,7 +8596,7 @@ msgstr "已啟動"
 
 #: pgadmin/misc/bgprocess/static/js/bgprocess.js:219
 msgid "Running..."
-msgstr "正在運行……"
+msgstr "正在執行……"
 
 #: pgadmin/misc/bgprocess/static/js/bgprocess.js:224
 msgid "Terminated by user."
@@ -8618,7 +8618,7 @@ msgstr "秒"
 
 #: pgadmin/misc/bgprocess/static/js/bgprocess.js:616
 msgid "Stop Process"
-msgstr "停止進程"
+msgstr "停止程序"
 
 #: pgadmin/misc/bgprocess/static/js/bgprocess.js:627
 msgid "Execution time"
@@ -8626,7 +8626,7 @@ msgstr "執行時間"
 
 #: pgadmin/misc/dependencies/static/js/dependencies.js:135
 msgid "No dependency information is available for the selected object."
-msgstr "所選物件沒有相關的依賴項信息。"
+msgstr "所選物件沒有相關的相依項信息。"
 
 #: pgadmin/misc/dependencies/static/js/dependencies.js:144
 #: pgadmin/misc/dependents/static/js/dependents.js:149
@@ -8635,21 +8635,21 @@ msgstr "限制"
 
 #: pgadmin/misc/dependencies/static/js/dependencies.js:161
 msgid "Fetching dependency information from the server..."
-msgstr "正在從伺服器獲取依賴項信息..."
+msgstr "正在從伺服器獲取相依項信息..."
 
 #: pgadmin/misc/dependencies/static/js/dependencies.js:219
 #: pgadmin/misc/dependents/static/js/dependents.js:225
 #, python-format
 msgid "Error retrieving data from the server: %s"
-msgstr "從伺服器檢索資料時出錯: %s"
+msgstr "從伺服器檢索資料時出現錯誤: %s"
 
 #: pgadmin/misc/dependents/static/js/dependents.js:136
 msgid "No dependent information is available for the selected object."
-msgstr "所選物件沒有依賴信息。"
+msgstr "所選物件沒有相依信息。"
 
 #: pgadmin/misc/dependents/static/js/dependents.js:167
 msgid "Fetching dependent information from the server..."
-msgstr "正在從伺服器獲取依賴信息..."
+msgstr "正在從伺服器獲取相依信息..."
 
 #: pgadmin/misc/file_manager/__init__.py:170
 msgid "Maximum file upload size (MB)"
@@ -8711,12 +8711,12 @@ msgstr "已成功重命名。"
 
 #: pgadmin/misc/file_manager/__init__.py:886
 msgid "There was an error renaming the file:"
-msgstr "重命名檔案時出錯:"
+msgstr "重命名檔案時出現錯誤:"
 
 #: pgadmin/misc/file_manager/static/js/create_dialogue.js:139
 #: pgadmin/misc/file_manager/static/js/utility.js:429
 msgid "Error occurred while checking access permission."
-msgstr "檢查存取權限時出錯。"
+msgstr "檢查存取權限時出現錯誤。"
 
 #: pgadmin/misc/file_manager/static/js/select_dialogue.js:90
 #: pgadmin/misc/file_manager/static/js/select_dialogue.js:115
@@ -8779,7 +8779,7 @@ msgstr "無法為所選物件產生 SQL。"
 #: pgadmin/misc/statistics/static/js/statistics.js:318
 #, python-format
 msgid "Error retrieving the information - %s"
-msgstr "檢索信息-%s時，出錯"
+msgstr "檢索信息-%s時，出現錯誤"
 
 #: pgadmin/misc/statistics/static/js/statistics.js:214
 msgid "No statistics are available for the selected object."
@@ -8833,7 +8833,7 @@ msgstr "重置排版"
 msgid ""
 "Are you sure you want to reset the current layout? This will cause the "
 "application to reload and any un-saved data will be lost."
-msgstr "確實要重置目前排版嗎？這將導致應用程序重新載入, 並且任何未已儲存的資料都將丟失。"
+msgstr "確實要重置目前排版嗎？這將導致應用程序重新載入, 並且任何未已儲存的資料都將遺失。"
 
 #: pgadmin/static/js/alertify.pgadmin.defaults.js:103
 msgid "Connection Lost"
@@ -9009,7 +9009,7 @@ msgstr "主機位址必須是有效的 IPv4 或 IPv6 位址。"
 
 #: pgadmin/static/js/browser/server_groups/servers/databases/external_tables/external_tables.js:25
 msgid "External Table"
-msgstr "外部表"
+msgstr "外部資料表"
 
 #: pgadmin/static/js/browser/server_groups/servers/databases/external_tables/external_tables.js:57
 msgid "Format Type"
@@ -9058,7 +9058,7 @@ msgstr "請輸入一個有效的數字"
 #: pgadmin/static/js/sqleditor/call_render_after_poll.js:38
 #, python-format
 msgid "Query returned successfully in %s."
-msgstr "耗時%s 成功返回查詢。"
+msgstr "耗時%s 成功回傳查詢。"
 
 #: pgadmin/static/js/sqleditor/filter_dialog.js:35
 #: pgadmin/static/js/sqleditor/filter_dialog.js:57
@@ -9119,7 +9119,7 @@ msgstr "記錄時間"
 #: pgadmin/static/js/sqleditor/query_tool_notifications.js:40
 #: pgadmin/static/js/sqleditor/query_tool_notifications.js:86
 msgid "Process ID"
-msgstr "進程ID"
+msgstr "程序ID"
 
 #: pgadmin/static/js/sqleditor/query_tool_notifications.js:48
 #: pgadmin/static/js/sqleditor/query_tool_notifications.js:92
@@ -9138,7 +9138,7 @@ msgstr "\" 負載 \""
 #: pgadmin/static/js/sqleditor/query_tool_notifications.js:122
 #: pgadmin/static/js/sqleditor/query_tool_notifications.js:128
 msgid "\" received from server process with PID "
-msgstr "\"使用 PID 從伺服器進程已接收 "
+msgstr "\"使用 PID 從伺服器程序已接收 "
 
 #: pgadmin/static/js/sqleditor/history/query_history_details.js:173
 msgid "Copy to Query Editor"
@@ -9146,15 +9146,15 @@ msgstr "複制到查詢編輯器"
 
 #: pgadmin/static/js/tree/pgadmin_tree_save_state.js:89
 msgid "Error resetting the tree saved state.\""
-msgstr "重置樹保存狀態時出錯。」"
+msgstr "重置樹儲存狀態時出現錯誤。」"
 
 #: pgadmin/static/js/tree/pgadmin_tree_save_state.js:121
 msgid "Error saving the tree state.\""
-msgstr "保存樹狀態時出錯。「"
+msgstr "儲存樹狀態時出現錯誤。「"
 
 #: pgadmin/static/js/tree/pgadmin_tree_save_state.js:149
 msgid "Error fetching the tree state."
-msgstr "獲取樹狀態時出錯。"
+msgstr "獲取樹狀態時出現錯誤。"
 
 #: pgadmin/templates/security/change_password.html:9
 #: pgadmin/templates/security/panel.html:14
@@ -9221,7 +9221,7 @@ msgstr "備份伺服器上的物件"
 
 #: pgadmin/tools/backup/__init__.py:133
 msgid "Backing up the global objects"
-msgstr "備份全局物件"
+msgstr "備份全域物件"
 
 #: pgadmin/tools/backup/__init__.py:135
 msgid "Backing up the server"
@@ -9237,7 +9237,7 @@ msgstr "從資料庫 \"{1}\" 備份伺服器上的物件 \"{0}\""
 
 #: pgadmin/tools/backup/__init__.py:158
 msgid "Backing up the global objects on the server '{0}'"
-msgstr "備份伺服器上的全局物件 \"{0}\""
+msgstr "備份伺服器上的全域物件 \"{0}\""
 
 #: pgadmin/tools/backup/__init__.py:165
 msgid "Backing up the server '{0}'"
@@ -9249,7 +9249,7 @@ msgstr "伺服器'{0}'上備份資料庫'{1}'的一個物件..."
 
 #: pgadmin/tools/backup/__init__.py:191
 msgid "Backing up the global objects on the server '{0}'..."
-msgstr "備份伺服器 \"{0}\" 上的全局物件..。"
+msgstr "備份伺服器 \"{0}\" 上的全域物件..。"
 
 #: pgadmin/tools/backup/__init__.py:199
 msgid "Backing up the server '{0}'..."
@@ -9259,7 +9259,7 @@ msgstr "正在備份伺服器 \"{0}\"..。"
 #: pgadmin/tools/import_export/__init__.py:151
 #: pgadmin/tools/restore/__init__.py:132
 msgid "Running command:"
-msgstr "運行命令:"
+msgstr "執行命令:"
 
 #: pgadmin/tools/backup/__init__.py:315 pgadmin/tools/backup/__init__.py:505
 #: pgadmin/tools/import_export/__init__.py:355
@@ -9303,7 +9303,7 @@ msgstr "強制在標識符上加雙引號"
 msgid ""
 "Only objects global to the entire database will be backed up, in PLAIN "
 "format"
-msgstr "只有全局到整個資料庫的物件才會以 純文本格式進行備份"
+msgstr "只有全域到整個資料庫的物件才會以 純文本格式進行備份"
 
 #: pgadmin/tools/backup/static/js/backup.js:143
 #: pgadmin/tools/import_export/static/js/import_export.js:87
@@ -9394,7 +9394,7 @@ msgstr "僅資料"
 #: pgadmin/tools/backup/static/js/backup.js:307
 #: pgadmin/tools/restore/static/js/restore.js:213
 msgid "Only schema"
-msgstr "僅架構"
+msgstr "僅Schema"
 
 #: pgadmin/tools/backup/static/js/backup.js:322
 msgid "Blobs"
@@ -9412,7 +9412,7 @@ msgstr "Blobs"
 #: pgadmin/tools/restore/static/js/restore.js:261
 #: pgadmin/tools/restore/static/js/restore.js:270
 msgid "Do not save"
-msgstr "不要保存"
+msgstr "不要儲存"
 
 #: pgadmin/tools/backup/static/js/backup.js:354
 #: pgadmin/tools/restore/static/js/restore.js:246
@@ -9468,13 +9468,13 @@ msgstr "包含OID(s)"
 #: pgadmin/tools/backup/static/js/backup.js:542
 #: pgadmin/tools/restore/static/js/restore.js:358
 msgid "Use SET SESSION AUTHORIZATION"
-msgstr "使用設定會話授權"
+msgstr "使用設定連線授權"
 
 #: pgadmin/tools/backup/static/js/backup.js:571
 #: pgadmin/tools/backup/static/js/backup.js:590
 #: pgadmin/tools/backup/static/js/backup_dialog.js:94
 msgid "Backup Globals..."
-msgstr "備份全局..."
+msgstr "備份全域..."
 
 #: pgadmin/tools/backup/static/js/backup.js:580
 #: pgadmin/tools/backup/static/js/backup.js:600
@@ -9719,7 +9719,7 @@ msgstr "自動提交？"
 #: pgadmin/tools/datagrid/templates/datagrid/index.html:250
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:87
 msgid "Auto rollback?"
-msgstr "自動回滾？"
+msgstr "自動回溯？"
 
 #: pgadmin/tools/datagrid/templates/datagrid/index.html:275
 msgid "Verbose"
@@ -9832,27 +9832,27 @@ msgstr "不支持具有可變參數的 \"edbspl\" 目標, 並且無法進行除�
 #: pgadmin/tools/debugger/__init__.py:438
 #: pgadmin/tools/debugger/__init__.py:452
 msgid "Failed to find the pldbgapi extension in this database."
-msgstr "未能在此資料庫中找到 pldbgapi 擴展。"
+msgstr "未能在此資料庫中找到 pldbgapi 延伸套件。"
 
 #: pgadmin/tools/debugger/__init__.py:459
 msgid ""
 "The debugger plugin is not enabled. Please create the pldbgapi extension "
 "in this database."
-msgstr "除錯器插件未啟用。 請在此資料庫中建立pldbgapi擴展。"
+msgstr "除錯器外掛未啟用。 請在此資料庫中建立 pldbgapi 延伸套件。"
 
 #: pgadmin/tools/debugger/__init__.py:466
 msgid "The function/procedure cannot be debugged"
-msgstr "函數/存儲過程不能除錯"
+msgstr "函數/預儲程序不能除錯"
 
 #: pgadmin/tools/debugger/__init__.py:661
 msgid ""
 "You must be a superuser to set a global breakpoint and perform indirect "
 "debugging."
-msgstr "您必須是超級使用者才能設定全局斷點並執行間接除錯。"
+msgstr "您必須是超級使用者才能設定全域斷點並執行間接除錯。"
 
 #: pgadmin/tools/debugger/__init__.py:670
 msgid "Could not fetch debugger plugin information."
-msgstr "無法獲取除錯器插件信息。"
+msgstr "無法獲取除錯器外掛信息。"
 
 #: pgadmin/tools/debugger/__init__.py:676
 msgid ""
@@ -9860,12 +9860,12 @@ msgid ""
 "shared_preload_libraries setting in the postgresql.conf file and restart "
 "the database server for indirect debugging."
 msgstr ""
-"未啟用除錯器插件。請將插件加入到 shared_preload_libraries 並postgresql.conf檔案中設定, "
+"未啟用除錯器外掛。請將外掛加入到 shared_preload_libraries 並postgresql.conf檔案中設定, "
 "然後重新啟動資料庫伺服器進行間接除錯。"
 
 #: pgadmin/tools/debugger/__init__.py:698
 msgid "Please upgrade the pldbgapi extension to 1.1 or above and try again."
-msgstr "請將 pldbgapi 擴展升級到1.1 或更高版本, 然後重試。"
+msgstr "請將 pldbgapi 延伸套件升級到1.1 或更高版本, 然後重試。"
 
 #: pgadmin/tools/debugger/__init__.py:821
 #: pgadmin/tools/debugger/__init__.py:864
@@ -10035,43 +10035,43 @@ msgstr "除錯器監聽器啟動錯誤"
 
 #: pgadmin/tools/debugger/static/js/direct.js:86
 msgid "Error while setting debugging breakpoint."
-msgstr "設定除錯斷點時出錯。"
+msgstr "設定除錯斷點時出現錯誤。"
 
 #: pgadmin/tools/debugger/static/js/direct.js:146
 #: pgadmin/tools/debugger/static/js/direct.js:153
 msgid "Error while fetching breakpoint information."
-msgstr "獲取斷點信息時出錯。"
+msgstr "獲取斷點信息時出現錯誤。"
 
 #: pgadmin/tools/debugger/static/js/direct.js:208
 #: pgadmin/tools/debugger/static/js/direct.js:215
 msgid "Error while starting debugging session."
-msgstr "啟動除錯會話時出錯。"
+msgstr "啟動除錯連線時出現錯誤。"
 
 #: pgadmin/tools/debugger/static/js/direct.js:252
 #: pgadmin/tools/debugger/static/js/direct.js:259
 msgid "Error while executing requested debugging information."
-msgstr "執行請求的除錯信息時出錯。"
+msgstr "執行請求的除錯信息時出現錯誤。"
 
 #: pgadmin/tools/debugger/static/js/direct.js:294
 #: pgadmin/tools/debugger/static/js/direct.js:301
 msgid "Error while fetching variable information."
-msgstr "獲取變量信息時出錯。"
+msgstr "獲取變量信息時出現錯誤。"
 
 #: pgadmin/tools/debugger/static/js/direct.js:328
 #: pgadmin/tools/debugger/static/js/direct.js:335
 msgid "Error while fetching stack information."
-msgstr "獲取堆棧信息時出錯。"
+msgstr "獲取堆棧信息時出現錯誤。"
 
 #: pgadmin/tools/debugger/static/js/direct.js:436
 msgid "Waiting for another session to invoke the target..."
-msgstr "等待另一個會話來調用的目標..."
+msgstr "等待另一個連線來調用的目標..."
 
 #: pgadmin/tools/debugger/static/js/direct.js:449
 #: pgadmin/tools/debugger/static/js/direct.js:456
 #: pgadmin/tools/debugger/static/js/direct.js:649
 #: pgadmin/tools/debugger/static/js/direct.js:713
 msgid "Error while polling result."
-msgstr "輪詢結果時出錯。"
+msgstr "輪詢結果時出現錯誤。"
 
 #: pgadmin/tools/debugger/static/js/direct.js:604
 msgid "Debugger poll end execution error"
@@ -10080,31 +10080,31 @@ msgstr "除錯器輪詢結束執行錯誤"
 #: pgadmin/tools/debugger/static/js/direct.js:755
 #: pgadmin/tools/debugger/static/js/direct.js:762
 msgid "Error while executing continue in debugging session."
-msgstr "在除錯會話中繼續執行時出錯。"
+msgstr "在除錯連線中繼續執行時出現錯誤。"
 
 #: pgadmin/tools/debugger/static/js/direct.js:787
 #: pgadmin/tools/debugger/static/js/direct.js:794
 msgid "Error while executing step over in debugging session."
-msgstr "在除錯會話中執行單步跳出時出錯。"
+msgstr "在除錯連線中執行單步跳出時出現錯誤。"
 
 #: pgadmin/tools/debugger/static/js/direct.js:818
 #: pgadmin/tools/debugger/static/js/direct.js:825
 msgid "Error while executing step into in debugging session."
-msgstr "在除錯會話中執行單步進入時出錯。"
+msgstr "在除錯連線中執行單步進入時出現錯誤。"
 
 #: pgadmin/tools/debugger/static/js/direct.js:864
 #: pgadmin/tools/debugger/static/js/direct.js:871
 msgid "Error while executing stop in debugging session."
-msgstr "在除錯會話中執行停止時出錯。"
+msgstr "在除錯連線中執行停止時出現錯誤。"
 
 #: pgadmin/tools/debugger/static/js/direct.js:924
 #: pgadmin/tools/debugger/static/js/direct.js:931
 msgid "Error while toggling breakpoint."
-msgstr "切換斷點時出錯。"
+msgstr "切換斷點時出現錯誤。"
 
 #: pgadmin/tools/debugger/static/js/direct.js:983
 msgid "Error while clearing all breakpoint."
-msgstr "清除所有斷點時出錯。"
+msgstr "清除所有斷點時出現錯誤。"
 
 #: pgadmin/tools/debugger/static/js/direct.js:1027
 msgid "Line No."
@@ -10112,20 +10112,20 @@ msgstr "行號."
 
 #: pgadmin/tools/debugger/static/js/direct.js:1338
 msgid "Error while depositing variable value."
-msgstr "存放變量值時出錯。"
+msgstr "存放變量值時出現錯誤。"
 
 #: pgadmin/tools/debugger/static/js/direct.js:1367
 msgid "Error while selecting frame."
-msgstr "選擇幀時出錯。"
+msgstr "選擇幀時出現錯誤。"
 
 #: pgadmin/tools/debugger/static/js/direct.js:1572
 #: pgadmin/tools/debugger/static/js/direct.js:1600
 msgid "Error while starting debugging listener."
-msgstr "啟動除錯偵聽器時出錯。"
+msgstr "啟動除錯偵聽器時出現錯誤。"
 
 #: pgadmin/tools/debugger/static/js/direct.js:1640
 msgid "Error while fetching messages information."
-msgstr "獲取消息信息時出錯。"
+msgstr "獲取消息信息時出現錯誤。"
 
 #: pgadmin/tools/debugger/static/js/direct.js:1718
 msgid "Local variables"
@@ -10475,7 +10475,7 @@ msgstr "CLUSTER"
 
 #: pgadmin/tools/maintenance/__init__.py:138
 msgid "Running Query:"
-msgstr "運行查詢:"
+msgstr "執行查詢:"
 
 #: pgadmin/tools/maintenance/static/js/maintenance.js:52
 msgid "Maintenance operation"
@@ -10612,7 +10612,7 @@ msgstr "查詢工具"
 #: pgadmin/tools/sqleditor/utils/start_running_query.py:179
 #: pgadmin/tools/sqleditor/utils/start_running_query.py:187
 msgid "Transaction ID not found in the session."
-msgstr "事務 ID 在該會話中找不到."
+msgstr "事務 ID 在該連線中找不到."
 
 #: pgadmin/tools/sqleditor/__init__.py:376
 msgid "******* Error *******"
@@ -10620,12 +10620,12 @@ msgstr "******* 錯誤 *******"
 
 #: pgadmin/tools/sqleditor/__init__.py:706
 msgid "No primary key found for this object, so unable to save records."
-msgstr "該物件沒有找到主鍵，所以無法保存記錄."
+msgstr "該物件沒有找到主鍵，所以無法儲存記錄."
 
 #: pgadmin/tools/sqleditor/__init__.py:1015
 #: pgadmin/tools/sqleditor/utils/start_running_query.py:103
 msgid "Either transaction object or session object not found."
-msgstr "找不到事務物件或會話物件。"
+msgstr "找不到事務物件或連線物件。"
 
 #: pgadmin/tools/sqleditor/__init__.py:1249
 msgid "File type not supported"
@@ -10637,7 +10637,7 @@ msgstr "尚未針對此物件型別 \"{0}\" 實現此功能。"
 
 #: pgadmin/tools/sqleditor/command.py:419
 msgid "Data cannot be saved for the current object."
-msgstr "目前物件的資料不能保存."
+msgstr "目前物件的資料不能儲存."
 
 #: pgadmin/tools/sqleditor/command.py:952
 msgid "Resultset is not updatable."
@@ -10712,7 +10712,7 @@ msgstr "是否確實要清除歷史記錄？"
 msgid ""
 "This will remove all of your query history from this and other sessions "
 "for this database."
-msgstr "這將從此資料庫的此會話和其他會話中刪除所有查詢歷史記錄。"
+msgstr "這將從此資料庫的此連線和其他連線中刪除所有查詢歷史記錄。"
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:2100
 msgid "Connection Warning"
@@ -10720,11 +10720,11 @@ msgstr "連線警告"
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:2107
 msgid "The application has lost the database connection:"
-msgstr "應用程序已丟失資料庫連線:"
+msgstr "應用程序已遺失資料庫連線:"
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:2111
 msgid "⁃ If the connection was idle it may have been forcibly disconnected."
-msgstr "- 如果連線處於空閑狀態 , 則可能已強制中斷連線。"
+msgstr "- 如果連線處於閒置狀態 , 則可能已強制中斷連線。"
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:2113
 msgid "⁃ The application server or database server may have been restarted."
@@ -10732,11 +10732,11 @@ msgstr "- 應用程序伺服器或資料庫伺服器可能已重新啟動。"
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:2115
 msgid "⁃ The user session may have timed out."
-msgstr "- 使用者會話可能已超時。"
+msgstr "- 使用者連線可能已超時。"
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:2119
 msgid "Do you want to continue and establish a new session?"
-msgstr "是否要繼續並建立新的會話？"
+msgstr "是否要繼續並建立新的連線？"
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:2138
 msgid "Continue"
@@ -10745,17 +10745,17 @@ msgstr "繼續"
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:2274
 #, python-format
 msgid "Error fetching SQL for script: %s."
-msgstr "為腳本獲取 SQL 時出錯: %s。"
+msgstr "為腳本獲取 SQL 時出現錯誤: %s。"
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:2344
 msgid ""
 "The data has been modified, but not saved. Are you sure you wish to "
 "discard the changes?"
-msgstr "資料已修改，但未保存。 確定要放棄更改嗎?"
+msgstr "資料已修改，但未儲存。 確定要放棄更改嗎?"
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:2388
 msgid "Running query..."
-msgstr "正在運行查詢..."
+msgstr "正在執行查詢..."
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:2396
 msgid "Waiting for the query to complete..."
@@ -10768,7 +10768,7 @@ msgstr "從資料庫伺服器載入資料並渲染.."
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:2563
 #, python-format
 msgid "Successfully run. Total query runtime: %s."
-msgstr "已成功運行。查詢運行時間總數: %s。"
+msgstr "已成功執行。查詢執行時間總數: %s。"
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:2564
 #, python-format
@@ -10787,11 +10787,11 @@ msgstr "行已刪除。"
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:3015
 msgid "Saving the updated data..."
-msgstr "正在保存更新的資料..。"
+msgstr "正在儲存更新的資料..。"
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:3131
 msgid "Data saved successfully."
-msgstr "資料保存成功."
+msgstr "資料儲存成功."
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:3134
 msgid "Auto-commit is off. You still need to commit changes to the database."
@@ -10806,7 +10806,7 @@ msgstr "%s."
 msgid ""
 "Saving data changes was rolled back but the current transaction is still "
 "active; previous queries are unaffected."
-msgstr "正在已儲存的資料更改已經回滾但是目前事務依然處於活動狀態；之前的請求不受影響。"
+msgstr "正在已儲存的資料更改已經回溯但是目前事務依然處於活動狀態；之前的請求不受影響。"
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:3167
 msgid "This query was generated by pgAdmin as part of a \"Save Data\" operation"
@@ -10818,11 +10818,11 @@ msgstr "載入檔案..."
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:3379
 msgid "Saving the queries in the file..."
-msgstr "將查詢保存在檔案..."
+msgstr "將查詢儲存在檔案..."
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:3391
 msgid "File saved successfully."
-msgstr "檔案保存成功。"
+msgstr "檔案儲存成功。"
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:3513
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:3572
@@ -10882,7 +10882,7 @@ msgstr "下載 CSV 錯誤"
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:4026
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:4033
 msgid "Auto Rollback Error"
-msgstr "自動回滾錯誤"
+msgstr "自動回溯錯誤"
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:4059
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:4065
@@ -10891,16 +10891,16 @@ msgstr "自動提交錯誤"
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:4154
 msgid "The data has changed. Do you want to save changes?"
-msgstr "資料已更改。是否要保存更改？"
+msgstr "資料已更改。是否要儲存更改？"
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:4160
 msgid "The text has changed. Do you want to save changes?"
-msgstr "文本已更改。是否要保存更改？"
+msgstr "文本已更改。是否要儲存更改？"
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:4198
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:681
 msgid "Rollback"
-msgstr "回滾"
+msgstr "回溯"
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:4201
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:663
@@ -10911,7 +10911,7 @@ msgstr "提交"
 msgid ""
 "The current transaction is not commited to the database.Do you want to "
 "commit or rollback the transaction?"
-msgstr "目前事務未提交至資料庫， 你想提交或回滾事務嗎？"
+msgstr "目前事務未提交至資料庫， 你想提交或回溯事務嗎？"
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:4242
 msgid "Commit transaction?"
@@ -10919,11 +10919,11 @@ msgstr "提交事務？"
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:4265
 msgid "Don't save"
-msgstr "不要保存"
+msgstr "不要儲存"
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:4308
 msgid "Save changes?"
-msgstr "保存更改嗎？"
+msgstr "儲存更改嗎？"
 
 #: pgadmin/tools/sqleditor/utils/filter_dialog.py:96
 msgid "Data sorting object updated successfully"
@@ -10981,37 +10981,37 @@ msgstr "默認情況下, 在新的 \"查詢工具\" 選項標籤中設定自動�
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:89
 msgid "Set auto rollback on or off by default in new Query Tool tabs."
-msgstr "默認情況下, 在新的 \"查詢工具\" 選項標籤中設定自動回滾打開或關閉。"
+msgstr "默認情況下, 在新的 \"查詢工具\" 選項標籤中設定自動回溯打開或關閉。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:95
 msgid "Prompt to save unsaved query changes?"
-msgstr "提示保存未已儲存的查詢更改？"
+msgstr "提示儲存未已儲存的查詢更改？"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:97
 msgid ""
 "Specifies whether or not to prompt user to save unsaved query on query "
 "tool exit."
-msgstr "指定是否提示使用者在查詢工具退出時保存未已儲存的查詢。"
+msgstr "指定是否提示使用者在查詢工具退出時儲存未已儲存的查詢。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:105
 msgid "Prompt to save unsaved data changes?"
-msgstr "提示保存未已儲存的資料更改？"
+msgstr "提示儲存未已儲存的資料更改？"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:107
 msgid ""
 "Specifies whether or not to prompt user to save unsaved data on data grid"
 " exit."
-msgstr "指定是否提示使用者在資料表格退出時保存未已儲存的資料。"
+msgstr "指定是否提示使用者在資料表格退出時儲存未已儲存的資料。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:115
 msgid "Prompt to commit/rollback active transactions?"
-msgstr "提示提交/回滾活動狀態的事務？"
+msgstr "提示提交/回溯活動狀態的事務？"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:118
 msgid ""
 "Specifies whether or not to prompt user to commit or rollback an active "
 "transaction on Query Tool exit."
-msgstr "指定是否提示使用者在查詢工具退出時提交或回滾活動事務。"
+msgstr "指定是否提示使用者在查詢工具退出時提交或回溯活動事務。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:126
 msgid "Plain text mode?"
@@ -11173,7 +11173,7 @@ msgstr "執行查詢"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:341
 msgid "Save data changes"
-msgstr "保存資料更改"
+msgstr "儲存資料更改"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:359
 msgid "EXPLAIN query"
@@ -11189,7 +11189,7 @@ msgstr "Accesskey (打開檔案)"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:480
 msgid "Accesskey (Save file)"
-msgstr "Accesskey (保存檔案)"
+msgstr "Accesskey (儲存檔案)"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:493
 msgid "Accesskey (Copy rows)"
@@ -11359,12 +11359,12 @@ msgstr "使用者管理"
 #: pgadmin/tools/user_management/static/js/user_management.js:743
 #, python-format
 msgid "User '%s' saved."
-msgstr "使用者 '%s' 已保存."
+msgstr "使用者 '%s' 已儲存."
 
 #: pgadmin/tools/user_management/static/js/user_management.js:750
 #, python-format
 msgid "Error saving user: '%s'"
-msgstr "保存使用者時出錯: '%s'"
+msgstr "儲存使用者時出現錯誤: '%s'"
 
 #: pgadmin/tools/user_management/static/js/user_management.js:777
 msgid "Add new user"
@@ -11382,7 +11382,7 @@ msgstr "放棄未已儲存的更改嗎？"
 msgid ""
 "Are you sure you want to close the dialog? Any unsaved changes will be "
 "lost."
-msgstr "確定要關閉對話框嗎？任何未已儲存的更改將丟失。"
+msgstr "確定要關閉對話框嗎？任何未已儲存的更改將遺失。"
 
 #: pgadmin/utils/__init__.py:297
 #, python-format
@@ -11403,11 +11403,11 @@ msgstr "服務不可用"
 msgid ""
 "Connection to the SSH Tunnel for host '{0}' has been lost. Reconnect to "
 "the database server."
-msgstr "與主機 \"{0}\" 的 SSH 隧道的連線已丟失。重新連線到資料庫伺服器。"
+msgstr "與主機 \"{0}\" 的 SSH 隧道的連線已遺失。重新連線到資料庫伺服器。"
 
 #: pgadmin/utils/exception.py:99
 msgid "Crypt key is missing."
-msgstr "密鑰丟失。"
+msgstr "密鑰遺失。"
 
 #: pgadmin/utils/preferences.py:171
 msgid "Invalid value for a boolean option."
@@ -11491,7 +11491,7 @@ msgstr "正在嘗試重新連線到連線的資料庫伺服器(#{server_id}) - '
 #: pgadmin/utils/driver/psycopg2/connection.py:721
 #: pgadmin/utils/driver/psycopg2/connection.py:801
 msgid "The query executed did not return any data."
-msgstr "查詢執行完成後沒有返回任何資料。"
+msgstr "查詢執行完成後沒有回傳任何資料。"
 
 #: pgadmin/utils/driver/psycopg2/connection.py:1236
 #: pgadmin/utils/driver/psycopg2/connection.py:1439
@@ -11521,13 +11521,13 @@ msgstr "未連線到資料庫伺服器。"
 msgid ""
 "Asynchronous notification \"{0}\" with payload \"{1}\" received from "
 "server process with PID {2}\n"
-msgstr "從具有 PID {2} 的伺服器進程接收的有效負載 \"{1}\" 異步通知 \"{0}\"\n"
+msgstr "從具有 PID {2} 的伺服器程序接收的有效負載 \"{1}\" 異步通知 \"{0}\"\n"
 
 #: pgadmin/utils/driver/psycopg2/connection.py:1661
 msgid ""
 "Asynchronous notification \"{0}\" received from server process with PID "
 "{1}\n"
-msgstr "從具有 PID {1} 的伺服器進程接收到的異步通知 \"{0}\"\n"
+msgstr "從具有 PID {1} 的伺服器程序接收到的異步通知 \"{0}\"\n"
 
 #: pgadmin/utils/driver/psycopg2/connection.py:1755
 msgid "SQL state: "
@@ -11572,7 +11572,7 @@ msgstr "找不到指定的資料庫。"
 #~ msgstr "解釋選項錯誤"
 
 #~ msgid "Error occurred while setting %(subItem)s option in explain."
-#~ msgstr "在解釋中設定 %(subItem)s 選項時出錯。"
+#~ msgstr "在解釋中設定 %(subItem)s 選項時出現錯誤。"
 
 #~ msgid "Network Error"
 #~ msgstr "網絡錯誤"
